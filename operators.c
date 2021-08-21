@@ -14,7 +14,6 @@ int main()
 	//Arithematic operators : +,-,*,/, % (modulus or mod it is used for remainder)
 	// remainder = divide waala shesh
 	printf("the sum of %d and %d is %d .",num1,num2,result);
-	
 	return 0;
 }
 
