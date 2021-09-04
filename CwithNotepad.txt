@@ -1,0 +1,20 @@
+window key + R = run dialog box
+type cmd in run and press enter
+this will open ur command prompt
+by default command prompt opens from 
+C:\Users\username>  username means ur pc's username
+
+this path is telling we are in c drive and in c drive
+we r in users folder and in users folder we are in 
+pc folder.
+
+dir => to check available folders in current folder
+cd  => change directory(to go into the folder)
+eg. cd desktop
+type nul >hello.txt => to create a empty file
+
+gcc --version =>  to check the gcc compiler version 
+gcc filename.c  => to compile the C source file
+.\a  => to run the output file
+
+cd.. to go one step back in folder.
