@@ -5,6 +5,11 @@ int main()//starting point of program
 {
     printf("before calling in main \n");
     add();//calling of fxn  
+    add();//calling of fxn  
+    add();//calling of fxn  
+    add();//calling of fxn  
+    add();//calling of fxn  
+    add();//calling of fxn  
     printf("after calling in main \n");
     return 0;//ending point of program
 }

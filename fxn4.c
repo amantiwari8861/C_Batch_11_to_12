@@ -15,3 +15,5 @@ int main()
     printf("the sum is %d in main \n",sum);
     return 0;
 }
+
+//h.w make a calculator using switch and function
