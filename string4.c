@@ -10,7 +10,7 @@ int main()
     // gets(name); //harmful for our program
     printf("-------------------------------\n");
     
-//    printf("%s",name);
+    //printf("%s",name);
     puts(name);
     return 0;
 }
