@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<windows.h>
 int main()
 {
     int n;
@@ -25,8 +24,8 @@ int main()
         scanf("%f",&stu[i].salary);
     }
     for (int i = 0; i < n; i++)
-    {
-        system("color 03"); //background green and foreground aqua
+    {        
+        printf("\n ------------------------------------------  \n");
         printf("the id is %d and name is %s and salary is %0.2f \n",stu[i].id,stu[i].name,stu[i].salary);
     }
     

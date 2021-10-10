@@ -11,9 +11,9 @@ int main()
     // char *ptr2;
     ptr1=&num;
     // * represents the value at address
-    printf("the value in pointer ptr1 is %d \n",ptr1);
-    printf("the value at address in pointer ptr1 is %d \n",*ptr1);
+    printf("the value in pointer ptr1 is %d \n",ptr1); //6684188
     printf("the address of ptr1 pointer is %d \n",&ptr1);
+    printf("the value at address in pointer ptr1 is %d \n",*ptr1);
     // int *ptr3=NULL; // null pointer
     int **dptr;
     dptr=&ptr1;
