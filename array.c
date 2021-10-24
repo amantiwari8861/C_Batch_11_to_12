@@ -2,7 +2,8 @@
 
 int main()
 {
-    //Array : it is a homogeneous mixture of data which provides a sequential memory allocation
+    //Array : it is a homogeneous collection of data which provides
+    //  a sequential memory allocation
 
     // int marks1,marks2,marks3,marks4,marks5;
     // printf("enter value of marks \n");
