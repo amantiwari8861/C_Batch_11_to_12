@@ -1,0 +1,143 @@
+[19:33, 12/5/2020] ~ Aman Tiwari: #include <stdio.h>
+
+int main()
+{
+    int i;
+    int a[5] = {1, 2, 3, 4, 5};
+    int *p = a;     // same as int*p = &a[0]
+    for (i = 0; i < 5; i++)
+    {
+        printf("%d", *p);
+        p++;
+    }
+    
+    return 0;
+}
+[19:33, 12/5/2020] ~ Aman Tiwari: *(a+i)  == a[i]
+
+((a + i) + j) == a[i][j]
+
+
+Array of Pointers
+We can also have array of pointers. Pointers are very helpful in handling character array with rows of varying length.
+
+char *name[3] = { 
+    "Adam",
+    "chris",
+    "Deniel"
+};
+//Now lets see same array without using pointer
+char name[3][20] = { 
+    "Adam",
+    "chris",
+    "Deniel"
+};
+
+
+In the second approach memory wastage is more, hence it is prefered to use pointer in such cases.
+
+When we say memory wastage, it doesn't means that the strings will start occupying less space, no, characters will take the same space, but when we define array of characters, a contiguos memory space is located equal to the maximum size of the array, which is a wastage, which can be avoided if we use pointers instead.
+[19:34, 12/5/2020] ~ Aman Tiwari: #include <stdio.h>
+
+int main()
+{
+    int m = 5, n = 10, o = 0;
+
+    int *p1;
+    int *p2;
+    int *p3;
+
+    p1 = &m;    //printing the address of m
+    p2 = &n;    //printing the address of n
+
+    printf("p1 = %d\n", p1);
+    printf("p2 = %d\n", p2);
+
+    o = *p1+*p2;
+    printf("*p1+*p2 = %d\n", o);//point 1
+
+    p3 = p1-p2;
+    printf("p1 - p2 = %d\n", p3); //point 2
+
+    p1++;
+    printf("p1++ = %d\n", p1); //point 3
+
+    p2--;
+    printf("p2-- = %d\n", p2); //point 4
+
+    //Below line will give ERROR
+    printf("p1+p2 = %d\n", p1+p2); //point 5
+
+    return 0;
+}
+
+p1 = 2680016
+p2 = 2680012
+*p1+*p2 = 15
+p1-p2 = 1
+p1++ = 2680020
+p2-- = 2680008
+
+Explanation of the above program:
+Point 1: Here, * means 'value at the given address'. Thus, it adds the value of m and n which is 15.
+Point 2: It subtracts the addresses of the two variables and then divides it by the size of the pointer datatype (here integer, which has size of 4 bytes) which gives us the number of elements of integer data type that can be stored within it.
+Point 3: It increments the address stored by the pointer by the size of its datatype(here 4).
+Point 4: It decrements the address stored by the pointer by the size of its datatype(here 4).
+Point 5: Addition of two pointers is not allowed.
+[19:34, 12/5/2020] ~ Aman Tiwari: Pointer to functions
+It is possible to declare a pointer pointing to a function which can then be used as an argument in another function. A pointer to a function is declared as follows,
+
+type (*pointer-name)(parameter);
+Here is an example :
+
+int (*sum)();   //legal declaration of pointer to function
+int *sum();     //This is not a declaration of pointer to function
+A function pointer can point to a specific function when it is assigned the name of that function.
+
+int sum(int, int);
+int (*s)(int, int);
+s = sum;
+Here s is a pointer to a function sum. Now sum can be called using function pointer s along with providing the required argument values.
+
+s (10, 20);
+Example of Pointer to Function
+#include <stdio.h>
+
+int sum(int x, int y)
+{
+    return x+y;
+}
+
+int main( )
+{
+    int (*fp)(int, int);
+    fp = sum;
+    int s = fp(10, 15);
+    printf("Sum is %d", s);
+
+    return 0;
+}
+
+25
+
+Complicated Function Pointer example
+You will find a lot of complex function pointer examples around, lets see one such example and try to understand it.
+
+void (*foo) (int);
+It appears complex but it is very simple. In this case (foo) is a pointer to the function, whose argument is of int type and return type is void*.
+[19:57, 12/5/2020] ~ Aman Tiwari: #include<stdio.h>
+
+int main()
+{
+	//char name[2][20]={"abcd","xyz"}; //20 character blocks fixed in 2 rows 
+	
+	char *name2[]={"abcd","xyz"}; //only required blocks is occupied or used 
+
+	// puts(name[0]);
+	// puts(name[1]);
+	
+	puts(name2[0]);
+	puts(name2[1]);
+	
+	return 0;
+}

@@ -1,0 +1,131 @@
+[19:32, 12/5/2020] ~ Aman Tiwari: Null Pointer
+We can create a null pointer by assigning null value during the pointer declaration. This method is useful when you do not have any address assigned to the pointer. A null pointer always contains value 0.
+
+Following program illustrates the use of a null pointer:
+
+#include <stdio.h>
+int main()
+{
+	int *p = NULL; 	//null pointer
+	printf(“The value inside variable p is:\n%x”,p);
+	return 0;
+}
+[19:32, 12/5/2020] ~ Aman Tiwari: Void Pointer
+In C programming, a void pointer is also called as a generic pointer. It does not have any standard data type. A void pointer is created by using the keyword void. It can be used to store an address of any variable.
+
+Following program illustrates the use of a void pointer:
+
+#include <stdio.h>
+int main()
+{
+void *p = NULL; 	//void pointer
+printf("The size of pointer is:%d\n",sizeof(p));
+return 0;
+}
+Output:
+
+The size of pointer is:4
+[19:32, 12/5/2020] ~ Aman Tiwari: C Pointers & Arrays with Examples
+Traditionally, we access the array elements using its index, but this method can be eliminated by using pointers. Pointers make it easy to access each array element.
+
+#include <stdio.h>
+int main()
+{
+    int a[5]={1,2,3,4,5};   //array initialization
+    int *p;     //pointer declaration
+               /the ptr points to the first element of the array/
+
+    p=a; /*We can also type simply ptr==&a[0] */
+    
+    printf("Printing the array elements using pointer\n");
+    for(int i=0;i<5;i++)    //loop for traversing array elements
+    {
+        	printf("\n%x",*p);  //printing array elements
+        	p++;    //incrementing to the next element, you can also write p=p+1
+    }
+    return 0;
+}
+Output
+
+1
+2
+3
+4
+5
+[19:33, 12/5/2020] ~ Aman Tiwari: C Pointers and Strings with Examples
+A string is an array of char objects, ending with a null character '\ 0'. We can manipulate strings using pointers. This pointer in C example explains this section
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char str[]="Hello Guru99!";
+char *p;
+p=str;
+printf("First character is:%c\n",*p);
+p =p+1;
+printf("Next character is:%c\n",*p);
+printf("Printing all the characters in a string\n");
+p=str;  //reset the pointer
+for(int i=0;i<strlen(str);i++)
+{
+printf("%c\n",*p);
+p++;
+}
+return 0;
+}
+Output
+
+First character is:H
+Next character is:e
+Printing all the characters in a string
+H
+e
+l
+l
+o
+
+G
+u
+r
+u
+9
+9
+!
+[19:33, 12/5/2020] ~ Aman Tiwari: #include <stdio.h>
+int main(){
+char *materials[ ] = {  "iron",  "copper",  "gold"};
+printf("Please remember these materials :\n");
+int i ;
+for (i = 0; i < 3; i++) {
+  printf("%s\n", materials[ i ]);}
+  return 0;}
+Output:
+
+Please remember these materials:
+iron
+copper
+gold
+[19:33, 12/5/2020] ~ Aman Tiwari: Advantages of Pointers in C
+Pointers are useful for accessing memory locations.
+Pointers provide an efficient way for accessing the elements of an array structure.
+Pointers are used for dynamic memory allocation as well as deallocation.
+Pointers are used to form complex data structures such as linked list, graph, tree, etc.
+Disadvantages of Pointers in C
+Pointers are a little complex to understand.
+Pointers can lead to various errors such as segmentation faults or can access a memory location which is not required at all.
+If an incorrect value is provided to a pointer, it may cause memory corruption.
+Pointers are also responsible for memory leakage.
+Pointers are comparatively slower than that of the variables.
+Programmers find it very difficult to work with the pointers; therefore it is programmer's responsibility to manipulate a pointer carefully.
+Summary
+
+A pointer is nothing but a memory location where data is stored.
+A pointer is used to access the memory location.
+There are various types of pointers such as a null pointer, wild pointer, void pointer and other types of pointers.
+Pointers can be used with array and string to access elements more efficiently.
+We can create function pointers to invoke a function dynamically.
+Arithmetic operations can be done on a pointer which is known as pointer arithmetic.
+Pointers can also point to function which make it easy to call different functions in the case of defining an array of pointers.
+When you want to deal different variable data type, you can use a typecast void pointer.
+[19:33, 12/5/2020] ~ Aman Tiwari: NOTE: You cannot decrement a pointer once incremented. p-- won't work.
