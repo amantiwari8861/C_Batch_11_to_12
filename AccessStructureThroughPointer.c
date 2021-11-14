@@ -23,11 +23,14 @@ int main()
         printf("enter the salary of %dth student : ",i+1);
         scanf("%f",&stu[i].salary);
     }
-    for (int i = 0; i < n; i++)
-    {        
+
+          
+        struct Student *stuptr;
+        stuptr=&stu[0];
+
         printf("\n ------------------------------------------  \n");
-        printf("the id is %d and name is %s and salary is %0.2f \n",stu[i].id,stu[i].name,stu[i].salary);
-    }
+        printf("the id is %d and name is %s and salary is %0.2f \n",stuptr -> id,stuptr->name,stuptr->salary);
+    
     
 
     return 0;
