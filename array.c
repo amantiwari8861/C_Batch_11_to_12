@@ -19,13 +19,14 @@ int main()
     // printf("the value of marks is %d \n",marks4);
     // printf("the value of marks is %d \n",marks5);
 
-    int marks[5];
-
-    marks[0]=10;
-    marks[1]=20;
-    marks[2]=30;
-    marks[3]=40;
-    marks[4]=50;
+    // int marks[5];
+    // int marks[5]={10,20,30,40,50};
+    int marks[]={10,20,30,40,50};
+    // marks[0]=10;
+    // marks[1]=20;
+    // marks[2]=30;
+    // marks[3]=40;
+    // marks[4]=50;
 
     printf("the value of marks[0] is %d \n",marks[0]);
     printf("the value of marks[1] is %d \n",marks[1]);
