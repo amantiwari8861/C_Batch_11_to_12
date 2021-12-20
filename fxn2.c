@@ -1,5 +1,6 @@
 #include<stdio.h>
 void add(int,int);
+// void add(int a,int num2); //also valid
 //type 2 fxn : with argument no return type
 int main()
 {
