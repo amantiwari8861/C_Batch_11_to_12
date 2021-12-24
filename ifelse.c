@@ -52,6 +52,10 @@ int main()
         {
             printf("2nd division!\n");
         }
+        else if(marks>=33)
+        {
+            printf("3rd division!\n");
+        }
         else
         {
             printf("fail\n");
