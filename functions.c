@@ -8,15 +8,15 @@ int main(/*parameters*/)
     //  The C standard library provides numerous built-in functions that your program can call.
 
     int num=5;
-    // int result=pow(num,2);
+    // int result=pow(num,2);//25
     // int result=sqrt(625);//25
     float result=log(2);//0.69
     // float result=log10(2);
     // float result=log2(2);
     // float result=sin(90);//0.89 value given in radian
     // float result=sinh(90);
-    // float result=floor(3.99);//3
-    // float result=ceil(3.000001);//4
+    // float result=floor(3.99);//3  downward rounding
+    // float result=ceil(3.000001);//4 upward rounding
 
     printf("the power is %f  %f \n",result,log2(2));
 
