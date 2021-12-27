@@ -9,8 +9,8 @@ int main()
         float salary;
     };
     printf("enter the no. of employees : ");
-    scanf("%d",&n);//3
-    struct Student stu[n];
+    scanf("%d",&n);//let n=3
+    struct Student stu[n]; //structure array
     for (int i = 0; i < n; i++)
     {
         printf("\n ------------------------------------------  \n");
