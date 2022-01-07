@@ -3,6 +3,7 @@
         "*.java": "java",
         "cmath": "cpp",
         "*.tcc": "cpp",
-        "math.h": "c"
+        "math.h": "c",
+        "stdio.h": "c"
     }
 }

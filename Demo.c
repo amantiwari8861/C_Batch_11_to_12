@@ -6,4 +6,5 @@ int main()  //starting point of a program
 	printf("hello world!");
 	// ; end of line
 	return 0;//ending point of a program 
+	printf("hello world!");
 }
