@@ -2,16 +2,19 @@
 #include<conio.h> //console input output headerfile
 int main()
 {
-	printf("hello world! \n");
+	printf("hello world! \n"); // \n -> next line
 	printf(" my name is Aman ");
 	//variables : it is a type of container which stores our daTA
-	//at any specific location
+	//at any specific location in memory (RAM)
+	// syntax = formula
 	//	syntax: data_type variable_name=value;
-	int aman=10,aman1=20,result;
-	result=aman+aman1; 
-	printf("\n the result is %d \n anything. ",result);
+	int aman=10,aman1=20,result;//   we hard-quoted the value during declaration (pre-define value)
+	result=aman+aman1; // result =10 + 20 ; result = 30;
+	printf("\n the result is %d \n anything. ",result); // %d is format specifier of int
 	// format specifier : eg. %d,%f etc	
-	getch();//to hold the output screen
+
+	printf("the sum of %d and %d is %d .",aman,aman1,result);
+	getch();//to hold the output screen in turbo c/c++
 	return 0;
 }
 // text editor -> notepad,sublime,notepad++,vs code etc
@@ -20,6 +23,3 @@ int main()
 // compiler -> which converts our source code to binary code(0,1)
 // compiler example -> gcc,bcc
 // IDE = textEditor + compiler + intellisence
-// 11-12
-
-

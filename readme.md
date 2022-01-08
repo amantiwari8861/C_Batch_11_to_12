@@ -1,4 +1,4 @@
-[!C language Logo](https://github.com/amantiwari8861/C_Batch_11_to_12/blob/master/C.jpg "C")
+![C language Logo](https://github.com/amantiwari8861/C_Batch_11_to_12/blob/master/C.jpg "C")
 <hr>
 <center><h1><i>C Programming</i></h1></center>
 
