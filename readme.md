@@ -24,7 +24,8 @@
 - Extra Topics 
 - Solutions
 
-### Hey dude! Help me out for a couple of ☕!  [Paytm](tel:+919891062743)  [UPI](tel:9891062743@paytm)
+### Hey dude! Help me out for a couple of ☕!
+Paytm(+919891062743)     UPI(9891062743@paytm)
 
 ### Contact / Social Media
 
