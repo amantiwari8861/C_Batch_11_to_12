@@ -1,7 +1,7 @@
 #include<stdio.h>
-int add(int a)
+void add(int a)
 {
-    if (a<=3)
+    if (a<=10)
     {    
         printf("in add function at %d \n",a);
         return add(a+1); 

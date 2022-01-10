@@ -20,3 +20,5 @@ int main()
     printf("the factorial of %d is %d \n",num,result);
     return 0;
 }
+//Write a program in C to calculate the sum of numbers from 1 to n using recursion.
+// Write a program in C to Print Fibonacci Series using recursion.
