@@ -1,5 +1,5 @@
 #include<stdio.h>
-void add(int a)
+void counting(int a)
 {
     if (a<=10)
     {    
@@ -10,7 +10,7 @@ void add(int a)
 int main()
 {
     int a=1;
-    add(a);
+    counting(a);
     return 0;
 }
 

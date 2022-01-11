@@ -7,10 +7,10 @@ int main()
 	
 	printf("enter the radius :");
 	scanf("%f",&r);// 2.5
-	
+	// result=4/3*pi*r*r*r; //error in value
 	result= (4.0/3.0)*pi*r*r*r; //65.42
 	
-	printf("the volume of sphere is %f \n",result);
+	printf("the volume of sphere is %0.2f \n",result);
 
 	return 0;
 }

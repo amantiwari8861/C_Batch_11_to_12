@@ -7,7 +7,7 @@ int main()
     printf("3.mul\n");
     printf("4.divide\n");
     printf("enter the choice :\n");
-    scanf("%d",&choice);
+    scanf("%d",&choice);//3
     switch(choice)
     {
         case 1: printf("sum will perform\n");
