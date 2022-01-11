@@ -21,6 +21,5 @@ int main()
     printf("the value in double pointer is %d \n",dptr);//6684168
     printf("the value at address dptr %d \n",*dptr);//6684188
     printf("the value at address of variable in dptr %d \n",**dptr);//50
-    printf("the address of dptr %d \n",&dptr);
     return 0;
 }
