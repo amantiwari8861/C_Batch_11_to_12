@@ -2,7 +2,7 @@
 int main()
 {
     char choice;
-    printf("enter the choice :\n");
+    printf("enter the operation :\n");
     scanf("%c",&choice);
     switch(choice)
     {
@@ -17,6 +17,7 @@ int main()
         case '@': printf("something will perform\n");
                 break;
         default:printf("invalid case !");
+        break;
     }
     return 0;
 }
