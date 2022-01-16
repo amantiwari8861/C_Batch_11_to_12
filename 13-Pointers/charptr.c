@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-    char arr[]="hello neha";
+    char arr[]="hello everyone";
     char *ptr;
     ptr=arr;
     printf("the address of %d is arr[0] \n",&arr[0]);

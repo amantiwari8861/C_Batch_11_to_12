@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
+// #include<stdlib.h>
 int main()
 {
 	FILE *fptr;	//why we need file handling ?
@@ -9,7 +9,7 @@ int main()
 	if(fptr==NULL)
 	{
 		printf("Error! unable to open file");
-		exit(1);
+		//exit(1);
 	}
 	while(1)//INFINITE WHILE LOOP
 	{
@@ -18,7 +18,7 @@ int main()
 		{
 			break;
 		}
-		printf("%c",ch);
+			printf("%c",ch);
 	}
 	fclose(fptr);
 	return 0;

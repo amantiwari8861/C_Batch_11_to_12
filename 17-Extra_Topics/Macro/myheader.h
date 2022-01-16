@@ -1,0 +1,1 @@
+char text[]="this text is in my header file";
