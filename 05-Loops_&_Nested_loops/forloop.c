@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     /*for loop syntax:
@@ -10,9 +9,9 @@ int main()
     */
     int num,a;
     printf("enter the no. of times u want to print ur name : ");
-    scanf("%d",&num);
+    scanf("%d",&num);//10
 
-    // for(a=1;a<=num;a++)
+    // for(a=3;a<=num;a++)
     // {
     //     printf("%d .my name is aman\n",a);
     // }
@@ -24,4 +23,4 @@ int main()
 
     return 0;
 }
-//h.w   print a table  like 2 x 1 = 2  
+//h.w   print a table  like 2 x 1 = 2 

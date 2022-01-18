@@ -5,6 +5,7 @@ int main()
     char ch;
     printf("enter the character :");
     scanf("%c",&ch);
+    
     if(ch >= 65 && ch <=90)
     {
       printf("CAPITAL ALPHABET !\n");
