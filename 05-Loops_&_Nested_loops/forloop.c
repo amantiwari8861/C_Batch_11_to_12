@@ -20,7 +20,6 @@ int main()
     {
         printf("%d .my name is aman\n",a);
     }
-
     return 0;
 }
 //h.w   print a table  like 2 x 1 = 2 
