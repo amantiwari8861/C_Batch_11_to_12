@@ -19,7 +19,10 @@ int main()
             5. take a number from user and count how many even digits are in that number
             6. take a number from user and sum of the even digits
             7. take a number from user and sum of the odd digits
-            8. take a ,n,d from user and print the A.P
+            8. take a ,n,d from user and print the A.P (arithematic progression)    
+                let a=10  n=6 d=3
+                a  a+d  a+2d a+3d a+4d  a+5d
+                10  13  16 19 22 25 Ans.
             9. take a number from user and check whether it is a prime number or not 
             10. make a fibbonacci series from the sum of odd numbers and even numbers in a digit  
                 and the number of term = digit length 

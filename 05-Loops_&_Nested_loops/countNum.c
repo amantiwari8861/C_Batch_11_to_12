@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main()
+{
+    int num,count;
+    printf("enter the number :");
+    scanf("%d",&num);
+
+    for (count = 0; num > 0; num/=10)
+    {
+        ++count;
+    }
+    
+    printf("the no. of digit = %d ",count);
+    return 0;
+}
