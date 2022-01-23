@@ -1,10 +1,10 @@
 #include<stdio.h>
-#define MAX 30
+#define MAX 20  // this is a macro
 
 struct address
 {
     int pincode;
-    char city[20];
+    char city[MAX];
 };
 struct employee
 {
@@ -15,6 +15,9 @@ struct employee
 };
 int main()
 {
+    // struct employee e1; // e1 will have id names salary and an object of address
+    //in object of address we have 2 variables pincode and city
+    
     struct employee employeeObj[10];
     for (int i = 0; i < 3; i++)
     {
