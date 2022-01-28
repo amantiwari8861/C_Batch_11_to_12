@@ -1,7 +1,7 @@
 #include<stdio.h>
 void add();//fxn declaration 
 //user defined fxn
-int main()//starting point of program
+int main(/* arguments(parameters) */)//starting point of program
 {
     printf("before calling in main \n");
     add();//calling of fxn  
@@ -19,6 +19,12 @@ void add(/*parameter*/)
     //void is fxn return type
 }   //body close
 
+
+
+//functions has two types 
+//1.built-in fxn eg. pow,sqrt,log,sin,sinh,floor,ceil
+//2.user defined fxn eg. add
+//user defined fxn has 4 types
 //type 1 fxn : no argument(parameter) no return type
 //type 2 fxn : with argument(parameter) no return type
 //type 3 fxn : no argument(parameter) with return type

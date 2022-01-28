@@ -10,9 +10,9 @@ int main()
     printf("after calling in main \n");
     return 0;
 }
-void add(int a,int num2)
+void add(int a,int num2)//variable name may be same or different
 {
     int sum=a+num2;
 
-    printf("the sum is %d \n",sum);
+    printf("the sum is %d in add fxn \n",sum);
 }
