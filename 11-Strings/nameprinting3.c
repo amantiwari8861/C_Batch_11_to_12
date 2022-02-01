@@ -9,15 +9,7 @@ int main()
 		scanf("%c",&name[i]);
 		fflush(stdin);
 	}
-	//name[i]='\0';			it will store space in array
+	//name[i]='\0';			it will store null at last index in array
 	printf("%s",name);
 	return 0;
 }
-
-/*
-lbps : logic building and effective problem solving 
-algorithms 
-flowchart 
-psuedo code
-dry run etc
-*/
