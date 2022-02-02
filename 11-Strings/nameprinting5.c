@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<string.h>
 int main()
 {
 	int i;
@@ -7,9 +6,8 @@ int main()
 	printf("enter the name\n");
 	gets(name);//harmful for our program
 	fflush(stdin);
-	gets(name2);
-	// printf("length :%d\n",strlen(name));
-	// printf("length :%d\n",strlen(name2));
+	fgets(name2,20,stdin);//safe for our program
+//fgets is used to read string from many places like file,keyboard,network etc
 	puts(name);
 	puts(name2);
 	return 0;
