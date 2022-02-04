@@ -1,9 +1,10 @@
-Advantages of Pointers in C
+#Advantages of Pointers in C
 Pointers are useful for accessing memory locations.
 Pointers provide an efficient way for accessing the elements of an array structure.
 Pointers are used for dynamic memory allocation as well as deallocation.
 Pointers are used to form complex data structures such as linked list, graph, tree, etc.
-Disadvantages of Pointers in C
+
+#Disadvantages of Pointers in C
 Pointers are a little complex to understand.
 Pointers can lead to various errors such as segmentation faults or can access a memory location which is not required at all.
 If an incorrect value is provided to a pointer, it may cause memory corruption.
@@ -11,8 +12,7 @@ Pointers are also responsible for memory leakage.
 Pointers are comparatively slower than that of the variables.
 Programmers find it very difficult to work with the pointers; therefore it is programmer's responsibility to manipulate a pointer carefully.
 
-Summary
-
+#Summary
 A pointer is nothing but a memory location where data is stored.
 A pointer is used to access the memory location.
 There are various types of pointers such as a null pointer, wild pointer, void pointer and other types of pointers.

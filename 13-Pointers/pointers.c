@@ -4,7 +4,8 @@ int main()
     int num;
     printf("enter the number :");
     scanf("%d",&num);  // & represents address of 
-    printf("the value in variable num is %d at address %d \n",num,&num);// 50,6684188
+    printf("the value in variable num is %d at address %d \n",num,&num);//let 50,6684188
+    // Pointer: it is a variable whose value is the address of another variable
     // syntax:  datatype *pointername;
     int *ptr; //pointer stores the address of another variable
     //this pointer can store the address of int datatype variable
