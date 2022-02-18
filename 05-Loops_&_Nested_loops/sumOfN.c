@@ -4,7 +4,7 @@ int main()
     //10 => 1+2+3+......+10 = 55
     int num,sum=0;
     printf("enter the number :");
-    scanf("%d",&num);
+    scanf("%d",&num);//assume num=10
     for (int i = 1; i <= num; i++)
     {
        sum=sum+i; 
@@ -12,7 +12,6 @@ int main()
     printf("the sum till %d is %d \n",num,sum);
     return 0;
 }
-
 /*
     psuedocode/dryrun ( defines how it is working internally )
 
@@ -50,5 +49,4 @@ int main()
     step 11: i=11
             11<=10 false
             loop terminated.
-
 */

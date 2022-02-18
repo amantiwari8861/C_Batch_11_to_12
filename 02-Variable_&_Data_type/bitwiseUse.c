@@ -14,7 +14,7 @@ int main()
     // in 1's complement first bit is 1 then this ia -ve number  i.e -11 Ans.
 
 
-   /*  printf(" left shift %d \n",num<<1);  // 10*2 => 10
+  /*printf(" left shift %d \n",num<<1);  // 10*2 => 20
     printf(" left shift %d \n",num<<2);  // 10*2*2 => 40
     printf(" left shift %d \n",num<<3);  // 10*2*2*2 => 80
     printf(" left shift %d \n",num<<4);  // 10*2*2*2*2 => 160

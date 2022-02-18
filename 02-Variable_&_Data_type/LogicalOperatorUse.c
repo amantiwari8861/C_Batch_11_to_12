@@ -13,8 +13,9 @@ int main()
     /*
     case 1 : marks = 12       12 >= 90 || 12 <=  100 => 0 || 1 => 1 ans then if will execute
     case 2 : marks = 95       95 >= 90 || 95 <=  100 => 1 || 1 => 1 ans then if will execute
-    case 3 : marks = 150      150 >= 90 || 150 <= 100 => 1 || 0 => 1 ans then if will execute
+    case 3 : marks = 150     150 >= 90 || 150 <= 100 => 1 || 0 => 1 ans then if will execute
     */
+   
     /*
     case 1 : marks = 12       12 >= 90 && 12 <=  100 => 0 && 1 => 0 ans then if will not execute
     case 2 : marks = 95       95 >= 90 && 95 <=  100 => 1 && 1 => 1 ans then if will execute
@@ -37,9 +38,5 @@ int main()
         case 2 : marks = 95   95 > 80 -> ! (1) => 0
         case 3 : marks = 150  150 > 80 -> ! (1) => 0
      */
-    
-
-
-
     return 0;
 }

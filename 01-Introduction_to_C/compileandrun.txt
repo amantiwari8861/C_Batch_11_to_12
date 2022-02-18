@@ -1,0 +1,38 @@
+c - programming language
+
+history: in 1972, the language was called "C"
+at American Telephone and telegraph (AT&T) Bells Labs USA
+
+father of C Dennis Ritchie
+Parag Aggarwal Twitter new CEO 
+
+low level language : cobol,pascal,fortan,assembly etc.
+they works on bits and binaries(machine code (01010101))
+Machine dependent language
+
+C & C++ are mid level language
+machine dependent language
+
+High level language
+eg. java,python,C# and etc
+machine independent language
+OOPs (Object Oriented Programming)
+
+features of c 
+1. it is a low level language
+2. mother language 
+3. system programming language
+4. it is a procedural language
+5. it is a structured language
+
+https://jmeubank.github.io/tdm-gcc/download/
+https://github.com/jmeubank/tdm-gcc/releases/download/v10.3.0-tdm64-2/tdm64-gcc-10.3.0-2.exe
+
+step 1: open the exe file
+step 2: install the exe file by clicking 
+        create then next next install
+
+        
+
+
+
