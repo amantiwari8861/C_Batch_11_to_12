@@ -13,7 +13,7 @@ int main()
     //implicit casting : compiler automatic do the casting
     //explicit casting : we have to do the casting manually
     char ch='A';
-    int num=ch;//implicit casting  // here compiler converted char into decimal(int)
+    // int num=ch;//implicit casting  // here compiler converted char into decimal(int)
     int num=(int)ch;//explicit casting  // here we converted char into decimal(int)
     // printf("the character is %c and it's ascii value is %d \n",ch,ch);
     printf("the character is %c and it's ascii value is %d \n",ch,num);

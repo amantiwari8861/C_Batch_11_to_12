@@ -4,18 +4,16 @@ int main()
     // initialization ,condition , inc/dec
     int num=1;
     // while (1) //infinite while loop
-    // while(num<20)
-    // {
-    //     printf("%d \n",num);
-    //     num++;
-    // }
-    do
+    while(num<20)
     {
-        printf(" %d \n",num);
+        printf("%d \n",num);
         num++;
-    } while (num>20); //condition wrong 
+    }
+
     return 0;
 }
+
+
 //1-100
 //100 - 1
 // print you name 25 time
@@ -23,9 +21,6 @@ int main()
 // armstrong , reverse 
 //do with all type of loops
 
-
 // 153 => 1 * 1 * 1 + 5*5*5 + 3*3*3  => 27 + 125 + 1 => 153  armstrong no.
-
 //153 => 351
-
 // 351 = 1*1*1+ 5*5*5+3*3*3 => 153   not a armstrong no.

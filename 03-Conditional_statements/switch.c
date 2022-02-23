@@ -2,10 +2,10 @@
 int main()
 {
     int choice;
-    printf("1.sum\n");
-    printf("2.sub\n");
-    printf("3.mul\n");
-    printf("4.divide\n");
+//     printf("1.sum\n");
+//     printf("2.sub\n");
+//     printf("3.mul\n");
+//     printf("4.divide\n");
     printf("enter the choice :\n");
     scanf("%d",&choice);//3
     switch(choice)

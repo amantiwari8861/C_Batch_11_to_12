@@ -19,7 +19,5 @@ int main()
     printf("the value of marks[3] is %d \n",marks[3]);
     printf("the value of marks[4] is %d \n",marks[4]);
 
-
-
     return 0;
 }

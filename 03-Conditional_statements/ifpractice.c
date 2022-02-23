@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     int age;
@@ -11,11 +10,13 @@ int main()
         {
             code 
         }
-    
-    if (age<18)
+    */
+
+    if (age>=18) //true block
     {
-        printf("age us less than 18 "); 
-    }*/
+        printf("you are eligible for voting \n"); 
+    }   
+
     //-------------------------------------------------------------------------
     // if (age<18)
     // {
@@ -26,7 +27,7 @@ int main()
     //     printf("age is greater than or equal to 18\n");
     // }
     //-------------------------------------------------------------------------------
-    
+    /* 
     if (age<18)
     {
         printf("age us less than 18 \n"); 
@@ -42,7 +43,8 @@ int main()
     else
     {
         printf("age is greater than 18\n");
-    }
+    } 
+    */
 
     return 0;
 }
