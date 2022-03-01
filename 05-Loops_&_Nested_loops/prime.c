@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     // A prime number is a positive integer that is divisible only by 1 and itself. 
@@ -14,7 +13,8 @@ int main()
 
         if (num%i==0)
         {
-           temp=1; 
+           temp=1;
+           break;
         }
     }
     if (temp==1)

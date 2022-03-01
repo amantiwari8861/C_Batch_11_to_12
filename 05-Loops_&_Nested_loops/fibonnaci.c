@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     int term1=-1,term2=1,term3,ntimes;

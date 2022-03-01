@@ -4,7 +4,7 @@ void counting(int a)
     if (a<=10)
     {    
         printf("in add function at %d \n",a);
-        return add(a+1); 
+        counting(a+1); 
     }
 }
 int main()

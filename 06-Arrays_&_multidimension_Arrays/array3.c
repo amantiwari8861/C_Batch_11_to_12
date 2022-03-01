@@ -7,7 +7,7 @@ int main()
     {
         scanf("%d",&marks[i]);
     }
-    printf("\n ----------------------------------------  \n");
+    printf("\n the entered marks are : \n");
     for (int i = 0; i < 10; i++)
     {
         printf("the marks at %dth index is %d \n",i,marks[i]);

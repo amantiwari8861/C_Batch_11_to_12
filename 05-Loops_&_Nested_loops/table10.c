@@ -2,7 +2,7 @@
 
 int main()
 {
-    /* for (int i = 1; i <= 10; i++)
+     for (int i = 1; i <= 10; i++)
     {
         printf("%2d X%2d = %2d ", 1, i, 1 * i);
         printf("%2d X%2d = %2d ", 2, i, 2 * i);
@@ -13,15 +13,15 @@ int main()
         printf("%2d X%2d = %2d ", 7, i, 7 * i);
         printf("%2d X%2d = %2d ", 8, i, 8 * i);
         printf("%2d X%2d = %2d ", 9, i, 9 * i);
-        printf("%2d X%2d = %2d ", 10, i, 10 * i);
+        // printf("%2d X%2d = %2d ", 10, i, 10 * i);
         printf("\n");
-    } */
-    int num;
-    printf("Enter a number: ");
-    scanf("%d", &num);
-    for (int i = 1; i <= 10; i++)
-    {
-        printf("%2d X%2d = %2d ", num, i, num * i);
-    }
+    } 
+    // int num;
+    // printf("Enter a number: ");
+    // scanf("%d", &num);
+    // for (int i = 1; i <= 10; i++)
+    // {
+    //     printf("%2d X%2d = %2d ", num, i, num * i);
+    // }
     return 0;
 }
