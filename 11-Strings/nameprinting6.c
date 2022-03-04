@@ -3,9 +3,10 @@
 int main()
 {
 	char name[10],name2[20];
-	printf("enter the name\n");
+	printf("enter the name1 :");
 	gets(name);
 	fflush(stdin);
+	printf("enter the name2 :");
 	gets(name2);
 	fflush(stdin);
 	// printf("length 1 = %d\n",strlen(name));
@@ -13,7 +14,7 @@ int main()
 	// printf("size of: %d\n",sizeof(name2));
 	// strcpy(name,name2);
 	// printf("copied data is  :%s\n",name);
-	// strcat(name," ");
+	// strcat(name,"@");
 	// strcat(name,name2);
 	// printf("concatenate : %s\n",name);
 	// printf("lowercase:%s\n",strlwr(name));

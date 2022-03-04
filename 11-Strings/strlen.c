@@ -9,10 +9,10 @@ int main()
 
     for (int i = 0; name[i] != '\0'; i++)
     {
-        if (name[i] != ' ')
-        {
+        // if (name[i] != ' ')
+        // {
             count++;
-        } 
+        // } 
     }
     printf("length of the name is %d\n",count);
     return 0;
