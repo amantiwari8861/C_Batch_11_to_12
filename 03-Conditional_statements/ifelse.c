@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
 {
+    //conditional statements :if
+
     //nested if tomorrow
     //conditional statements
     // syntax of if :   if(condition){  statements  }

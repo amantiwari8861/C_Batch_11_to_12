@@ -12,6 +12,7 @@ int main()
     printf("the sum till %d is %d \n",num,sum);
     return 0;
 }
+
 /*
     psuedocode/dryrun ( defines how it is working internally )
 
