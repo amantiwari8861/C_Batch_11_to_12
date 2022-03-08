@@ -25,4 +25,4 @@ int main()
 // simple interest => p*r*t/100;
 // surface area of sphere => 4*pi*r*r;
 // surface area of cylinder => 2*pi*r*r+2*pi*r*h;
-// swapping of two numbers 
+// surface area of cube => 6*r*r;

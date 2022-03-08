@@ -20,7 +20,7 @@ void add(/*parameter*/)
 }   //body close
 
 
-
+//fxn is a group of statements that together perform a task.
 //functions has two types 
 //1.built-in fxn eg. pow,sqrt,log,sin,sinh,floor,ceil
 //2.user defined fxn eg. add

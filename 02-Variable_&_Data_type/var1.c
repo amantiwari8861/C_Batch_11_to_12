@@ -2,8 +2,8 @@
 
 int main()
 {
-    int num=10,num2=60; //pre-defined value
-    printf("the value of num is %d and num2= %d \n ",num,num2);// 10 60
+    // int num=10,num2=60; //pre-defined value
+    // printf("the value of num is %d and num2= %d \n ",num,num2);// 10 60
     int var1,var2,sum;
     printf("enter the value of var1 : ");
     // scanf("%d",&var1); // & (ampersand ) represents the address of container(variable)
