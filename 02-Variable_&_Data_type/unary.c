@@ -13,12 +13,12 @@ int main()
 
     printf(" num = %d \n",num);//10
     num=num+1; //num=10+1 =11
-    printf(" num = %d \n",num);//11
+    printf(" num = %d after num+1 \n",num);//11
     num++;
     // num++; or num=num+1; is same
-    printf(" num = %d \n",num);//12
+    printf(" num = %d after num++\n",num);//12
     num--;
     // num-- or num=num-1; is same
-    printf(" num = %d \n",num);//11
+    printf(" num = %d after num-- \n",num);//11
     return 0;
 }

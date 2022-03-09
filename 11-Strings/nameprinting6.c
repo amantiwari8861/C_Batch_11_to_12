@@ -15,12 +15,12 @@ int main()
 	// strcpy(name,name2);
 	// printf("copied data is  :%s\n",name);
 	// strcat(name,"@");
-	// strcat(name,name2);
-	// printf("concatenate : %s\n",name);
+	strcat(name,name2);
+	printf("concatenate : %s\n",name);
 	// printf("lowercase:%s\n",strlwr(name));
 	// printf("uppercase:%s\n",strupr(name));
 	// printf("reverse:%s\n",strrev(name));
-	printf("comparing:%d\n",strcmp(name,name2));
+	// printf("comparing:%d\n",strcmp(name,name2));
 	/* let name=Aman and name2=aman (A=65 ,a=97)
 		strcmp(name,name2);//  65 - 97 => -32 => -1
 		strcmp(name2,name); // 97 - 65 => 32 => 1
