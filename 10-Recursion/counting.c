@@ -10,7 +10,9 @@ void counting(int a)
 int main()
 {
     int a=1;
+    printf("before calling counting function \n");
     counting(a);
+    printf("after counting function \n");
     return 0;
 }
 

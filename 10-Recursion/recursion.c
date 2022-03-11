@@ -5,7 +5,8 @@ int add()
     printf("in add function at %d \n",++count);
     if (count==5)
     {
-        return 0;
+        return 2;
+        // break; //error
     }
     add();  
 }

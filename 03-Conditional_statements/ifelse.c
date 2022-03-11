@@ -60,7 +60,7 @@ int main()
         }
         else
         {
-            printf("fail\n");
+            printf("chai becho\n");
         }
     return 0;
 }
