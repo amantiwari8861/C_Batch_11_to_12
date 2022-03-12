@@ -14,9 +14,14 @@ int main( ) {
     // var2.name="neha"; error same as structure
     strcpy(var2.name,"Aman");//20 bytes
    //it will give memory to last assigned variable
-   //total 28 bytes data is stored in var2
+   //we stores total 28 bytes data in var2 but it will only store 20 bytes data
    printf( "Memory size occupied by var2 after storing: %d\n", sizeof(var2));//20
    printf("the id is %d and name is %s and salary is %0.2f \n",var2.id,var2.name,var2.salary);
     //taking garbage value of id and salary
+
+   var.id=101;//4 bytes
+   var.salary=9999.99;//4 bytes
+   printf("the id is %d and name is %s and salary is %0.2f \n",var.id,var.name,var.salary);
+
    return 0;
 }

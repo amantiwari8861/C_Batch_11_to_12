@@ -1,6 +1,5 @@
 #include<stdio.h>
-void add();  //declaration of fxn
-int powerFxn(int,int);
+int powerFxn(int,int);//declaration
 int main()//starting point of a program
 {
     printf("before calling in main \n");
@@ -8,22 +7,18 @@ int main()//starting point of a program
     int num,power;
     printf("enter the number and power\n");
     scanf("%d%d",&num,&power);
-    int result=powerFxn(num,power);
+    int result=powerFxn(num,power);//calling of fxn
     printf("the result is %d \n",result);
 
-    printf("enter the number and power again\n");
+   /*  printf("enter the number and power again\n");
     scanf("%d%d",&num,&power);
     int result2=powerFxn(num,power);
-    printf("the result2 is %d \n",result2);
+    printf("the result2 is %d \n",result2); */
 
     printf("after calling in main \n");
     return 0;//ending point of a program
 }
-void add(/*argument or parameter*/)
-{   
-    printf("hii i am adding something\n");
-} 
-int powerFxn(int num,int power)
+int powerFxn(int num,int power) //body
 {
     printf("inside powerFxn \n");
     int pow=1;
