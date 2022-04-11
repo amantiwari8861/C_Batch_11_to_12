@@ -30,11 +30,5 @@ int main()
 	ABCD
 	ABCDE
 */	
-	
-	
-	
-	
-	
-	
 	return 0;
 }

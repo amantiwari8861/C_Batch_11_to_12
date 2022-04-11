@@ -5,15 +5,17 @@ int main()
     printf("enter the number to be factorial :");
     scanf("%d",&num);//5
     // 5 * 4 * 3 * 2 * 1 = 120 ans.
-    /* for (int i=num;i>0;i--)
-    {
-        fact=fact*i;
-    } */
-    // 5 * 4 * 3 * 2 * 1 = 120 ans.
-    for (int i=1;i<=num;i++)
+    for (int i=num;i>0;i--)
     {
         fact=fact*i;
     }
+
+    // 5 * 4 * 3 * 2 * 1 = 120 ans.
+    
+  /*   for (int i=1;i<=num;i++)
+    {
+        fact=fact*i;
+    } */
     printf("the factorial of %d is %d \n",num,fact);
     return 0;
 }

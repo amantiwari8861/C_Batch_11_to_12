@@ -7,15 +7,17 @@ int main()
 
     for(count=0;num >0; num=num/10)
     {   
-        // if (num%2 != 0) for odd count
         int rem=num%10;
-        if (rem%2 == 0) //for even count
+        
+        // if (rem%2 == 0) //for even count     
+        if (num%2 != 0) //for odd count
         {
-            // ++count;
-            sum_karne_wala = sum_karne_wala+rem;
+            ++count;
+                //sum_karne_wala = sum_karne_wala+rem;
         }
     }
-    printf(" som of even digit :%d ",sum_karne_wala);
+
+    printf(" sum of even digit :%d ",sum_karne_wala);
     // printf(" total digit :%d ",count);
     return 0;
 }
