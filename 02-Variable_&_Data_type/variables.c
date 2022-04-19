@@ -8,9 +8,9 @@ int main()
 	//at any specific location in memory (RAM)
 	// syntax = formula
 	//	syntax: data_type variable_name=value;
-	int aman=10,aman1=20,result;//   we hard-quoted the value during declaration (pre-define value)
+	int aman=10,aman1=20,result;//we hard-quoted the value during declaration (pre-define value)
 	result=aman+aman1; // result =10 + 20 ; result = 30;
-	printf("\n the result is %d \n anything. ",result); // %d is format specifier of int
+	printf(" result ki value %d hai. ",result); // %d is format specifier of int
 	// format specifier : eg. %d,%f etc	
 
 	printf("the sum of %d and %d is %d .",aman,aman1,result);

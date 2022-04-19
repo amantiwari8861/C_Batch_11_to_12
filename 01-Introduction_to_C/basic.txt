@@ -1,0 +1,44 @@
+what is c ? 
+c is a programming language 
+
+why we need programming language ?
+every software's base is programming language 
+
+how many types of programming languages ?
+1.low level :which works on binary(0101) ,registors and pointers etc.
+	eg. cobol,pascal,fortan,Assembly etc.
+	registors like (ax,bx etc) lies in RAM(Random access memory)
+2.mid level : it has the features of low level programming language 
+	as well as high level programming language.
+eg. c and c++
+3.High level : they are machine independent (write once run everywhere)
+	like we can run java program in windows,linux,Mac etc.
+	eg. java,python,ruby 
+
+what is history of c ?
+c is developed by Dennis Ritchie in 1972 in American Telephone & telegraph (AT&T) Bells lab USA(california)
+
+why we use C when i have high level languages like java,python etc
+low level are very close to hardware and it works on hardware directly 
+and the more u are near to hardware the more u will be fastest.
+so low level > mid level >high level   is fastest.
+low level programming is too complex for developers to understand
+that's why the developers uses the mid level programming language.
+
+In this era where is C is being used ?
+1.game's backend coding. eg. pubg,clash of clans etc.
+2.device driver softwares. eg. bluetooth,wifi drivers
+3.most of the compilers & virtual machines. eg. jvm (java virtual machine)
+4.android & linux kernals(it a type of mediater by which out application interacts with hardware)
+eg. android kernal,linux kernal.
+
+
+
+
+
+
+
+
+
+
+
