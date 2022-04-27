@@ -20,7 +20,7 @@ int main()
     // printf("the value of marks is %d \n",marks5);
 
     // int marks[5]; //1st way to declare array
-    int marks[5]={10,20,30,40,50}; //2nd way to declare and initialize an array
+    // int marks[5]={10,20,30,40,50}; //2nd way to declare and initialize an array
     int marks[]={10,20,30,40,50}; // 3rd way to declare and initialize an array
     
     // marks[0]=10;
@@ -34,7 +34,5 @@ int main()
     printf("the value of marks[2] is %d \n",marks[2]);
     printf("the value of marks[3] is %d \n",marks[3]);
     printf("the value of marks[4] is %d \n",marks[4]);
-
-
     return 0;
 }

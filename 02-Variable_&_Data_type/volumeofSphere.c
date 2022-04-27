@@ -4,11 +4,11 @@ int main()
 	//volume of sphere => 4/3*pi*r*r*r;
 	float radius,pi=3.14,result;
 	printf("enter the radius :");
-	scanf("%f",&radius);// 2.5
+	scanf("%f",&radius);//let user gave 2.5
 	// result=4/3*pi*radius*radius*radius; //error in value : 49.062500
 	result= (4.0/3.0)*pi*radius*radius*radius; //65.42
-	// printf("the volume of sphere is %f \n",result);
-	printf("the volume of sphere is %0.2f \n",result);
+	printf("the volume of sphere is %f \n",result);
+	// printf("the volume of sphere is %0.2f \n",result);
 	return 0;
 }
 // h.w : volume of cone => 1/3*pi*r*r*h;

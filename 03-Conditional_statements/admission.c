@@ -12,11 +12,11 @@ int main()
 
         if (marks<=94)
         {
-            printf(" u got mech. \n");
+            printf(" u got mechanical branch \n");
         }
         else if (marks<=96)
         {
-            printf("electronics \n");
+            printf("u got electronics \n");
         }
         else
         {
@@ -24,7 +24,7 @@ int main()
 
             if (marks==100)
             {
-                printf("u got scholarship of Rs.1lakh \n");
+                printf("u got scholarship of Rs.1 lakh \n");
             }
             
         }

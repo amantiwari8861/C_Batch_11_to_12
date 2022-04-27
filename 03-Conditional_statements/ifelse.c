@@ -6,9 +6,9 @@ int main()
     //nested if tomorrow
     //conditional statements
     // syntax of if :   if(condition){  statements  }
-    // int age;
-    // printf("enter ur age :");
-    // scanf("%d",&age);
+    int age;
+    printf("enter ur age :");
+    scanf("%d",&age);
     // if( age >= 18 ) //true block
     // {
     //     printf("you are ready to vote \n");
