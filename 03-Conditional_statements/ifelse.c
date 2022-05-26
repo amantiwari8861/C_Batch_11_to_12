@@ -1,29 +1,29 @@
 #include<stdio.h>
 int main()
 {
-    //conditional statements :if
+    //conditional statements :if ,if else ,else if ,nested if,switch
 
-    //nested if tomorrow
     //conditional statements
     // syntax of if :   if(condition){  statements  }
     int age;
     printf("enter ur age :");
     scanf("%d",&age);
-    // if( age >= 18 ) //true block
-    // {
-    //     printf("you are ready to vote \n");
-    // }
+    /* if( age >= 18 ) //true block
+    {
+        printf("you are ready to vote \n");
+    } */
+
     // ---------------------------------------------------------
     // if-else syntax: if(condition){ statements }else{ statements  }
 
-    // if(age>=18)
-    // {
-    //     printf("you can vote !\n");
-    // }
-    // else
-    // {
-    //     printf("you can't vote !\n");
-    // }
+    if(age>=18)
+    {
+        printf("you can vote !\n");
+    }
+    else
+    {
+        printf("you can't vote !\n");
+    }
 // ____________________________________________________
     // else-if (ladder)
     /* syntax:
@@ -42,7 +42,7 @@ int main()
             statements
         }
     */
-    int marks;
+     int marks;
     printf("enter ur marks :");
     scanf("%d",&marks);
 
@@ -62,6 +62,6 @@ int main()
         {
             printf("chai becho\n");
         }
-    return 0;
+    return 0; 
 }
 //h.w  check if a given no. is even or odd 

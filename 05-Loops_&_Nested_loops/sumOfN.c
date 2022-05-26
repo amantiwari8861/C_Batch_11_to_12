@@ -5,6 +5,7 @@ int main()
     int num,sum=0;
     printf("enter the number :");
     scanf("%d",&num);//assume num=10
+    
     for (int i = 1; i <= num; i++)
     {
        sum=sum+i; 
@@ -16,7 +17,7 @@ int main()
 /*
     psuedocode/dryrun ( defines how it is working internally )
 
-    step 1: let num=10
+    step 1: let num=10,sum=0
             i=1
             i<=num   1<=10 true
             sum=sum+i;   => sum=0+1 => sum=1

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 int main()
 {
   char ch;
@@ -22,6 +21,5 @@ int main()
   {
     printf("special characters\n");
   }
-  getch(); // to hold the output screen
   return 0;
 }

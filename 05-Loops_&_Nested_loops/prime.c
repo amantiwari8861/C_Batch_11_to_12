@@ -10,7 +10,6 @@ int main()
    for (int i = 2; i < num; i++)
    {
     //    printf("the value of num is %d \n",i);
-
         if (num%i==0)
         {
            temp=1;

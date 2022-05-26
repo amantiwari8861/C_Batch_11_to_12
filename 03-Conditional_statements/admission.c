@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     int marks;
@@ -10,24 +9,15 @@ int main()
     {
         printf("u got admission in DU\n");
 
-        if (marks<=94)
+        if(marks>97)
         {
-            printf(" u got mechanical branch \n");
+            printf("u got CS Branch\n");
         }
-        else if (marks<=96)
+        else if(marks>95)
         {
-            printf("u got electronics \n");
+            printf("u git EC Branch\n");
         }
-        else
-        {
-            printf(" CS \n");
-
-            if (marks==100)
-            {
-                printf("u got scholarship of Rs.1 lakh \n");
-            }
-            
-        }
+        
         
     }
     else if(marks>=33 && marks<=89)

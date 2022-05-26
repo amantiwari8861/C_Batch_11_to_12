@@ -14,11 +14,11 @@ int main()
                let num=5  -> 5*4*3*2*1 = 120
             2. print fibonnaci series let n=10
                 0 1 1 2 3 5 8 13 21 34 
-            3. take a number from user and count how many digits are in that number
-            4. take a number from user and count how many odd digits are in that number
-            5. take a number from user and count how many even digits are in that number
-            6. take a number from user and sum of the even digits
-            7. take a number from user and sum of the odd digits
+            3. take a number from user and count how many digits are in that number eg.4589 -> 4
+            4. take a number from user and count how many odd digits are in that number eg.4589 -> 3
+            5. take a number from user and count how many even digits are in that number eg.4589 -> 2
+            6. take a number from user and sum of the even digits in that number eg.4589 -> 12
+            7. take a number from user and sum of the odd digits in that number eg.4589 -> 14
             8. take a ,n,d from user and print the A.P (arithematic progression)    
                 let a=10  n=6 d=3
                 a  a+d  a+2d a+3d a+4d  a+5d
