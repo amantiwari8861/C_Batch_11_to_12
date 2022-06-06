@@ -18,13 +18,13 @@ int main()
     // printf("the character is %c and it's ascii value is %d \n",ch,ch);
     printf("the character is %c and it's ascii value is %d \n",ch,num);
 
-    int num2=56;
-    float fnum=num2; //upward casting (type promotion) (we converted from int to float)
-    printf(" fnum = %f \n",fnum);
+    // int num2=56;
+    // float fnum=num2; //upward casting (type promotion) (we converted from int to float)
+    // printf(" fnum = %f \n",fnum);
 
-    float num2=56.678;
-    int fnum=num2; //downward casting  (we converted from float to int)
+    // float num2=56.678;
+    // int fnum=num2; //downward casting  (we converted from float to int)
     //in downward casting we loss some information
-    printf(" fnum = %d \n",fnum);
+    // printf(" fnum = %d \n",fnum);
     return 0;
 }

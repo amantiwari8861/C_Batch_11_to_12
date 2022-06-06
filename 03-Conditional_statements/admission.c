@@ -2,33 +2,38 @@
 int main()
 {
     int marks;
-    printf("enter ur marks :");
+    printf("enter the marks :");
     scanf("%d",&marks);
 
-    if (marks>=90 && marks<=100)
+    if (marks >=90 && marks<=100)
     {
-        printf("u got admission in DU\n");
+        printf("u got admission in amity \n");
 
-        if(marks>97)
+        if (marks>=97)
         {
-            printf("u got CS Branch\n");
+            printf(" u got CS branch\n");
+            if (marks==100)
+            {
+                printf("you got 80%% scholarship \n");
+            } 
         }
-        else if(marks>95)
+        else if (marks>94)
         {
-            printf("u git EC Branch\n");
+            printf("u got EC \n");
         }
-        
-        
+        else
+        {
+            printf("MEC");
+        }
     }
-    else if(marks>=33 && marks<=89)
+    else if (marks>=50 && marks<90)
     {
-        printf("u got admission in other university\n");
+        printf("du");
     }
     else
     {
-        printf("sell tea \n");
+        printf("sell tea");
     }
     
-
     return 0;
 }

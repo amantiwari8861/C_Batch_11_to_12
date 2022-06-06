@@ -6,7 +6,7 @@ int main()  //starting point of a program
 	printf("hello everyone in C programming!");
 	// ; end of line
 	return 0;//ending point of a program 
-	printf("hello world2!"); //will not execute
+	printf("hello world 2!"); //will not execute
 }//closing of main function body
 //single line comment 
 /*

@@ -14,14 +14,14 @@ int main()
     }
     printf("the reverse is %d \n",sum);
 
-    if (sum==original)
-    {
-        printf("palindrome !\n");
-    }
-    else
-    {
-        printf("not palindrome !");
-    }
+    // if (sum==original)
+    // {
+    //     printf("palindrome !\n");
+    // }
+    // else
+    // {
+    //     printf("not palindrome !");
+    // }
     return 0;
 }
 /*
@@ -30,12 +30,12 @@ step 1: num = 123
         sum=0;
         rem= num%10;  // 3
         sum=sum*10+rem; //0+3
-        num=num/10; //15.3 -> 15
+        num=num/10; //12.3 -> 12
 
 step 2: num = 12,sum=3
         rem= num%10;  // 2
         sum= sum*10+rem; // 30+2 -> 32
-        num=num/10; //1.5 -> 1
+        num=num/10; //1.2 -> 1
 
 step 3: num = 1,sum=152
         rem= num%10;  //  1%10 -> 1
