@@ -1,32 +1,33 @@
 #include<stdio.h>
 int main()
 {
-    int n,i;
+    int size,i;
     printf("enter the size \n");
-    scanf("%d",&n);
-    int arr[n],min=0,max=0;
+    scanf("%d",&size);
+    int arr[size],min=0,max=0;
     printf("enter the elements in array \n");
-    for(i=0;i<n;i++)
+    for(i=0;i<size;i++)
     {
         scanf("%d",&arr[i]);
     }
-    if(n==1)
+    if(size==1)
     {
         min=max=arr[0];
         printf("max =%d and min= %d \n",max,min);
     }
-    if(n>1)
+    if(size>1)
     {
         min=arr[0];
-        for(i=0;i<n;i++)
+        max=arr[0];
+        for(i=0;i<size;i++)
         {
-            if(arr[i]>arr[i+1])
+            if(min>arr[i])
+            {
+                min=arr[i];
+            }
+            if(max<arr[i])
             {
                 max=arr[i];
-            }
-            else
-            {
-                max=arr[i+1];
             }
         }
         printf("the max = %d and min=%d \n",max,min);
