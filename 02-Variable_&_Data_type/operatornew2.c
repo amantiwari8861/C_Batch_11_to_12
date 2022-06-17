@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	//2. binary operators : in which two operands are required
+	//2. Aman binary operators : in which two operands are required
 		//b.logical operators :  && (AND) , || (or) , ! (not )
 	//true = 1 and false = 0 
 	
