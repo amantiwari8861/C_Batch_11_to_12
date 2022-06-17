@@ -1,16 +1,21 @@
 #include<stdio.h>
 int main()
 {
-	//2. Aman binary operators : in which two operands are required
+	//2. binary operators : in which two operands are required
 		//b.logical operators :  && (AND) , || (or) , ! (not )
 	//true = 1 and false = 0 
 	
 	// int result;
+	// AND GATE (&&)
 	// result= (10 > 20 ) && (20 < 30 ); // 0 && 1  -> 0
 	// result= (30 > 20 ) && (50 < 30 ); // 1 && 0  -> 0
 	// result= (30 > 20 ) && (50 > 30 ); // 1 && 1  -> 1
-	//    result= (30 > 20 ) || (50 < 30 ); // 1 || 0  -> 1
-	// result= !( 10 > 20 ); // !(1) -> 0
+	
+	//OR GATE (||)
+	//result= (30 > 20 ) || (50 < 30 ); // 1 || 0  -> 1
+
+	//NOT GATE (!)
+	// result= !( 10 > 20 ); // !(0) -> 1
 	// printf("the result is %d \n",result);
 
 	//c.assignment operators ->    = , += ,-= , *= ,/=,%= etc.
