@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int marks;
+    float marks;
     printf("enter the marks :");
-    scanf("%d",&marks);
+    scanf("%f",&marks);
 
     if (marks >=90 && marks<=100)
     {

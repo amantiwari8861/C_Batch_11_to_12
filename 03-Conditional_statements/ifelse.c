@@ -3,27 +3,25 @@ int main()
 {
     //conditional statements :if ,if else ,else if ,nested if,switch
 
-    //conditional statements
     // syntax of if :   if(condition){  statements  }
-    int age;
-    printf("enter ur age :");
-    scanf("%d",&age);
-    /* if( age >= 18 ) //true block
-    {
-        printf("you are ready to vote \n");
-    } */
-
+    // int age;
+    // printf("enter ur age :");
+    // scanf("%d",&age);
+    // if( age >= 18 ) //true block
+    // {
+    //     printf("you are ready to vote \n");
+    // }
     // ---------------------------------------------------------
     // if-else syntax: if(condition){ statements }else{ statements  }
 
-    if(age>=18)
-    {
-        printf("you can vote !\n");
-    }
-    else
-    {
-        printf("you can't vote !\n");
-    }
+    // if(age>=18)
+    // {
+    //     printf("you can vote !\n");
+    // }
+    // else
+    // {
+    //     printf("you can't vote !\n");
+    // }
 // ____________________________________________________
     // else-if (ladder)
     /* syntax:
@@ -42,9 +40,9 @@ int main()
             statements
         }
     */
-     int marks;
+     float marks;
     printf("enter ur marks :");
-    scanf("%d",&marks);
+    scanf("%f",&marks);
 
         if(marks>=60)
         {
@@ -61,7 +59,6 @@ int main()
         else
         {
             printf("chai becho\n");
-        }
+        } 
     return 0; 
 }
-//h.w  check if a given no. is even or odd 

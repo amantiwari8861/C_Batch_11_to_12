@@ -1,8 +1,6 @@
-#include<stdio.h> //header files
-int main() //starting point of a program
-{//body opening of main function
-	//code or statements
+#include<stdio.h>
+int main()
+{
 	printf("hello world"); 
-	return 0;//ending point of a program (it also passes msg to 
-	//operating system that program succesfully executed)
-}//body close of main function
+	return 0;
+}
