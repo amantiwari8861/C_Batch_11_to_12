@@ -1,0 +1,5 @@
+1.take 10 no. user and find maximum number.
+2.take 10 no. user and find minimum number.
+3.take 10 no. user and take a number to search from array and find the index of that number.
+4.copy one array's elements to another array.
+5.copy one array's elements to another array in reverse order.

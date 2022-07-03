@@ -44,7 +44,7 @@ Expected Output :
 ...
 15 X 10 = 150
  
-7. Write a program in C to display the multipliaction table vertically from 1 to n.  
+7. Write a program in C to display the multipliaction table vertically from 1 to 8.  
 Test Data :
 Input upto the table number starting from 1 : 8
 Expected Output :
