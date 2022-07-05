@@ -1,14 +1,15 @@
 #include <stdio.h>
-
 int main()
 {
-    int arr[10], find, flag = 0;
+    int arr[10], find, found = 0;
     printf("enter the array elements \n");
 
     for (int j = 0; j < 10; j++)
     {
         scanf("%d", &arr[j]);
     }
+    
+    // 56 67 34 23 45 12 89 23 67 60
     printf("enter the element to find out from array \n");
     scanf("%d", &find);
 
@@ -17,14 +18,13 @@ int main()
         if (arr[i] == find)
         {
             printf("found at position %d \n", i);
-            flag = 1;
-        }
+            found = 1;
+        }        
     }
-
-    if (!flag)
+    // if (!found)
+    if (found == 0)
     {
-        printf("not found in array \n");
+        printf("%d not found in array \n",find);
     }
-
     return 0;
 }
