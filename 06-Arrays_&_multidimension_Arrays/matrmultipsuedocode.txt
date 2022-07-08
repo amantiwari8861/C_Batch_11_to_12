@@ -1,0 +1,45 @@
+   //logic  let r1=2,r2=3,c1=3,c2=4
+        
+        for (int i = 0; i < r1; i++)
+        {
+            for (int j = 0; j < c2; j++)
+            {
+                matr3[i][j]=0;
+                for (int k = 0; k < c1; k++)
+                {
+                    matr3[i][j]=matr3[i][j]+ matr1[i][k]*matr2[k][j];
+                }
+            }  
+        }
+
+step 1: i=0
+        0<2 true
+        j=0
+        0<4 true
+        matr3[0][0] = 0
+        k=0 
+        0 < 3 true
+
+        matr3[0][0]=matr3[0][0]+ matr1[0][0]*matr2[0][0]
+        matr3[0][0]= 0 + 1 * 1  => 1
+
+        k=1
+        1<3 true
+        
+        matr3[0][0]=matr3[0][0]+ matr1[0][1]*matr2[1][0]
+        matr3[0][0]=  1 + 2 * 3 => 7 
+
+        k=2
+        2<3 true
+            
+        matr3[0][0]=matr3[0][0]+ matr1[0][2]*matr2[2][0]
+        matr3[0][0]=   7 + 3*5 =>22
+
+        k=3
+        3<3 false
+
+        j=1
+        1<4 true
+
+        k=0
+

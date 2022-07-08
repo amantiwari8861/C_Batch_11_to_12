@@ -13,6 +13,9 @@ int main()
     printf("enter the row and column of second matrix \n");
     scanf("%d%d",&r2,&c2);
 
+    // 2*3  X 4*3  = not possible
+    // 2*3 x 3*4  = possible (resultant matrix dimensions will be 2*4)
+
     if(c1==r2)
     {
         printf("Multiplication is possible \n");
@@ -35,7 +38,7 @@ int main()
             }
         }
         //------------------------------------------------
-        //logic   let r1,c1,r2,c2= 2
+        //logic  let r1=2,r2=3,c1=3,c2=4
         for (int i = 0; i < r1; i++)
         {
             for (int j = 0; j < c2; j++)

@@ -15,7 +15,7 @@ int main()
     {
         for(int j=0;j<3;j++)
         {
-            printf(" %d \t",matr[i][j]);
+            printf("\t %d",matr[i][j]);
         }
         printf("\n");
     }

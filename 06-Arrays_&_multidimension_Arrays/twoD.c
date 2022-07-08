@@ -2,9 +2,15 @@
 int main()
 {
         // int covidCases[2][3];//2 country 3 state
-        int covidCases[][3]={
+        int covidCases[2][3]={
             {10,20,30},{40,50,60}
         };
+
+            int cases[28][2];
+
+        // int covidCases[][3]={
+        //     {10,20,30},{40,50,60}
+        // };
         
 
     // for (int i = 0; i < 2; i++)
