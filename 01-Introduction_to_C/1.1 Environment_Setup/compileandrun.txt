@@ -25,14 +25,15 @@ features of c
 4. it is a procedural language
 5. it is a structured language
 
-https://jmeubank.github.io/tdm-gcc/download/
 https://github.com/jmeubank/tdm-gcc/releases/download/v10.3.0-tdm64-2/tdm64-gcc-10.3.0-2.exe
 
 step 1: open the exe file
 step 2: install the exe file by clicking 
         create then next next install
 
-        
+https://code.visualstudio.com/sha/download?build=stable&os=win32-x64
+
+download vs code and install it 
 
 
 
