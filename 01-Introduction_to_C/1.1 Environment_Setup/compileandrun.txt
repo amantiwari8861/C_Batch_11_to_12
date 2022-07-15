@@ -11,7 +11,7 @@ they works on bits and binaries(machine code (01010101))
 Machine dependent language
 
 C & C++ are mid level language
-machine dependent language
+machine independent language
 
 High level language
 eg. java,python,C# and etc
@@ -34,6 +34,8 @@ step 2: install the exe file by clicking
 https://code.visualstudio.com/sha/download?build=stable&os=win32-x64
 
 download vs code and install it 
+tick all the options
+after installation click on mark done
 
 
 

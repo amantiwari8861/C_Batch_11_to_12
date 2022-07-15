@@ -1,4 +1,9 @@
 window key + R = run dialog box
+type notepad in run dialog box
+write code in file
+then save it with filename.c on desktop ( .c file extension is compulsory )
+
+window key + R = run dialog box
 type cmd in run and press enter
 this will open ur command prompt
 by default command prompt opens from 
@@ -6,15 +11,28 @@ C:\Users\username>  username means ur pc's username
 
 this path is telling we are in c drive and in c drive
 we r in users folder and in users folder we are in 
-pc folder.
+pc's username folder.
+
+then check is gcc installed ?
+gcc --version =>  to check the gcc compiler version 
+then enter compile
+gcc filename.c  => to compile the C source file
+the enter to run
+.\a  => to run the output file
+Boom!!! ur Program will Run Successfully ! 
+(if there is no syntax error)
+
+
+
+
+
+
+
+
+
 
 dir => to check available folders in current folder
 cd  => change directory(to go into the folder)
 eg. cd desktop
-type nul >hello.txt => to create a empty file
-
-gcc --version =>  to check the gcc compiler version 
-gcc filename.c  => to compile the C source file
-.\a  => to run the output file
-
+type nul >hello.c=> to create a empty C file
 cd.. to go one step back in folder.

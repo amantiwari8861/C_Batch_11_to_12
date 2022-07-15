@@ -1,12 +1,8 @@
 #include<stdio.h>
-// int add(int,int);
+int add(int,int);
 // int add(int a,int num2);
 //type 4 fxn : with argument and return type
-int add(int a,int num2)
-{
-    printf(" in add fxn  \n");
-    return (a+num2);
-}
+
 int main()
 {
     int a=10,b=20;
@@ -15,5 +11,9 @@ int main()
     printf("the sum is %d in main \n",sum);
     return 0;
 }
-
+int add(int a,int num2)
+{
+    printf(" in add fxn  \n");
+    return (a+num2);
+}
 //h.w make a calculator using switch and function

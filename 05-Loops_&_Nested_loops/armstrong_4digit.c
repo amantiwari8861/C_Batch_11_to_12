@@ -13,7 +13,6 @@ int main()
     int count=0;
     while (num>0) //num destroyed
     { 
-        rem = num%10 ; 
         ++count; //to count the digits
         num=num/10 ;
     }
