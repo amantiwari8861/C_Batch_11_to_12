@@ -12,7 +12,7 @@ int main()
 	// result= (30 > 20 ) && (50 > 30 ); // 1 && 1  -> 1
 	
 	//OR GATE (||)
-	//result= (30 > 20 ) || (50 < 30 ); // 1 || 0  -> 1
+	// result= (30 > 20 ) || (50 < 30 ); // 1 || 0  -> 1
 
 	//NOT GATE (!)
 	// result= !( 10 > 20 ); // !(0) -> 1
@@ -24,10 +24,10 @@ int main()
 	//or
 	sum+=30; //sum =50
 	printf("the sum is %d \n",sum);
-	int multi=6;
+	// int multi=6;
 	// multi = multi*10;  
-	multi *= 10;
-	printf("the multiply is %d \n",multi);
+	// multi *= 10;
+	// printf("the multiply is %d \n",multi);
 
 	return 0;
 }
