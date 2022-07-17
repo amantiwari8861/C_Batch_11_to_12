@@ -10,6 +10,6 @@ int main()
 		fflush(stdin);
 	}
 	//name[i]='\0';			it will store null at last index in array
-	printf("%s",name);
+	printf("u gave :%s ",name);
 	return 0;
 }

@@ -10,6 +10,7 @@ int main()
 	// fflush(stdin);
 	printf("enter the name2\n");
 	fgets(name2,20,stdin);//safe for our program
+//stdin is an pre-defined object of standard input which is used to take input from keyboard
 //fgets is used to read string from many places like file,keyboard,network etc
 	printf("\n\tthe names are :\n");
 	puts(name);
