@@ -12,7 +12,7 @@ int main()
 {
     int num;
     printf("enter the number :");
-    scanf("%d", &num); // 3
+    scanf("%d", &num); // 4
     int result = factorial(num);
     printf("the factorial of %d is %d \n", num, result);
     return 0;

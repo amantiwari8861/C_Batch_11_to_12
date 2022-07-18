@@ -1,7 +1,7 @@
 #include<stdio.h>
-int add(int num,int num2)
+int add(int n1,int n2)
 {
-    return num+num2;
+    return n1+n2;
 }
 int mul(int num,int num2)
 {
@@ -25,6 +25,7 @@ int main()
     scanf("%c",&choice);
     printf("enter 2 input :\n");
     scanf("%d%d",&num,&num2);
+    
     switch(choice)
     {
         case '+':result=add(num,num2);
