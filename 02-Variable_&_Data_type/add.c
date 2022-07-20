@@ -8,7 +8,7 @@ int main()
     c=a+b;
 
     printf(" %d ",c);
-    printf(" \n c ki value %d hai \n",c);
+    printf(" \n c ki value %d hai \n ",c);
     printf("the sum of %d and %d is %d ",a,b,c);
 
     return 0;

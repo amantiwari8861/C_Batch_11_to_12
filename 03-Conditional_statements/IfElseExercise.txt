@@ -163,7 +163,7 @@ Expected Output :
 You have chosen : Average
  
 
-21. Write a program in C to read any day number in integer and display day name in the word. 
+21. Write a program in C to read any day number in integer and display day name of week in word . 
 Test Data :
 4
 Expected Output :

@@ -23,7 +23,7 @@ int main()
     }
     else
     {
-        printf("invalid ! \n");
+        printf("at origin or any line ! \n");
     }
 
 

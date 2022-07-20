@@ -7,7 +7,7 @@
 void inputMatr(int r,int c,int matr[r][c])
 {
     int i,j;
-    printf("enter the elements of matr1 \n");
+    printf("enter the elements of matr \n");
     for(i=0;i<r;i++)
     {
         for(j=0;j<c;j++)
