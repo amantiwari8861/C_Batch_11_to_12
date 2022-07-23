@@ -11,17 +11,17 @@ int main()
         char name[20];
         float fees;
         double marks;
-    }stu1,stu2,stu3={205,"Ritik",10000};
+    }stu1;
+    // }stu1,stu2,stu3={203,"Ipshita",10000};
     //2 variables of data type struct Student //1st approach
 
-    // stu1.id=102;
-    // stu1.name="Neha"; //it will give error
-    // stu1.name={"Neha"}; //it will give error
-    // stu1.name[]={"Neha"}; //it will give error
-    // strcpy(stu1.name,"Yashvi");
+    // stu1.id=102;//pre-defined
+    // stu1.name="AMan"; //it will give error
+    // stu1.name={"AMan"}; //it will give error
+    // stu1.name[]={"AMan"}; //it will give error
+    // strcpy(stu1.name,"Aman");//pre-defined
     // printf("enter the name : ");
-    // scanf("%[^\n]s",&stu1.name);// %s is string's format specifier(it will take input until space is not met)
-    //// and %[^\n]s is also a string's format specifier(it will take the string including space also)
+    // scanf("%[^\n]s",&stu1.name);
     // printf("enter the fees : ");
     // scanf("%f",&stu1.fees);
     // printf("the id is %d and name is %s and fees is %f \n",stu1.id,stu1.name,stu1.fees);

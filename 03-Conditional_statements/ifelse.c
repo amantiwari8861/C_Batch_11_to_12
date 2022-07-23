@@ -87,7 +87,7 @@ int main()
         else
         {
             printf("chai becho\n");
-        } 
+        }  
 
     return 0; 
 }

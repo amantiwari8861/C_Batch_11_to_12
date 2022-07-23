@@ -20,11 +20,16 @@ int main()
         num--;  //decrement num =10
     */
 
-//    int a;
-//    for(a=1; a<=10 ;a++)
+//    for ( ; ; ) //infinite for loop
 //    {
-//         printf(" hello Aman \n");
+//         printf("hello \n");
 //    }
+
+   int a;
+   for(a=1; a<=10 ;a++)
+   {
+        printf(" hello Aman %d \n",a);
+   }
 
     /*  psuedocode (Dry run)
 
@@ -46,9 +51,9 @@ int main()
                 loop terminate.
     */
 
-   int times;
-   printf(" enter no. of times :");
-   scanf("%d",&times); //10
+//    int times;
+//    printf(" enter no. of times :");
+//    scanf("%d",&times); //10
 
 
 //    int j;
@@ -56,11 +61,11 @@ int main()
 //    {
 //         printf(" j = %d \n",j);
 //    }
-   int i;
-   for (i = times; i >0 ; i--)
-   {
-        printf(" i = %d \n",i);
-   }
+//    int i;
+//    for (i = times; i >0 ; i--)
+//    {
+//         printf(" i = %d \n",i);
+//    }
    
     return 0;
 }

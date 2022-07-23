@@ -23,9 +23,10 @@ int main()
         printf("enter the fees of %dth student : ",i+1);
         scanf("%f",&stu[i].fees);
     }
+    printf("\n\n\t\tTotal Student Details :\n");
     for (int i = 0; i < size; i++)
     {        
-        printf("\n ------------------------------------------  \n");
+        printf("------------------------------------------\n");
         printf("the id is %d and name is %s and fees is %0.2f \n",stu[i].id,stu[i].name,stu[i].fees);
     }
     return 0;

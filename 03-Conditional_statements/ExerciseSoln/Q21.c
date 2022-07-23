@@ -4,8 +4,8 @@ int main()
     int day_number;
     printf(" enter the day number :");
     scanf("%d",&day_number);
-
-   /*  if (day_number==1)
+/* 
+    if (day_number==1)
     {
         printf("Monday ");
     }
@@ -39,7 +39,7 @@ int main()
     } */
     
 
-   switch(day_number)
+  switch(day_number)
     {
         case 1:
                 printf("Monday ");
@@ -66,9 +66,5 @@ int main()
                 printf("invalid day number");
                 break;
     } 
-
-
-    
-
     return 0;
 }

@@ -4,6 +4,7 @@ int main()
     char name[100];
     printf("enter the name\n");
     scanf("%[^\n]s",name);
+    
     int count;
     // for(count=0;name[count] != '\0';count++);
 

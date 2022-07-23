@@ -14,8 +14,8 @@ int main()
 // void swap(int num1,int num2) //call by value
 void swap(int *num1,int *num2)
 {
-    printf("num1 =%d at address %d \n",*num1,num1);
-    printf("num2 =%d at address %d \n",*num2,num2);
+    // printf("num1 =%d at address %d \n",*num1,num1);
+    // printf("num2 =%d at address %d \n",*num2,num2);
     int c;
     c=*num1; // c= *num1(value at address num1) //c=10
     *num1=*num2; //*num1=20

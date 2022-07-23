@@ -11,7 +11,6 @@ int main()
 	result= (4.0/3.0)*pi*radius*radius*radius; //65.42
 
 	printf("the volume of sphere is %f \n",result);
-	
 	printf("the volume of sphere is %0.2f \n",result);
 	return 0;
 }

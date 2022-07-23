@@ -28,12 +28,12 @@ int main()
     } 
 
 
-    printf(" %f ",sqrt(625));
-    float n1=sqrt(144);
-    printf(" %f ",n1);
+    // printf(" %f ",sqrt(625));
+    // float n1=sqrt(144);
+    // printf(" %f ",n1);
 
-    float n2=pow(5,3);
-    printf("%f",n2);
+    // float n2=pow(5,3);
+    // printf("%f",n2);
 
 
     return 0;
