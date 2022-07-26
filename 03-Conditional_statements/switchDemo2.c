@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+    //switch is faster than else if bcz it works on hashing mechanism
     char operation;
     printf("Enter the operation: ");
     scanf("%c", &operation);

@@ -22,6 +22,7 @@ int main()
         case 7: printf("SUNDAY \n");
         break;
         default: printf("invalid day ! \n");
+        break;
     }
     return 0;
 }
