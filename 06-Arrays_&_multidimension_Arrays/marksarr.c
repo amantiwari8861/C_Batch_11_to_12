@@ -1,22 +1,22 @@
 #include<stdio.h>
 int main()
 {
-    int n;
+    int subjects;
     printf("enter the no. of subjects :");
-    scanf("%d",&n);
+    scanf("%d",&subjects);
 
-    float marks[n],total=0;
-    printf(" enter %d subjects marks \n",n);
+    float marks[subjects],total=0;
+    printf(" enter %d subjects marks \n",subjects);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < subjects; i++)
     {
         scanf("%f",&marks[i]);
     }
     //----------------------------logic------------
-    for (int j = 0; j < n; j++)
+    for (int j = 0; j < subjects; j++)
     {
         total=total+marks[j];
     }
-    printf(" your percentage is %0.2f %% \n",total/n);
+    printf(" your percentage is %0.2f %% \n",total/subjects);
     return 0;
 }

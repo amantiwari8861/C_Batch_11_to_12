@@ -11,7 +11,7 @@ int main()
     
     // 56 67 34 23 45 12 89 23 67 60
     printf("enter the element to find out from array \n");
-    scanf("%d", &find);
+    scanf("%d", &find);//12///
 
     for (int i = 0; i < 10; i++)
     {

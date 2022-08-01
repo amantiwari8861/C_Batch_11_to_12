@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
      for (int i = 1; i <= 10; i++)
@@ -16,6 +15,9 @@ int main()
         // printf("%2d X%2d = %2d ", 10, i, 10 * i);
         printf("\n");
     } 
+
+
+    
     // int num;
     // printf("Enter a number: ");
     // scanf("%d", &num);
