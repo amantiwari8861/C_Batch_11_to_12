@@ -16,18 +16,19 @@ int main()
 
 	//NOT GATE (!)
 	// result= !( 10 > 20 ); // !(0) -> 1
-	// printf("the result is %d \n",result);
+	// printf("the result is %d \n",result); 
 
 	//c.assignment operators ->    = , += ,-= , *= ,/=,%= etc.
-	int sum=20;
-	// sum=sum+30; 
-	//or
-	sum+=30; //sum =50
-	printf("the sum is %d \n",sum);
-	// int multi=6;
+	// int num=20;
+	// // num=num+30; 
+	// //or
+	// num+=30; //num =50
+	// printf("the num is %d \n",num);
+
+	int multi=6;
 	// multi = multi*10;  
-	// multi *= 10;
-	// printf("the multiply is %d \n",multi);
+	multi *= 10;
+	printf("the multiply is %d \n",multi);
 
 	return 0;
 }

@@ -11,6 +11,7 @@ int main()
             scanf("%d",&matr[i][j]);
         }
     }
+    printf("the entered matrix is :\n");
     for(int i=0;i<2;i++)
     {
         for(int j=0;j<3;j++)
@@ -21,3 +22,4 @@ int main()
     }
     return 0;
 }
+//sub 4

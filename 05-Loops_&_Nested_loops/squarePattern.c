@@ -2,11 +2,11 @@
 int main()
 {
     
-    for (int i = 1; i <= 8; i++)
+    for (int i = 1; i <= 5; i++)
     {
-        for (int j = 1; j <= 6; j++)
+        for (int j = 1; j <= 4; j++)
         {
-            printf("i=%d j=%d   ",i,j);
+            printf("*");
         }
         printf("\n");   
     }

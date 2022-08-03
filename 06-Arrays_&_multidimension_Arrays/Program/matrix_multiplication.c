@@ -23,14 +23,8 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-            matr3[i][j]=0;
-            for (int k = 0; k < 3; k++)
-            {
-                matr3[i][j]=matr3[i][j]+matr1[i][k]*matr2[k][j];
-            }
-            
+            matr3[i][j]=matr1[i][j]+matr2[i][j];   
         }
-        
     }
     printf(" the resultant matrix is \n");
     for (int i = 0; i < 3; i++)
