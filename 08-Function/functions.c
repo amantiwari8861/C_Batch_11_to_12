@@ -15,12 +15,11 @@ int main(/*parameters*/)
     // float result=log2(2);
     // float result=sin(90);//0.89 value given in radian
     //  result=sinh(0.5);
-    float result=floor(3.999);//3  downward rounding
-    // float result=ceil(3.000001);//4 upward rounding
-    // printf("the power is %d \n",result);
+    int result=floor(3.999);//3  downward rounding
+    // int result=ceil(3.2);//4 upward rounding
+    printf("the power is %d \n",result);
     // printf("the square root is %d \n",result);
-    printf("the result is %0.2f \n",result);
-    //34.56784747 --> 34.57
+    // printf("the result is %0.2f \n",result);
     return 0;
 }
 //reusability of code
