@@ -9,20 +9,20 @@ int main(/*parameters*/)
 
     // int num=5;
     // int result=pow(num,4);//625
-    // int result=sqrt(625);//25
-    // float result=log(2);//0.69
+    // float result=sqrt(512);//25
+    float result=log(2);//0.69
     // float result=log10(2);
     // float result=log2(2);
     // float result=sin(90);//0.89 value given in radian
     //  result=sinh(0.5);
-    int result=floor(3.999);//3  downward rounding
-    // int result=ceil(3.2);//4 upward rounding
-    printf("the power is %d \n",result);
-    // printf("the square root is %d \n",result);
-    // printf("the result is %0.2f \n",result);
+    // float result=floor(3.999);//3  downward rounding
+    // float result=ceil(3.2);//4 upward rounding
+    // printf("the power is %d \n",result);
+    // printf("the square root is %f \n",result);
+    printf("the result is %0.2f \n",result);
     return 0;
 }
 //reusability of code
 //modularity (independent to each other)
 //increase readibility
-//decreases time and complexity
+//decreases complexity
