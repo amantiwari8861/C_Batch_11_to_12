@@ -21,7 +21,7 @@ int main()
 {
     char choice;
     int num,num2,result=0;
-    printf("enter the opeation :\n");
+    printf("enter the operation :\n");
     scanf("%c",&choice);
     printf("enter 2 input :\n");
     scanf("%d%d",&num,&num2);

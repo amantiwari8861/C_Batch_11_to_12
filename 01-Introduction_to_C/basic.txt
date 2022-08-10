@@ -7,6 +7,7 @@ every software's base is programming language
 how many types of programming languages ?
 1.low level :which works on binary(0101) ,registors and pointers etc.
 	eg. cobol,pascal,fortan,Assembly etc.
+	 
 	registors like (ax,bx etc) lies in RAM(Random access memory)
 2.mid level : it has the features of low level programming language 
 	as well as high level programming language.
@@ -31,14 +32,4 @@ In this era where is C is being used ?
 3.most of the compilers & virtual machines. eg. jvm (java virtual machine)
 4.android & linux kernals(it a type of mediater by which out application interacts with hardware)
 eg. android kernal,linux kernal.
-
-
-
-
-
-
-
-
-
-
 

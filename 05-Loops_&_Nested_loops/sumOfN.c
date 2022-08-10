@@ -2,15 +2,13 @@
 int main()
 {
     //10 => 1+2+3+......+10 = 55
-    int num,sum=0;
-    printf("enter the number :");
-    scanf("%d",&num);//assume num=10
+    int sum=0,i;
     
-    for (int i = 1; i <= num; i++)
+    for ( i = 1; i <= 10; i++)
     {
        sum=sum+i; 
     }
-    printf("the sum till %d is %d \n",num,sum);
+    printf("the sum till %d is %d \n",10,sum);
     return 0;
 }
 
