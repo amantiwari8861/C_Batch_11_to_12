@@ -9,7 +9,7 @@ int main()
   // if (ch >= 'A' && ch <= 'Z')
   if (ch >= 65 && ch <= 90)
   {
-    printf("CAPITAL ALPHABET !\n");
+    printf("CAPITAL ALPHABET \n");
   }
   else if (ch >= 97 && ch <= 122)
   {
