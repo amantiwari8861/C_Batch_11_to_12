@@ -14,6 +14,5 @@ int main()
 void add(int a,int num2)//variable name may be same or different
 {
     int sum=a+num2;
-
     printf("the sum is %d in add fxn \n",sum);
 }
