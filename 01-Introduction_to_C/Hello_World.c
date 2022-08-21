@@ -8,9 +8,3 @@ int main()  //starting point of a program
 	return 0;//ending point of a program 
 	printf("hello world 2!"); //will not execute
 }//closing of main function body
-//single line comment 
-/*
-	multiple
-	line
-	comment
-*/

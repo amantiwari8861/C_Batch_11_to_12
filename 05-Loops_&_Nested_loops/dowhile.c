@@ -2,7 +2,7 @@
 int main()
 {
     //case 1:
-   /*  int num=1;
+    /*int num=1;
     do
     {
         printf(" %d \n",num);

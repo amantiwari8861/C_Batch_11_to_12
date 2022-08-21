@@ -4,13 +4,13 @@ int main()
     //conditional statements :if ,if else ,else if ,nested if,switch
 
     // syntax of if :   if(condition){  statements  }
-    int age;
-    printf("enter ur age :");
-    scanf("%d",&age);
-    if( age >= 18 ) //true block
-    {
-        printf("you are ready to vote \n");
-    }
+    // int age;
+    // printf("enter ur age :");
+    // scanf("%d",&age);
+    // if( age >= 18 ) //true block
+    // {
+    //     printf("you are ready to vote \n");
+    // }
     // ---------------------------------------------------------
     // if-else syntax: if(condition){ statements }else{ statements  }
 
@@ -62,7 +62,7 @@ int main()
     //     }  
 
         //Nested If
-/* 
+
     float marks;
     printf("enter ur marks :");
     scanf("%f",&marks);
@@ -87,7 +87,7 @@ int main()
         else
         {
             printf("chai becho\n");
-        }   */
+        }   
 
     return 0; 
 }

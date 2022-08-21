@@ -2,7 +2,6 @@
 int add(int,int);
 // int add(int a,int num2);
 //type 4 fxn : with argument and return type
-
 int main()
 {
     int a=10,b=20;

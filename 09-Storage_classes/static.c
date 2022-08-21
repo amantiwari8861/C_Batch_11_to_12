@@ -2,7 +2,7 @@
 void Show()
 {
     int a=0;
-    static int b=4;
+    static int b=0;
     printf("the value of a =%d and b=%d \n",++a,++b);
 }
 int main()

@@ -1,12 +1,5 @@
 #include<stdio.h>
-void counting(int a)
-{
-    if (a<=10)
-    {    
-        printf("in add function at %d \n",a);
-        counting(a+1); 
-    }
-}
+void counting(int);
 int main()
 {
     int a=1;
@@ -15,5 +8,12 @@ int main()
     printf("after counting function \n");
     return 0;
 }
-
+void counting(int a)
+{
+    if (a<=10)
+    {    
+        printf("in add function at %d \n",a);
+        counting(a+1); 
+    }
+}
 //h.w psuedocode,reverse counting by recursion

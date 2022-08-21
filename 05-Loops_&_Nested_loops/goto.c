@@ -6,7 +6,7 @@ void main()
         printf("the value of i is %d before \n",i);
         if (i==6)
         {
-            printf("going to skip label\n");
+            printf("going to label aman\n");
             goto aman;
         }
         printf("the value of i is %d after \n",i);

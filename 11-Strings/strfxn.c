@@ -12,7 +12,9 @@ int main()
     // char name[30];
     // strcpy(name,arr);
     // printf("the copied value is %s \n",name);
+    // char surname[]=" tiwari 2.0";
     // strcat(name," tiwari");
+    // strcat(name,surname);
     // printf("the updated name is %s \n",name);
     // printf("my name in lowercase %s \n",strlwr(name));
     // printf("my name in uppercase %s \n",strupr(name));

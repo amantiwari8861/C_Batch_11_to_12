@@ -7,7 +7,7 @@ int main()
 	for(i=0;i<11;i++)
 	{
 		scanf("%c",&name[i]);
-		fflush(stdin);
+		// fflush(stdin);
 	}
 	//name[i]='\0';			it will store null at last index in array
 	printf("u gave :%s ",name);

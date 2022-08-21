@@ -8,6 +8,7 @@ int main()
     printf("4.Exit Game\n");
     printf("Enter your choice: ");
     scanf("%d", &choice);
+
     switch(choice)
     {
         case 1:printf("Starting the Game\n");
@@ -19,6 +20,7 @@ int main()
         case 4:printf("Exiting Game\n");
         break;
         default:printf("Invalid Choice\n");
+        break;
     }
     return 0;
 }
