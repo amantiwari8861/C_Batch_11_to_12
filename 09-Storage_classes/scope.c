@@ -1,9 +1,11 @@
 #include<stdio.h>
 void fxn();
-int modi=80;//global variable
+
+int modi=56;//global variable
 int main()
 {
-    int a=50;//local variable
+    // int a=50;//local variable
+    auto int a=50;//local variable
     printf(" in fxn main value of a =%d \n",a);
     fxn();
     printf(" in main value of modi =%d \n",modi);

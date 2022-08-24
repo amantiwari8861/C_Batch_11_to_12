@@ -19,7 +19,7 @@ int main()
         {
             printf("found at position %d \n", i);
             found = 1;
-        }            
+        }                   
     }
     // if (!found)
     if (found == 0)

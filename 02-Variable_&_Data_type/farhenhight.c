@@ -6,7 +6,7 @@ int main()
     printf("enter celcius :");
     scanf("%f",&c);
 
-    f=(9.0/5.0)*c +32 ;
+    f=9.0/5.0*c +32 ;
 
     printf(" %f farenheight \n",f);
 

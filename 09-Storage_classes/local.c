@@ -5,7 +5,7 @@ int modi=200; //global variable or external variable
 void fxn()
 {
     // int num5;
-    // printf("the value of num is %d \n",num); //error
+    printf("the value of num is %d \n",num); //error
     printf("the value of modi in fxn is %d \n",modi);
 }
 int main()
