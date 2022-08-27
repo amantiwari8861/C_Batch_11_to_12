@@ -7,19 +7,15 @@ int main()
     //3. ternary operators : in which three operands are required
 
     //1. unary operators : ++ (increment) , --  (decrement)
-    int num;
-    printf("enter the value of num :");
-    scanf("%d",&num);// let num=10
+    int num=10;
+    num=num+1;
+    // num++;
 
-    // printf(" num = %d \n",num);//num = 10
-    // num=num+1; //num=10+1 =11
-    // printf(" num = %d after num+1 \n",num);//11
-    num++;// 12
-    // num++; or num=num+1; is same
-    printf(" num = %d after num++\n",num);//12
-    num--; 
-    num--; 
-    // num-- or num=num-1; is same
-    printf(" num = %d after num-- \n",num);//11
+    printf(" num= %d \n",num);
+
+    int num2=50;
+    num2--;
+    printf(" num2 = %d \n",num2);
+
     return 0;
 }

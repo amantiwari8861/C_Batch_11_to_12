@@ -5,7 +5,7 @@ int main()
 		//b.logical operators :  && (AND) , || (or) , ! (not )
 	//true = 1 and false = 0 
 	
-	// int result;
+	int result;
 	// AND GATE (&&)
 	// result= (10 > 20 ) && (20 < 30 ); // 0 && 1  -> 0
 	// result= (30 > 20 ) && (50 < 30 ); // 1 && 0  -> 0
