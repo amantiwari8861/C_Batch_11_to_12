@@ -12,7 +12,7 @@ int main()
     int *ptr;
     ptr=&num;
 
-    printf("value in ptr = %d \n",ptr);  
+    printf("value in ptr = %d \n",ptr);
     printf("value at address in ptr = %d \n",*ptr);  
     // * means value at address
     

@@ -7,8 +7,8 @@ int main()
 
     if (marks >=90 && marks<=100)
     {
-        printf("u got admission in amity \n");
-
+        printf("u got admission in du \n");
+        
         if (marks>=97)
         {
             printf(" u got CS branch\n");
@@ -28,7 +28,7 @@ int main()
     }
     else if (marks>=50 && marks<90)
     {
-        printf("du");
+        printf("amity");
     }
     else
     {

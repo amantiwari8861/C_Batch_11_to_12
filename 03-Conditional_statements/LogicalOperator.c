@@ -3,22 +3,22 @@
 int main()
 {
     //&& || !
-    // int marks;
-    // printf("enter ur marks :");
-    // scanf("%d",&marks);
+    int marks;
+    printf("enter ur marks :");
+    scanf("%d",&marks);
 
-    // if (marks>=90)
+    // if (marks>=80)
     // {
     //     printf("A grade !");
     // }
     
 
     
-    /*if(marks>=80 || marks<=100)
-    {
-        printf("A grade !"); 
-    }
-    case 1: marks=45
+    // if(marks>=80 || marks<=100)
+    // {
+    //     printf("A grade !"); 
+    // }
+    /*case 1: marks=45
     45>=80  || 45<=100
      0 || 1
     1
@@ -32,10 +32,10 @@ int main()
     1
     */
 
-    // if(marks>=80 && marks<=100)
-    // {
-    //     printf("A grade !"); 
-    // }
+    if(marks>=80 && marks<=100)
+    {
+        printf("A grade !"); 
+    }
     /*
     case 1: marks=45
     45>=80  && 45<=100
@@ -59,21 +59,5 @@ int main()
     //  !( 85>=80 && 85<=100)  ==> 0
     //  !( 45>=80 && 45<=100)  ==> 1
 
-    float weather;
-    printf("enter wheteher chance :");
-    scanf("%f",&weather);
-
-    if (weather == 0)
-    {
-        printf(" no chance !");
-    }
-    else if(weather == 1)
-    {
-        printf(" full chance !");
-    }
-    else
-    {
-        printf(" 50 percent chance \n");
-    }
     return 0;
 }

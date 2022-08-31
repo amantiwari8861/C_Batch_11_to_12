@@ -7,6 +7,7 @@ int main()
     // int age;
     // printf("enter ur age :");
     // scanf("%d",&age);
+    
     // if( age >= 18 ) //true block
     // {
     //     printf("you are ready to vote \n");
@@ -63,7 +64,7 @@ int main()
 
         //Nested If
 
-    float marks;
+     float marks;
     printf("enter ur marks :");
     scanf("%f",&marks);
 
@@ -87,7 +88,7 @@ int main()
         else
         {
             printf("chai becho\n");
-        }   
+        }    
 
     return 0; 
 }

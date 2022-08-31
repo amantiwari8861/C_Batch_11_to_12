@@ -4,7 +4,7 @@ int main()
 {
 	FILE *fptr;	//why we need file handling ?
 	char ch;
-	fptr=fopen("C:/Users/Aman_Tiwari/Desktop/hello1.txt","r");//OPEN FILE IN READING MODE 
+	fptr=fopen("C:/Users/Aman_Tiwari/Desktop/abhinav.txt","r");//OPEN FILE IN READING MODE 
 	if(fptr==NULL)
 	{
 		printf("Error! unable to open file");

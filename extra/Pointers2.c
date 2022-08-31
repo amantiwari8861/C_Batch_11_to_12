@@ -1,6 +1,5 @@
 #include<stdio.h>
 void change(int*);
-
 int main()
 {
     int num;
@@ -12,7 +11,6 @@ int main()
     printf(" num =%d in main fxn\n",num);
     return 0;
 }
-
 void change( int *num)
 {
     *num=80;
