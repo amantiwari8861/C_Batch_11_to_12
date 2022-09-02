@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     // Every year that is exactly divisible by four is a leap year, except 

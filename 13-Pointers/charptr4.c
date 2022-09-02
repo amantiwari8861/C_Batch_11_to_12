@@ -18,11 +18,11 @@ char name[3][20] = {
     "chris",
     "Deniel"
 };
-In the second approach memory wastage is more,
+/* In the second approach memory wastage is more,
  hence it is prefered to use pointer in such cases.
 When we say memory wastage, it doesn't
  means that the strings will start occupying less space, 
  no, characters will take the same space, but when 
  we define array of characters, a contiguos memory space is
 located equal to the maximum size of the array,which is a 
-wastage, which can be avoided if we use pointers instead.
+wastage, which can be avoided if we use pointers instead. */

@@ -18,35 +18,39 @@ int main()
     // printf(" address in pointer array (ptrarray2) is %d \n",ptrarray2);
     // printf(" value at address in pointer array (ptrarray2) is %d \n",*ptrarray2);
 
-    // int *arr;
+    int *arr;
+    printf("enter the value in array :");
+    scanf("%d",arr);
+    // scanf("%d",(arr+0));
     // *(arr+0)=10;
-    // *(arr+1)=20;
-    // *(arr+2)=30;
-    // *(arr+3)=40;
+    *(arr+1)=20;
+    *(arr+2)=30;
+    *(arr+3)=40;
 
-    // for (int i = 0; i < 4; i++)
-    // {
-    //     printf("the value in arr[%d] is : %d \n",i,*(arr+i));
-    // }
-    // C program to print the elements of 3-D
+    for (int i = 0; i < 4; i++)
+    {
+        printf("the value in arr[%d] is : %d \n",i,*(arr+i));
+    }
+
+    // C program to print the elements of 2-D
     // array using pointer notation
-        // int arr2[2][3] = {{1, 2, 3}, {5, 7, 8}};
-        int (*arr)[3];
-        *(*(arr+0)+0)=10;
-        *(*(arr+0)+1)=20;
-        *(*(arr+0)+2)=30;
-        *(*(arr+1)+0)=40;
-        *(*(arr+1)+1)=50;
-        *(*(arr+1)+2)=60;
-        int i, j, k;
-        for (i = 0; i < 2; i++)
-        {
-            for (j = 0; j < 3; j++)
-            {
-                // printf("%d (%d)\t",*(*(arr2 + i)+j),(*(arr2 + i)+j)); //in case of array
-                printf("%d (%d)\t",*(*(arr + i)+j),(*(arr + i)+j)); //in case of pointer
-            }
-            printf("\n");
-        }
+    // int arr2[2][3] = {{1, 2, 3}, {5, 7, 8}};
+    // int (*arr)[3];
+    // *(*(arr+0)+0)=10;
+    // *(*(arr+0)+1)=20;
+    // *(*(arr+0)+2)=30;
+    // *(*(arr+1)+0)=40;
+    // *(*(arr+1)+1)=50;
+    // *(*(arr+1)+2)=60;
+    // int i, j, k;
+    // for (i = 0; i < 2; i++)
+    // {
+    //     for (j = 0; j < 3; j++)
+    //     {
+    //         // printf("%d (%d)\t",*(*(arr2 + i)+j),(*(arr2 + i)+j)); //in case of array
+    //         printf("%d (%d)\t",*(*(arr + i)+j),(*(arr + i)+j)); //in case of pointer
+    //     }
+    //     printf("\n");
+    // }
     return 0;
 }
