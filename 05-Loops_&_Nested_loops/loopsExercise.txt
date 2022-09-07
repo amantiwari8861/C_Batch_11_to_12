@@ -1,6 +1,6 @@
-1. Write a program in C to display the first 10 natural numbers.  
+1. Write a program in C to display the first 100 natural numbers.  
 Expected Output :
-1 2 3 4 5 6 7 8 9 10
+1 2 3 4 5 6 7 8 9 10 . . .
  
 2. Write a C program to find the sum of first 10 natural numbers.  
 Expected Output :

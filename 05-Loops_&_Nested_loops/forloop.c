@@ -21,7 +21,7 @@ int main()
     printf("enter the no. of times u want to print ur name : ");
     scanf("%d",&num);//let  num = 10
 
-    // for(a=2;a<=num;a++)
+    // for(a=1;a<=num;a++)
     // {
     //     printf("%d. my name is aman\n",a);
     // }

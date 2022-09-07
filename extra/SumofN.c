@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main()
 {
-        // 10 => 1+2+3+......+10 = 55
-        int sum = 0, i;
-
-        for (i = 1; i <= 10; i++)
-        {
-                printf(" %d ", i);
-                sum = sum + i;
-        }
-        printf("\nthe sum till %d is %d \n", 10, sum);
-        return 0;
+    int sum = 0, i,num;
+    printf("enter num:");
+    scanf("%d",&num);
+    for (i = 1; i <= num; i++)
+    {
+        printf(" %d ", i);
+        sum = sum + i;
+    }
+    printf("\nthe sum till %d is %d \n", num, sum);
+    return 0;
 }
 
 /*

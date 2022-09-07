@@ -41,30 +41,30 @@ int main()
             statements
         }
     */
-    // float marks;
-    // printf("enter ur marks :");
-    // scanf("%f",&marks);
+    /* float marks;
+    printf("enter ur marks :");
+    scanf("%f",&marks);
 
-    //     if(marks>=60)
-    //     {
-    //         printf("first division pass!\n");
-    //     }
-    //     else if(marks>=50)
-    //     {
-    //         printf("2nd division!\n");
-    //     }
-    //     else if(marks>=33)
-    //     {
-    //         printf("3rd division!\n");
-    //     }
-    //     else
-    //     {
-    //         printf("chai becho\n");
-    //     }  
+        if(marks>=60)
+        {
+            printf("first division pass!\n");
+        }
+        else if(marks>=50)
+        {
+            printf("2nd division!\n");
+        }
+        else if(marks>=33)
+        {
+            printf("3rd division!\n");
+        }
+        else
+        {
+            printf("chai becho\n");
+        }   */
 
         //Nested If
 
-     float marks;
+    float marks;
     printf("enter ur marks :");
     scanf("%f",&marks);
 
@@ -88,7 +88,7 @@ int main()
         else
         {
             printf("chai becho\n");
-        }    
+        }  
 
     return 0; 
 }
