@@ -5,7 +5,7 @@
 <hr>
 <h1 align="center"><i>C Programming Language</i></h1>
 
-- Introduction To C
+- [Introduction To C](#01-Introduction_to_c)
 - Variables and Date Type
 - Conditional Statements
 - Type Casting & ASCII
