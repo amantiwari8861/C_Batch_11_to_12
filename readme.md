@@ -5,24 +5,24 @@
 <hr>
 <h1 align="center"><i>C Programming Language</i></h1>
 
-- [Introduction To C](https://github.com/amantiwari8861/C_Batch_11_to_12/tree/master/01-Introduction_to_C)
+- [Introduction To C](/01-Introduction_to_C)
 - [Variables and Date Type](/02-Variable_&_Data_type)
-- Conditional Statements
-- Type Casting & ASCII
-- Loops & Nested Loops (Pattern Also)
-- Array & Multidimension Arrays
-- Course - Mid Practie &   Imp. Questions
-- Storage Classes
-- Functions 
-- Recursion
-- String Handling
-- Structure & Union
-- Pointers
-- File Handling 
-- Important Questions
-- Dynamic Memory Allocation
-- Extra Topics 
-- Solutions
+- [Conditional Statements](/03-Conditional_statements/)
+- [Type Casting & ASCII](/04-Type_casting_%26_ASCII/)
+- [Loops & Nested Loops (Pattern Also)](/05-Loops_%26_Nested_loops/)
+- [Array & Multidimension Arrays](/06-Arrays_%26_multidimension_Arrays/)
+- [Course - Mid Practie &   Imp. Questions](/07-Course_mid_practice_%26_Importent_question/)
+- [Storage Classes](/09-Storage_classes/)
+- [Functions ](/08-Function/)
+- [Recursion](/10-Recursion/)
+- [String Handling](/11-Strings/)
+- [Structure & Union](/12-Structure_%26_Union/)
+- [Pointers](/13-Pointers/)
+- [File Handling](/14-File_handling/) 
+- [Important Questions](/15-Important_Questions/)
+- [Dynamic Memory Allocation](/17-Extra_Topics/16-Dynamic_memory_Allocation/)
+- [Extra Topics ](/17-Extra_Topics/)
+- [Solutions](/18-Solution/)
 
 ### Hey dude! Help me out for a couple of ☕!
 Paytm(+919891062743)     UPI(9891062743@paytm)
