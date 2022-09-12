@@ -1,0 +1,686 @@
+1. Who is the father of C language?
+a) Steve Jobs
+b) James Gosling
+c) Dennis Ritchie
+d) Rasmus Lerdorf
+ 
+
+2. Which of the following is not a valid C variable name?
+a) int number;
+b) float rate;
+c) int variable_count;
+d) int $main;
+ 
+
+3. All keywords in C are in ____________
+a) LowerCase letters
+b) UpperCase letters
+c) CamelCase letters
+d) None of the mentioned
+ 
+
+4. Which of the following is true for variable names in C?
+a) They can contain alphanumeric characters as well as special characters
+b) It is not an error to declare a variable to be one of the keywords(like goto, static)
+c) Variable names cannot start with a digit
+d) Variable can be of any length
+ 
+
+5. Which is valid C expression?
+a) int my_num = 100,000;
+b) int my_num = 100000;
+c) int my num = 1000;
+d) int $my_num = 10000;
+ 
+
+6. Which of the following cannot be a variable name in C?
+a) volatile
+b) true
+c) friend
+d) export
+
+7. What is short int in C programming?
+a) The basic data type of C
+b) Qualifier
+c) Short is the qualifier and int is the basic data type
+d) All of the mentioned
+ 
+
+8. Which of the following declaration is not supported by C language?
+a) String str;
+b) char *str;
+c) float str = 3e2;
+d) Both String str; & float str = 3e2;
+ 
+
+9. Which keyword is used to prevent any changes in the variable within a C program?
+a) immutable
+b) mutable
+c) const
+d) volatile
+ 
+
+10. What is the result of logical or relational expression in C?
+a) True or False
+b) 0 or 1
+c) 0 if an expression is false and any positive number if an expression is true
+d) None of the mentioned
+ 
+
+11. Which of the following typecasting is accepted by C language?
+a) Widening conversions
+b) Narrowing conversions
+c) Widening & Narrowing conversions
+d) None of the mentioned
+ 
+
+12. Where in C the order of precedence of operators do not exist?
+a) Within conditional statements, if, else
+b) Within while, do-while
+c) Within a macro definition
+d) None of the mentioned
+ 
+
+13. Which of the following is NOT possible with any 2 operators in C?
+a) Different precedence, same associativity
+b) Different precedence, different associativity
+c) Same precedence, different associativity
+d) All of the mentioned
+ 
+
+14. What is an example of iteration in C?
+a) for
+b) while
+c) do-while
+d) all of the mentioned
+ 
+
+15. Functions can return enumeration constants in C?
+a) true
+b) false
+c) depends on the compiler
+d) depends on the standard
+ 
+
+16. Functions in C Language are always _________
+a) Internal
+b) External
+c) Both Internal and External
+d) External and Internal are not valid terms for functions
+ 
+
+17. Which of following is not accepted in C?
+a) static a = 10; //static as
+b) static int func (int); //parameter as static
+c) static static int a; //a static variable prefixed with static
+d) all of the mentioned
+ 
+
+18. Property which allows to produce different executable for different platforms in C is called?
+a) File inclusion
+b) Selective inclusion
+c) Conditional compilation
+d) Recursive macros
+ 
+
+19. What is #include <stdio.h>?
+a) Preprocessor directive
+b) Inclusion directive
+c) File inclusion directive
+d) None of the mentioned
+ 
+
+20. C preprocessors can have compiler specific features.
+a) True
+b) False
+c) Depends on the standard
+d) Depends on the platform
+ 
+
+21. Which of the following are C preprocessors?
+a) #ifdef
+b) #define
+c) #endif
+d) all of the mentioned
+ 
+
+22. The C-preprocessors are specified with _________ symbol.
+a) #
+b) $
+c) ” ”
+d) &
+ 
+
+23. How is search done in #include and #include “somelibrary.h” according to C standard?
+a) When former is used, current directory is searched and when latter is used, standard directory is searched
+b) When former is used, standard directory is searched and when latter is used, current directory is searched
+c) When former is used, search is done in implementation defined manner and when latter is used, current directory is searched
+d) For both, search for ‘somelibrary’ is done in implementation-defined places
+ 
+
+24. How many number of pointer (*) does C have against a pointer variable declaration?
+a) 7
+b) 127
+c) 255
+d) No limits
+ 
+
+25. Which of the following is not possible statically in C language?
+a) Jagged Array
+b) Rectangular Array
+c) Cuboidal Array
+d) Multidimensional Array
+ 
+
+26. Which of the following return-type cannot be used for a function in C?
+a) char *
+b) struct
+c) void
+d) none of the mentioned
+ 
+
+27. The standard header _______ is used for variable list arguments (…) in C.
+a) <stdio.h >
+b) <stdlib.h>
+c) <math.h>
+d) <stdarg.h>
+ 
+
+28. When a C program is started, O.S environment is responsible for opening file and providing pointer for that file?
+a) Standard input
+b) Standard output
+c) Standard error
+d) All of the mentioned
+ 
+
+29. In C language, FILE is of which data type?
+a) int
+b) char *
+c) struct
+d) None of the mentioned
+ 
+
+30. What is the sizeof(char) in a 32-bit C compiler?
+a) 1 bit
+b) 2 bits
+c) 1 Byte
+d) 2 Bytes
+ 
+
+31. Which of the following is not an operator in C?
+a) ,
+b) sizeof()
+c) ~
+d) None of the mentioned
+ 
+
+32. scanf() is a predefined function in______header file.
+a) stdlib. h
+b) ctype. h
+c) stdio. h
+d) stdarg. h
+ 
+
+33. What is meant by ‘a’ in the following C operation?
+
+fp = fopen("Random.txt", "a");
+a) Attach
+b) Append
+c) Apprehend
+d) Add
+ 
+
+34. What will be the output of the following C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        int y = 10000;
+        int y = 34;
+        printf("Hello World! %d\n", y);
+        return 0;
+    }
+a) Compile time error
+b) Hello World! 34
+c) Hello World! 1000
+d) Hello World! followed by a junk value
+ 
+
+35. What will happen if the following C code is executed?
+
+    #include <stdio.h>
+    int main()
+    {
+        int main = 3;
+        printf("%d", main);
+        return 0;
+    }
+a) It will cause a compile-time error
+b) It will cause a run-time error
+c) It will run without any error and prints 3
+d) It will experience infinite looping
+ 
+
+36. What will be the output of the following C code?
+
+    #include  <stdio.h>
+    int main()
+    {
+       signed char chr;
+       chr = 128;
+       printf("%d\n", chr);
+       return 0;
+    }
+a) 128
+b) -128
+c) Depends on the compiler
+d) None of the mentioned
+ 
+
+37. What will be the output of the following C code on a 64 bit machine?
+
+    #include <stdio.h>
+    union Sti
+    {
+        int nu;
+        char m;
+    };
+    int main()
+    {
+        union Sti s;
+        printf("%d", sizeof(s));
+        return 0;
+    }
+a) 8
+b) 5
+c) 9
+d) 4
+ 
+
+38. What will be the output of the following C function?
+
+    #include <stdio.h>
+    enum birds {SPARROW, PEACOCK, PARROT};
+    enum animals {TIGER = 8, LION, RABBIT, ZEBRA};
+    int main()
+    {
+        enum birds m = TIGER;
+        int k;
+        k = m;
+        printf("%d\n", k);
+        return 0;
+    }
+a) 0
+b) Compile time error
+c) 1
+d) 8
+ 
+
+39. What will be the output of the following C code?
+
+    #include <stdio.h>
+    int const print()
+    {
+        printf("Sanfoundry.com");
+        return 0;
+    }
+    void main()
+    {
+        print();
+    }
+a) Error because function name cannot be preceded by const
+b) Sanfoundry.com
+c) Sanfoundry.com is printed infinite times
+d) Blank screen, no output
+ 
+
+40. Will the following C code compile without any error?
+
+    #include <stdio.h>
+    int main()
+    {
+        for (int k = 0; k < 10; k++);
+            return 0;
+    }
+a) Yes
+b) No
+c) Depends on the C standard implemented by compilers
+d) Error
+ 
+
+41. What will be the final value of x in the following C code?
+
+    #include <stdio.h>
+    void main()
+    {
+        int x = 5 * 9 / 3 + 9;
+    }
+a) 3.75
+b) Depends on compiler
+c) 24
+d) 3
+ 
+
+42. What will be the output of the following C code? (Initial values: x= 7, y = 8)
+
+    #include <stdio.h>
+    void main()
+    {
+        float x;
+        int y;
+        printf("enter two numbers \n", x);
+        scanf("%f %f", &x, &y);
+        printf("%f, %d", x, y);
+    }
+a) 7.000000, 7
+b) Run time error
+c) 7.000000, junk
+d) Varies
+ 
+
+43. What will be the output of the following C code considering the size of a short int is 2, char is 1 and int is 4 bytes?
+
+    #include <stdio.h>
+    int main()
+    {
+        short int i = 20;
+        char c = 97;
+        printf("%d, %d, %d\n", sizeof(i), sizeof(c), sizeof(c + i));
+        return 0;
+    }
+a) 2, 1, 2
+b) 2, 1, 1
+c) 2, 1, 4
+d) 2, 2, 8
+ 
+
+44. What is the difference between the following 2 C codes?
+
+    #include <stdio.h> //Program 1
+    int main()
+    {
+        int d, a = 1, b = 2;
+        d =  a++ + ++b;
+        printf("%d %d %d", d, a, b);
+    }
+    #include <stdio.h> //Program 2
+    int main()
+    {
+        int d, a = 1, b = 2;
+        d =  a++ +++b;
+        printf("%d %d %d", d, a, b);
+    }
+a) No difference as space doesn’t make any difference, values of a, b, d are same in both the case
+b) Space does make a difference, values of a, b, d are different
+c) Program 1 has syntax error, program 2 is not
+d) Program 2 has syntax error, program 1 is not
+ 
+
+45. What will be the output of the following C code snippet?
+
+    #include <stdio.h>
+    void main()
+    {
+        1 < 2 ? return 1: return 2;
+    }
+a) returns 1
+b) returns 2
+c) Varies
+d) Compile time error
+ 
+
+46. What will be the value of the following assignment expression?
+
+ (x = foo())!= 1 considering foo() returns 2
+a) 2
+b) True
+c) 1
+d) 0
+ 
+
+47. What will be the output of the following C function?
+
+    #include <stdio.h>
+    void reverse(int i);
+    int main()
+    {
+        reverse(1);
+    }
+    void reverse(int i)
+    {
+        if (i > 5)
+            return ;
+        printf("%d ", i);
+        return reverse((i++, i));
+    }
+a) 1 2 3 4 5
+b) Segmentation fault
+c) Compilation error
+d) Undefined behaviour
+ 
+
+48. What will be the final values of i and j in the following C code?
+
+    #include <stdio.h>
+    int x = 0;
+    int main()
+    {
+        int i = (f() + g()) | g(); //bitwise or
+        int j = g() | (f() + g()); //bitwise or
+    }
+    int f()
+    {
+        if (x == 0)
+            return x + 1;
+        else
+            return x - 1;
+    }
+    int g()
+    {
+        return x++;
+    }
+a) i value is 1 and j value is 1
+b) i value is 0 and j value is 0
+c) i value is 1 and j value is undefined
+d) i and j value are undefined
+ 
+
+49. Comment on the following C statement.
+
+   n = 1;
+   printf("%d, %dn", 3*n, n++);
+a) Output will be 3, 2
+b) Output will be 3, 1
+c) Output will be 6, 1
+d) Output is compiler dependent
+ 
+
+50. How many times i value is checked in the following C program?
+
+    #include <stdio.h>
+    int main()
+    {
+        int i = 0;
+        while (i < 3)
+            i++;
+        printf("In while loop\n");
+    }
+a) 2
+b) 3
+c) 4
+d) 1
+ 
+
+51. What will be the output of the following C code?
+
+     #include <stdio.h>
+    int main()
+    {
+        int i = 0;
+        do
+        {
+            i++;
+            if (i == 2)
+                continue;
+                printf("In while loop ");
+        } while (i < 2);
+        printf("%d\n", i);
+    }
+a) In while loop 2
+b) In while loop in while loop 3
+c) In while loop 3
+d) Infinite loop
+ 
+
+52. What will be the data type returned for the following C function?
+
+    #include <stdio.h>
+    int func()
+    {
+        return (double)(char)5.0;
+    }
+a) char
+b) int
+c) double
+d) multiple type-casting in return is illegal
+ 
+
+53. What is the problem in the following C declarations?
+
+   int func(int);
+   double func(int);
+   int func(float);
+a) A function with same name cannot have different signatures
+b) A function with same name cannot have different return types
+c) A function with same name cannot have different number of parameters
+d) All of the mentioned
+ 
+
+54. Which option should be selected to work the following C expression?
+
+string p = "HELLO";
+a) typedef char [] string;
+b) typedef char *string;
+c) typedef char [] string; and typedef char *string;
+d) Such expression cannot be generated in C
+ 
+
+55. What is the meaning of the following C statement?
+
+ printf(“%10s”, state); 
+a) 10 spaces before the string state is printed
+b) Print empty spaces if the string state is less than 10 characters
+c) Print the last 10 characters of the string
+d) None of the mentioned
+ 
+
+56. What are the elements present in the array of the following C code?
+
+int array[5] = {5};
+a) 5, 5, 5, 5, 5
+b) 5, 0, 0, 0, 0
+c) 5, (garbage), (garbage), (garbage), (garbage)
+d) (garbage), (garbage), (garbage), (garbage), 5
+ 
+
+57. What will be the output of the following C function when EOF returns?
+
+   int fputs(char *line, FILE *fp)
+a) ‘�’ character of array line is encountered
+b) ‘n’ character in array line is encountered
+c) ‘t’ character in array line is encountered
+d) When an error occurs
+ 
+
+58. Which part of the program address space is p stored in the following C code?
+
+    #include <stdio.h>
+    int *p;
+    int main()
+    {
+        int i = 0;
+        p = &i;
+        return 0;
+    }
+a) Code/text segment
+b) Data segment
+c) Bss segment
+d) Stack
+
+ 
+59. Comment on the output of following C code.
+
+    #include <stdio.h>
+    main()
+    {
+        char *p = 0;
+        *p = 'a';
+        printf("value in pointer p is %c\n", *p);
+    }
+a) It will print a
+b) It will print 0
+c) Compile time error
+d) Run time error
+
+
+60. What is the output of this C code?
+
+   #include <stdio.h>
+   main()
+   {
+       if (sizeof(int) > -1)
+           printf("True");
+       else
+           printf("False");
+   }
+a) True
+b) False
+
+
+61. What is the output of this C code?
+
+    #include <stdio.h>
+    main()
+    {
+        char *p = "Sanfoundry C-Test";
+        p[0] = 'a';
+        p[1] = 'b';
+        printf("%s", p);
+    }
+a) abnfoundry C-Test
+b) Sanfoundry C-Test
+c) Compile time error
+d) Run time error
+
+
+62. What is the output of this C code?
+
+    #include <stdio.h>
+    int main()
+    {
+        float f = 0.1;
+        if (f == 0.1)
+            printf("True");
+        else
+            printf("False");
+    }
+a) True
+b) False
+
+
+63. What is the output of this C code?
+
+    #include <stdio.h>
+    main()
+    {
+        int n = 0, m = 0;
+        if (n > 0)
+            if (m > 0)
+                printf("True");
+        else 
+            printf("False");
+    }
+a) True
+b) False
+c) No Output will be printed
+d) Run Time Error
