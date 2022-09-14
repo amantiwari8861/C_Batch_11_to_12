@@ -7,7 +7,7 @@ int main()
 
     for (int i = 1; i <= num; i++)
     {
-        printf(" %d \n",i*i*i);
+        printf(" The cube of the %d is  %d \n",i,i*i*i);
     }
     
     return 0;
