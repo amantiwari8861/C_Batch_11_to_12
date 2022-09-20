@@ -1,14 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    int num;
-    printf("enter num:");
-    scanf("%d",&num);
-    
     for (int i=3;i<10;i++)
     {
         printf("the value of i is %d before \n",i);
-        if (i==num)
+        if (i==5)
         {
             printf("going to break the loop \n");
             break;
