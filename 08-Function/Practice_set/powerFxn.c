@@ -14,10 +14,10 @@ int main()//starting point of a program
 int powerFxn(int num,int power) //body
 {
     printf("inside powerFxn \n");
-    int pow=1;
+    int result=1;
     for(int i=0;i<power;i++) //i=0,1,2,3
     {
-        pow=pow*num;// 1*2=2 2*2=4 4*2=8 8*2=16 
+        result=result*num;// 1*2=2 2*2=4 4*2=8 8*2=16 
     }
-    return pow; //returning the pow = 16
+    return result; //returning the result = 16
 }

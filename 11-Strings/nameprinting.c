@@ -8,7 +8,7 @@ int main()
 	{
 		// fflush(stdin);//to clear the buffer
 		scanf("%c",&name[i]);
-		// fflush(stdin);//to clear the buffer
+		fflush(stdin);//to clear the buffer ( to remove extra \n character)
 	}
 	printf("----------------\n");
 	for(i=0;i<10;i++)

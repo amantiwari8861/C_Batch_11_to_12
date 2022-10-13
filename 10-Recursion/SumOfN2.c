@@ -12,7 +12,7 @@ int main()
 }
 int sumOfN(int n)
 {
-    if (n>0)
+    if (n)
     {
         return n+sumOfN(n-1);
     }   

@@ -7,7 +7,7 @@ int main()
     int a=10,b=20;
     printf("before calling in main \n");
     add(a,b);
-    // printf(" sum = %d \n",sum);
+    // printf(" sum = %d \n",sum); //error sum undeclared
     printf("after calling in main \n");
     return 0;
 }
