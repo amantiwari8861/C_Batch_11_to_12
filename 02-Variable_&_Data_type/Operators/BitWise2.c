@@ -6,7 +6,7 @@ int main()
     printf("Enter the 2 numbers :\n");
     scanf("%d%d",&num1,&num2); //let 60 13
 
-/*     // Bitwise AND (&)
+/*     // Bitwise AND (&)s
     result = num1 & num2;//   60 & 13 = 00111100 & 00001101 = 00001100  -> 12 Ans.
     printf("Bitwise AND : %d\n",result); */
 

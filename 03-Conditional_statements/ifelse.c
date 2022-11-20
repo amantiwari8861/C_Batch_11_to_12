@@ -41,7 +41,7 @@ int main()
             statements
         }
     */
-    /* float marks;
+/*     float marks;
     printf("enter ur marks :");
     scanf("%f",&marks);
 
@@ -60,7 +60,7 @@ int main()
         else
         {
             printf("chai becho\n");
-        }   */
+        } */
 
         //Nested If
 
