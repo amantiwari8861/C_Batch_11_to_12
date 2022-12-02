@@ -11,7 +11,7 @@ int main()
         printf("%2d X%2d = %2d ", 6, i, 6 * i);
         printf("%2d X%2d = %2d ", 7, i, 7 * i);
         printf("%2d X%2d = %2d ", 8, i, 8 * i);
-        printf("%2d X%2d = %2d ", 9, i, 9 * i);
+        // printf("%2d X%2d = %2d ", 9, i, 9 * i);
         // printf("%2d X%2d = %2d ", 10, i, 10 * i);
         printf("\n");
     } 

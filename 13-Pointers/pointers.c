@@ -3,20 +3,20 @@ int main()
 {
     int num;
     printf("enter the number :");
-    scanf("%d",&num);  // & represents address of 
+    scanf("%d",&num);  // Ampersant(&) represents address of 
     printf("the value in variable num is %d at address %d \n",num,&num);//let 50,6684188
 
     // Pointer: it is a variable whose value is the address of another variable
     // syntax:  datatype *pointername;
     int *ptr; //pointer stores the address of another variable
-    //this pointer can store the address of int datatype variable
-    // char *ptr2;
+    // //this pointer can store the address of int datatype variable
+    // // char *ptr2;
     ptr=&num;
     // * represents the value at address
     printf("the value in pointer ptr is %d \n",ptr); //6684188
     printf("the value at address in pointer ptr is %d \n",*ptr);//50
-    // *ptr=99;
-    // printf("the value of num after changing =%d \n",num);
+    *ptr=99;
+    printf("the value of num after changing =%d \n",num);
 
     printf("the address of ptr pointer is %d \n",&ptr);//6684168
 

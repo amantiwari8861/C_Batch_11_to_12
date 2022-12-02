@@ -15,7 +15,7 @@ int main()
             2. print fibonnaci series let n=10
                 0 1 1 2 3 5 8 13 21 34 
             3. take a number from user and count how many digits are in that number eg.4589 -> 4
-            4. take a number from user and count how many odd digits are in that number eg.4589 -> 3
+            4. take a number from user and count how many odd digits are in that number eg.45897 -> 3
             5. take a number from user and count how many even digits are in that number eg.4589 -> 2
             6. take a number from user and sum of the even digits in that number eg.4589 -> 12
             7. take a number from user and sum of the odd digits in that number eg.4589 -> 14
