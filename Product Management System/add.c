@@ -24,14 +24,14 @@ void add_item()
 		if((fp = fopen("ViewStorage.dat","a+"))!=NULL)
 		{
 			I:
-			printf("\nCosmetic Code\t :");
+			printf("\nProduct Code\t :");
 			scanf("%i",&ID);
 			while(fscanf(fp,"%s %s %i %i %i", st.cosmeticproductname, st.cosmeticproductcomp, &st.cosmeticprice, &st.cosmeticproductid,&st.cosmeticquantity)!=EOF)
 			{
 				
 				if(ID == st.cosmeticproductid)
 				{
-					printf("\n\tThe Cosmetic Code already exists.Kindly enter a different Cosmetic Code.\n");
+					printf("\n\tThe Cosmetic Code already exists.Kindly enter a different Product Code.\n");
 					goto I;
 				}
 			}
@@ -39,15 +39,15 @@ void add_item()
 		}
 		else//runs if sfile is empty
 		{
-			printf("\nCosmetic Code\t :");
+			printf("\nProduct Code\t :");
 			scanf("%i",&st.cosmeticproductid);
 		}
 
-	//add Cosmetic Name
+	//add product Name
 		do
 		{	
 			fflush(stdin);
-			printf("\nCosmetic Name\t :");
+			printf("\nProduct Name\t :");
 			gets(st.cosmeticproductname); // get input string
 			st.cosmeticproductname[0]=toupper(st.cosmeticproductname[0]);
 			//iterate for every character in string
@@ -63,10 +63,8 @@ void add_item()
 			}
 			if (!val)
 			{
-				printf("\n Name contains invalid characters. Please 'Enter' the Cosmetic Name again");
+				printf("\n Name contains invalid characters. Please 'Enter' the Product Name again");
 				getch();
-
-
 			}
 		}while(!val);	//while end here
 
@@ -76,7 +74,7 @@ void add_item()
 		{
 			char cosmeticproductcomp[40];
 			fflush(stdin);
-			printf("\nCosmetic Company\t :");
+			printf("\nProduct Company\t :");
 			gets(st.cosmeticproductcomp); // get input string
 			st.cosmeticproductcomp[0]=toupper(st.cosmeticproductcomp[0]);
 			//iterate for every character in string
@@ -92,21 +90,19 @@ void add_item()
 			}
 			if (!val)
 			{
-				printf("\n Name contains invalid character. Please 'Enter' the Cosmetic Company again");
+				printf("\n Name contains invalid character. Please 'Enter' the Product Company again");
 				getch();
-
-
 			}
 		}while(!val);
 
 		//cosmeticproductid
 		
-				printf("\nCosmetic Price\t:");
+				printf("\nProduct Price\t:");
 				scanf("%i",&st.cosmeticprice);
 				
 
 				
-				printf("\nCosmetic Quantity :");
+				printf("\nProduct Quantity :");
 				scanf("%i",&st.cosmeticquantity);
 				
 

@@ -7,7 +7,7 @@ void deleteproduct(void)
 	FILE *sfile, *tfile;
 	sfile=fopen("ViewStorage.dat","r");
 	tfile=fopen("DeletedStorage.dat","w+");
-	printf("\n Enter Cosmetic Name: ");
+	printf("\n Enter Product Name: ");
 	fflush(stdin);
 	scanf("%s",target);
 	target[0]=toupper(target[0]);
@@ -24,13 +24,13 @@ void deleteproduct(void)
 	}
 			if(!found)
 			{
-				printf("\n Cosmetic Product Record not found");
+				printf("\n Product Record not found");
 				getch();
 				
 			}
 			else
 			{
-				printf("\n Cosmetic Product Record deleted");
+				printf("\n Product Record deleted");
 			}
 			fclose(sfile);
 			fclose(tfile);
