@@ -45,7 +45,7 @@ void edit_item()
 					//iterate for every character in string
 					for (ind=0; ind<strlen(st.cosmeticproductname); ++ind)
 					{	//check if character is val or not
-						if(isalpha(st.cosmeticproductname[ind]))
+						if(isalpha(st.cosmeticproductname[ind]) )
 							val = 1;
 						else
 						{

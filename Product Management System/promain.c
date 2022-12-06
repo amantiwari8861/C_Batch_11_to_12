@@ -1,4 +1,4 @@
-#include "op.h"
+// #include "op.h"
 #include "add.c"
 #include "delete.c"
 #include "price.c"
@@ -14,11 +14,9 @@ int main()
 {
 	int choice;
 	system("cls");
-
-// main:
 	printf("\n======== Welcome to Products Management System =========");
-	printf("                                                                                          ");
-
+	printf("                                                                                           ");
+	system("color 02");
 	printf("\n\t\tEnter 1: Add Products");
 	printf("\n\t\tEnter 2: Delete Products");
 	printf("\n\t\tEnter 3: View Products");

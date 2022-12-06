@@ -10,10 +10,6 @@
 #include<time.h>
 #include "assert.h"
 
-
-
-
-
 struct item 
 {
 	char cosmeticproductname[40],cosmeticproductcomp[40],c;

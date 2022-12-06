@@ -31,7 +31,7 @@ void add_item()
 				
 				if(ID == st.cosmeticproductid)
 				{
-					printf("\n\tThe Cosmetic Code already exists.Kindly enter a different Product Code.\n");
+					printf("\n\tThe Product Code already exists.Kindly enter a different Product Code.\n");
 					goto I;
 				}
 			}
@@ -43,7 +43,7 @@ void add_item()
 			scanf("%i",&st.cosmeticproductid);
 		}
 
-	//add product Name
+		//add product Name
 		do
 		{	
 			fflush(stdin);
@@ -53,7 +53,7 @@ void add_item()
 			//iterate for every character in string
 			for (ind=0; ind<strlen(st.cosmeticproductname); ++ind)
 			{	//check if character is val or not
-				if(isalpha(st.cosmeticproductname[ind]))
+				if(isalpha(st.cosmeticproductname[ind]) && st.cosmeticproductname[ind] ==0)
 					val = 1;
 				else
 				{
@@ -115,7 +115,7 @@ void add_item()
 	
 
 	}
-	while((c = getch()) =='\r');
+	while((c = getch()) =='\n');
 	
 }
 

@@ -22,7 +22,8 @@ void add(/*parameter*/)
 //functions has two types 
 //1.built-in fxn eg. pow,sqrt,log,sin,sinh,floor,ceil
 //2.user defined fxn eg. add
-//user defined fxn has 4 types
+
+// fxn has 4 types
 //type 1 fxn : no argument(parameter) no return type
 //type 2 fxn : with argument(parameter) no return type
 //type 3 fxn : no argument(parameter) with return type
