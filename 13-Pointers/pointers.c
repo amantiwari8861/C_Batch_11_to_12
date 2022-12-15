@@ -3,7 +3,7 @@ int main()
 {
     int num;
     printf("enter the number :");
-    scanf("%d",&num);  // Ampersant(&) represents address of 
+    scanf("%d",&num);  // Ampersand(&) represents address of 
     printf("the value in variable num is %d at address %d \n",num,&num);//let 50,6684188
 
     // Pointer: it is a variable whose value is the address of another variable

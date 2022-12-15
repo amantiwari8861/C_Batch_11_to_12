@@ -11,12 +11,13 @@ int main()
         char name[20];
         float fees;
         double marks;
-    };
+    // };
     // }stu1;
-    // }stu1,stu2,stu3={203,"Aman",10000,80.0};
+    }stu1,stu3={203,"Aman",10000,80.0};
     //2 variables of data type struct Student //1st approach
 
-    // stu1.id=102;//pre-defined
+    struct Student stu2={201,"Kamal",20000,80};
+    stu1.id=102;//pre-defined
     // stu1.name="AMan"; //it will give error
     // stu1.name={"AMan"}; //it will give error
     // stu1.name[]={"AMan"}; //it will give error
@@ -27,7 +28,7 @@ int main()
     // scanf("%f",&stu1.fees);
     // printf("the id is %d and name is %s and fees is %f \n",stu1.id,stu1.name,stu1.fees);
 
-    // printf("the id is %d and name is %s and fees is %0.2f and marks is %f \n",stu3.id,stu3.name,stu3.fees,stu3.marks);
+    printf("the id is %d and name is %s and fees is %0.2f and marks is %f \n",stu3.id,stu3.name,stu3.fees,stu3.marks);
     
     // struct Student stu4; //2nd approach
     // stu4.id=103;

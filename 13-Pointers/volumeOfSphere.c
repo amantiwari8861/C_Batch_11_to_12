@@ -1,10 +1,8 @@
 #include<stdio.h>
 void voS(float,float*);
 int main()
-{
-    
+{   
     float radius=2.5,result=0;
-
     voS(radius,&result);
     printf("the result is %f \n",result);
     return 0;

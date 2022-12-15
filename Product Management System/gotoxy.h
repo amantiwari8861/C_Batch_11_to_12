@@ -3,7 +3,6 @@
 
 #include "op.h"
 
-
 void gotoxy(short x, short y)
 {
 	COORD pos ={x,y};

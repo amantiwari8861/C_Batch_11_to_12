@@ -10,25 +10,25 @@ int main()
     };
     printf("enter the no. of students : ");
     scanf("%d",&size);//let no. of students =3
-    struct Student stu[size]; //structure array e.g stu[3] 
-    //it will equivalent to 3 student object (like stu1,stu2,stu3)
+    struct Student stuArr[size]; //structure array e.g stuArr[3] 
+    //it will equivalent to 3 student object (like stuArr1,stuArr2,stuArr3)
     for (int i = 0; i < size; i++)
     {
         printf("\n ------------------------------------------  \n");
         printf("enter the id of %dth student : ",i+1);
-        scanf("%d",&stu[i].id); //let stu[0].id =101 at first and then stu[1].id =102 and so on
+        scanf("%d",&stuArr[i].id); //let stuArr[0].id =101 at first and then stuArr[1].id =102 and so on
         fflush(stdin);
         printf("enter the name of %dth student : ",i+1);
-        scanf("%[^\n]s",&stu[i].name);
+        scanf("%[^\n]s",&stuArr[i].name);
         fflush(stdin);
         printf("enter the fees of %dth student : ",i+1);
-        scanf("%f",&stu[i].fees);
+        scanf("%f",&stuArr[i].fees);
     }
     printf("\n\n\t\tTotal Student Details :\n");
     for (int i = 0; i < size; i++)
     {        
         printf("------------------------------------------\n");
-        printf("the id is %d and name is %s and fees is %0.2f \n",stu[i].id,stu[i].name,stu[i].fees);
+        printf("the id is %d and name is %s and fees is %0.2f \n",stuArr[i].id,stuArr[i].name,stuArr[i].fees);
     }
     return 0;
 }

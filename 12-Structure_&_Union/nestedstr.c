@@ -40,6 +40,8 @@ int main()
         printf("employee id is %d \n",employeeObj[i].id);
         printf("employee name is %s \n",employeeObj[i].name);
         printf("employee salary is %.2f \n",employeeObj[i].salary);
+        printf("employee city is %s \n",employeeObj[i].obj.city);
+        printf("employee pincode is %d \n",employeeObj[i].obj.pincode);
     }
     return 0;
 }
