@@ -15,9 +15,10 @@ int main()
 		ch=fgetc(fptr);
 		if(ch==EOF)//END OF FILE 
 		{
+			// printf("ch=%d Exiting...\n",ch);
 			break;
 		}
-			printf("%c",ch);
+		printf("%c",ch);
 	}
 	fclose(fptr);
 	return 0;

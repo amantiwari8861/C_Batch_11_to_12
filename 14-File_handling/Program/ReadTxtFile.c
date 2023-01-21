@@ -19,9 +19,9 @@ int main()
         exit(1);
     }
     while((ch=getc(fp))!=EOF) //EOF is end of file
-    // while((ch=fgetc(fp))!=EOF) //EOF is end of file
     {
         printf("%c",ch);
+    	// printf("at position %d character=%c \n",ftell(fptr),ch);
     }
     fclose(fp);
     return 0;

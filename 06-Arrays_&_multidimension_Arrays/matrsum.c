@@ -4,9 +4,9 @@ int main()
     int matr1[2][3],matr2[2][3],matr3[2][3];
 
     printf("enter 1st matrix :");
-    for (int i = 0; i < 2; i++)
+    for (int i = 0; i < 2; i++)//row
     {
-        for (int j = 0; j < 3; j++)
+        for (int j = 0; j < 3; j++)//column
         {
             scanf("%d",&matr1[i][j]);
         }

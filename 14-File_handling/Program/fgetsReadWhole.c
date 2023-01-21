@@ -12,7 +12,7 @@ int main()
     }
     while (fgets(line, 1000, fptr) != NULL)
     {
-        printf("Read line %s :\n", line);
+        printf("Read line :%s", line);
     }
     return 0;
 }

@@ -24,9 +24,10 @@ int main()
                 a  a+d  a+2d a+3d a+4d  a+5d
                 10  13  16 19 22 25 Ans.
             9. take a number from user and check whether it is a prime number or not 
-            10. make a fibbonacci series from the sum of odd numbers and even numbers in a digit  
-                and the number of term = digit length 
-                let num=321578        OddSum=16 evenSum=10  digitLen=6
+                
+			10.Take a number from user and count it's length and the sum of odd and even numbers present in that number then let these 2 results as first and second term and make fibonnaci series from them
+			till n(the length of that number) term.
+			let num=321578        OddSum=16 evenSum=10  digitLen=6
                 16 10 26 36 62 98 Ans.
     */
     return 0;
