@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
 	//2. binary operators : in which two operands are required
 		//b.relational operators :  < , > ,<=  ,>= , ==(to check equality) , !=(to check inequality)
 	//true = 1 and false = 0 

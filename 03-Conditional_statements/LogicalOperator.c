@@ -12,7 +12,6 @@ int main()
     //     printf("A grade !");
     // }
     
-
     
     // if(marks>=80 || marks<=100)
     // {
@@ -32,10 +31,10 @@ int main()
     1
     */
 
-    if(marks>=80 && marks<=100)
-    {
-        printf("A grade !"); 
-    }
+    // if(marks>=80 && marks<=100)
+    // {
+    //     printf("A grade !"); 
+    // }
     /*
     case 1: marks=45
     45>=80  && 45<=100
@@ -50,10 +49,15 @@ int main()
     1 && 1
     1
     */
-    // if(!(marks>=80 && marks<=100))
-    // {
-    //     printf("A grade !"); 
-    // }
+    if(!(marks>=80 && marks<=100))
+    {
+        printf("A grade !"); 
+    }
+    else
+    {
+        printf("fail");
+    }
+    
     // 85
     //  ( 85>=80 && 85<=100) ==>1
     //  !( 85>=80 && 85<=100)  ==> 0

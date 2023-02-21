@@ -2,7 +2,7 @@
 int main()
 {
 	//2. binary operators : in which two operands are required
-		//b.logical operators :  && (AND) , || (or) , ! (not )
+		//c.logical operators :  && (AND) , || (or) , ! (not )
 	//true = 1 and false = 0 
 	
 	// int result;
