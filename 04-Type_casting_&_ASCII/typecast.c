@@ -2,11 +2,12 @@
 int main()
 {
     
-    //1. casting int to float
+    // //1. casting int to float
     // int num=50;
     // float f;
     // f=num;
-    // // f=(int)num;
+    // // f=(float)num;//compiler implicitly doing this to num
+    // f=f+0.2;
     // printf("the value of f is %f\n",f);
 
     //2. casting float to int
@@ -24,7 +25,7 @@ int main()
     // printf("the value of ch2 is %c\n",ch2);
 
     //4.casting char to int
-    char ch3='B';
+    char ch3='A';
     int num4;
     num4=ch3;
     // num4=(int)ch3;
