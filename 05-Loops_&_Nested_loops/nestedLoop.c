@@ -3,11 +3,11 @@
 int main()
 {
 	
-	for(int i=0;i<3;i++)//row
+	for(int i=0;i<5;i++)//row
 	{
-		for(int j=0;j<5;j++)//column
+		for(int j=0;j<10;j++)//column
 		{
-			Sleep(1000);
+			Sleep(100);
 			printf("*");  
 		}
 		printf("\n");

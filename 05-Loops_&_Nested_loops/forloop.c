@@ -1,6 +1,10 @@
 #include<stdio.h>
 int main()
 {
+    // 1.for 
+    // 2.while 
+    // 3.do while 
+
     /*for loop syntax:
     
     for(initialization;condition;increment/decrement)
@@ -21,16 +25,16 @@ int main()
     printf("enter the no. of times u want to print ur name : ");
     scanf("%d",&num);//let  num = 10
 
-    for(a=3;a<=num;a++)
-    {
-        printf("%d. my name is aman\n",a);
-    }
-
-    // decrement
-    // for(a=num;a>0;a--)// let num=10  
+    // for(a=3;a<=num;a++)
     // {
     //     printf("%d. my name is aman\n",a);
     // }
+
+    // decrement
+    for(a=num;a>0;a--)// let num=10  
+    {
+        printf("%d. my name is aman\n",a);
+    }
     return 0;
 }
-//h.w   print a table  like 2 x 1 = 2 
+//h.w   print a table  like 2 4 8

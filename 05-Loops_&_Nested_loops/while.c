@@ -2,14 +2,31 @@
 int main()
 {
     // initialization ,condition , inc/dec
-    int num=1;
-    // while (1) //infinite while loop
-    while(num<=10)
+    // int num=1;
+    // // while (1) //infinite while loop
+    // while(num<=10)
+    // {
+    //     printf("%d \n",num);
+    //     num++;
+    // }
+
+    int term;
+    printf("enter term :");
+    scanf("%d",&term);
+
+    
+    int i;
+    for ( i = term; i > 0; i--)
     {
-        printf("%d \n",num);
-        num++;
+        printf(" %d ",i);
     }
 
+    while (term>0)
+    {
+        printf(" %d ",term);
+        term--;
+    }
+    
     return 0;
 }
 

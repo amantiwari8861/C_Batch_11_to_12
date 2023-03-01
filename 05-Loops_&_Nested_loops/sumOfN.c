@@ -4,7 +4,7 @@ int main()
         // 10 => 1+2+3+......+10 = 55
         int sum = 0, i;
 
-        for (i = 1; i <= 10; i++)
+        for (i = 1; i <= 100; i++)
         {
                 printf(" %d ", i);
                 sum = sum + i;

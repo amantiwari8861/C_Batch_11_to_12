@@ -7,18 +7,17 @@ int main()
 
     for(count=0;num >0; num=num/10)
     {   
-        int rem=num%10;
-        
+        // int rem=num%10;
         // if (rem%2 == 0) //for even count     
-        if (num%2 != 0) //for odd count
-        {
-            ++count;
+        // if (num%2 != 0) //for odd count
+        // {
+            count++;
                 //sum_karne_wala = sum_karne_wala+rem;
-        }
+        // }
     }
 
-    printf(" sum of even digit :%d ",sum_karne_wala);
-    // printf(" total digit :%d ",count);
+//     printf(" sum of even digit :%d ",sum_karne_wala);
+    printf(" total digit :%d ",count);
     return 0;
 }
     /*
@@ -49,3 +48,23 @@ int main()
                 count=4;
                 0> 0 false loop terminated.
     */
+
+
+
+
+
+
+// let num=763466837
+
+// num=num/10; -> 76346683
+// num=num/10; -> 7634668
+// num=num/10; -> 763466
+// num=num/10; -> 76346
+// num=num/10; -> 7634
+// num=num/10; -> 763
+// num=num/10; -> 76
+// num=num/10; -> 7
+// num=num/10; -> 0
+
+
+
