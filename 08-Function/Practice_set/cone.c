@@ -10,7 +10,7 @@ const float pi=3.14;
 int main()
 {
     float r;
-    printf("enter the radius:");
+    printf("enter the radius of cone:");
     scanf("%f",&r);
 
     printf(" TSA is %f \n",TSA(r));

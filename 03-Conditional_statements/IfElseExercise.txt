@@ -10,12 +10,12 @@ Expected Output :
 15 is an odd integer
  
 
+
+ 
 3. Write a C program to check whether a given number is positive , negative or zero. 
 Test Data : 15
 Expected Output :
 15 is a positive number
- 
-
 4. Write a C program to find whether a given year is a leap year or not. 
 Test Data : 2016
 Expected Output :
@@ -171,7 +171,7 @@ Expected Output :
 Thursday
  
 
-22. Write a program in C to read any digit, display in the word. 
+22. Write a program in C to read any digit, display in the word till 10. 
 Test Data :
 4
 Expected Output :
