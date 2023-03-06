@@ -27,17 +27,17 @@ int main()
     scanf("%[^\n]s",&name1);
     scanf(" %[^\n]s",&name2);
     printf("the value of name1 %s and name2 is %s  \n",name1,name2);
-    printf("the value returned by Strcmp is %d ",strcmp(name1,name2));
+    printf("the value returned by Strcmp is %d \n",strcmp(name1,name2));
 
     if(strcmp(name1,name2) == -1)
     {
         // A = 65 a=97   => 65-97 = -32 =>-1
-        printf("first string is less than second string \n");
+        printf("first string is less than second string then 1st name comes first\n");
     }
     else if (strcmp(name1,name2) == 1)
     {
         // a=97 A = 65   => 97-65 = 32 => +1
-        printf("first string is greater than second string \n");
+        printf("first string is greater than second string first string comes after second \n");
     }
     else
     {

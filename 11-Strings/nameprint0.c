@@ -9,12 +9,12 @@ int main()
     // scanf("%[^\n]s",&name);//whole sentence
     // scanf("%[^\n]%*c",&name);//whole sentence
     // gets(name); //denied in today's programming
-    // fgets(name,20,stdin);
-    char c=getchar();
+    fgets(name,20,stdin);
+    // char c=getchar();
 
-    // printf("the name is %c \n",name);    
+    // printf("the name is %c \n",name[0]);    
     // printf("the character is %c \n",c);    
-    // printf("the name is %s \n",name);    
-    putchar(c);
+    printf("the name is %s \n",name);    
+    // putchar(c);
     return 0;
 }
