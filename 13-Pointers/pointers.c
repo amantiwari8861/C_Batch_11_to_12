@@ -18,14 +18,14 @@ int main()
     *ptr=99;
     printf("the value of num after changing =%d \n",num);
 
-    printf("the address of ptr pointer is %d \n",&ptr);//6684168
+    // printf("the address of ptr pointer is %d \n",&ptr);//6684168
 
     // int *ptr3=NULL; // null pointer
-    int **dptr;
-    dptr=&ptr;//6684168
-    printf("the value in double pointer is %d \n",dptr);//6684168
-    printf("the value at address dptr %d \n",*dptr);//6684188
-    printf("the value at address of variable in dptr %d \n",**dptr);//50
+    // int **dptr;
+    // dptr=&ptr;//6684168
+    // printf("the value in double pointer is %d \n",dptr);//6684168
+    // printf("the value at address dptr %d \n",*dptr);//6684188
+    // printf("the value at address of variable in dptr %d \n",**dptr);//50
 
     return 0;
 }

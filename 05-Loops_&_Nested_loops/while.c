@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    // initialization ,condition , inc/dec
+    // // initialization ,condition , inc/dec
     // int num=1;
     // // while (1) //infinite while loop
     // while(num<=10)
@@ -12,7 +12,7 @@ int main()
 
     int term;
     printf("enter term :");
-    scanf("%d",&term);
+    scanf("%d",&term);//let term=10
 
     
     int i;
