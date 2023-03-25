@@ -9,7 +9,7 @@ int main()
     {
         arr2[4-i]=arr[i];
     }
-
+    printf("The reversed Copied Array : ");
     for (int i = 0; i < 5; i++)
     {
         printf(" %d ",arr2[i]);

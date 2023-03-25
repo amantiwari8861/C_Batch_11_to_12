@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int arr[10];
+    int arr[5];
     printf("enter 5 elements in array \n");
     for (int i = 0; i < 5; i++)
     {
@@ -12,9 +12,10 @@ int main()
     {
         arr2[i]=arr[i];
     }
+    printf("The Copied Array is :");
     for (int i = 0; i < 5; i++)
     {
-        printf(" %d   ",arr2[i]);
+        printf(" %d  ",arr2[i]);
     }
     return 0;
 }
