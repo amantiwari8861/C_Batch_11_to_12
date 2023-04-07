@@ -13,6 +13,8 @@ int main()
         term1=term2;
         term2=term3;
     }
+    return 0;
+}
    /*               psuedocode
    step 1: i=0  term1=-1  term2=1 let ntimes=10
             i<ntimes   1<10 t
@@ -48,5 +50,3 @@ int main()
     */
 
 
-    return 0;
-}

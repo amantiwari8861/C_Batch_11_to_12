@@ -9,6 +9,9 @@ int main()
     {
         scanf("%c", &ch[i]);
         fflush(stdin);
+    }
+    for (int i = 0; i < 10; i++)
+    {
         if (ch[i] >= 65 && ch[i] <= 90)
         {
             // printf("CAPITAL ALPHABET !\n");
@@ -30,7 +33,7 @@ int main()
             ++countsp;
         }
     }
-
+    
     printf("small = %d capital=%d numeric=%d special=%d \n",counts,countc,countn,countsp);
 
 
