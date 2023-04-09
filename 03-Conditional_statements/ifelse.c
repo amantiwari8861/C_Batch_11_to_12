@@ -49,7 +49,7 @@ int main()
     //     {
     //         printf("first division pass!\n");
     //     }
-    //     else if(marks>=50)
+    //     else if(marks>=45)
     //     {
     //         printf("2nd division!\n");
     //     }
@@ -77,7 +77,7 @@ int main()
                 printf(" u got 1 lac. Scholarship \n");
             }
         }
-        else if(marks>=50)
+        else if(marks>=45)
         {
             printf("2nd division!\n");  
         }
