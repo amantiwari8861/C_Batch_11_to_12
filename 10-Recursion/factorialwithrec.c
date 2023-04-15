@@ -20,4 +20,4 @@ int factorial(int num)
         return 1;
 }
 // Write a program in C to calculate the sum of numbers from 1 to n using recursion.
-//  Write a program in C to Print Fibonacci Series using recursion.
+// Write a program in C to Print Fibonacci Series using recursion.
