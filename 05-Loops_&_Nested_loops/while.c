@@ -3,29 +3,38 @@ int main()
 {
     // // initialization ,condition , inc/dec
     // int num=1;
-    // // while (1) //infinite while loop
-    // while(num<=10)
+    // while (1) //infinite while loop
+    // // while(num<=10)
     // {
     //     printf("%d \n",num);
     //     num++;
     // }
 
-    int term;
-    printf("enter term :");
-    scanf("%d",&term);//let term=10
+    // int num2=100;
+    // while(num2>0)
+    // {
+    //     printf("%d\n",num2);
+    //     num2--;
+    // }
+
+
+
+    // int term;
+    // printf("enter term :");
+    // scanf("%d",&term);//let term=10
 
     
-    int i;
-    for ( i = term; i > 0; i--)
-    {
-        printf(" %d ",i);
-    }
+    // int i;
+    // for ( i = term; i > 0; i--)
+    // {
+    //     printf(" %d ",i);
+    // }
 
-    while (term>0)
-    {
-        printf(" %d ",term);
-        term--;
-    }
+    // while (term>0)
+    // {
+    //     printf(" %d ",term);
+    //     term--;
+    // }
     
     return 0;
 }

@@ -1,22 +1,15 @@
 #include<stdio.h>
 int main()
 {
-    int num,count,sum_karne_wala=0;
+    int num,count;
     printf("enter the number : ");
     scanf("%d",&num);
 
-    for(count=0;num >0; num=num/10)
+    for(count=0;num>0; num=num/10)
     {   
-        // int rem=num%10;
-        // if (rem%2 == 0) //for even count     
-        // if (num%2 != 0) //for odd count
-        // {
-            count++;
-                //sum_karne_wala = sum_karne_wala+rem;
-        // }
+        count++;
     }
 
-//     printf(" sum of even digit :%d ",sum_karne_wala);
     printf(" total digit :%d ",count);
     return 0;
 }
