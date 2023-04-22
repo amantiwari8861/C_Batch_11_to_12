@@ -2,9 +2,9 @@
 int main()
 {
     
-    for (int i = 0; i < 5; i++)
+    for (int row = 0; row < 5; row++)
     {
-        for(int j=0;j<=i;j++)
+        for(int col=0;col<=row;col++)
         {
             printf("*");
         }
