@@ -29,6 +29,11 @@ int main()
 			till n(the length of that number) term.
 			let num=321578        OddSum=16 evenSum=10  digitLen=6
                 16 10 26 36 62 98 Ans.
+            11.check whether a no. is 3 digit armstrong or not i.e
+                153 = 1*1*1 + 5*5*5 + 3*3*3 => 153
+            12. reverse a number 1234 -> 4321
+            13. check whether a no. is palindrome or not 
+                i.e 12321 -> after reverse -> 12321
     */
     return 0;
 }
