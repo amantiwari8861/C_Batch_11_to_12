@@ -9,7 +9,7 @@ int main()
 
     // num5=56;//error
 
-    printf(" max =%d ",num5);
+    // printf(" max =%d ",num5);
     
     return 0;
 }

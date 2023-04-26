@@ -19,17 +19,18 @@ int main()
 	// printf("the result is %d \n",result); 
 
 	//c.assignment operators ->    = , += ,-= , *= ,/=,%= etc.
-	int num=20;
-	// num=num+30; 
-	// //or
-	num+=30; //num =50
-	printf("the num is %d \n",num);
+	// int num=20;
+	// // num+30; // this will works ??
+	// // num=num+30; 
+	// // //or
+	// num+=30; //num =50
+	// printf("the num is %d \n",num);
 
-	// int multi=6;
+	int multi=6;
 	// multi = multi*10; 
-	// multi *= 10;
+	multi *= 10;
  
-	// printf("the multiply is %d \n",multi);
+	printf("the multiply is %d \n",multi);
 
 	return 0;
 }

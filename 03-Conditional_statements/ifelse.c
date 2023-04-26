@@ -41,59 +41,57 @@ int main()
             statements
         }
     */
-    float marks;
-    printf("enter ur marks :");
-    scanf("%f",&marks);
-
-        // if(marks>=60)
-        // {
-        //     printf("first division pass!\n");
-        // }
-        // else if(marks>=50)
-        // {
-        //     printf("2nd division!\n");
-        // }
-        // else if(marks>=33)
-        // {
-        //     printf("3rd division!\n");
-        // }
-        // else
-        // {
-        //     printf("chai becho\n");
-        // } 
-
-        //Nested If
-
     // float marks;
     // printf("enter ur marks :");
     // scanf("%f",&marks);
 
-        if(marks>=60)
+    // if(marks>=60)
+    // {
+    //     printf("first division pass!\n");
+    // }
+    // else if(marks>=50)
+    // {
+    //     printf("2nd division!\n");
+    // }
+    // else if(marks>=33)
+    // {
+    //     printf("3rd division!\n");
+    // }
+    // else
+    // {
+    //     printf("chai becho\n");
+    // } 
+
+    //Nested If
+    float marks;
+    printf("enter ur marks :");
+    scanf("%f",&marks);
+
+    if(marks>=60)
+    {
+        printf("first division pass!\n");
+        
+        if(marks == 100)
         {
-            printf("first division pass!\n");
-            
-            if(marks == 100)
-            {
-                printf(" u got 1 lac. Scholarship \n");
-            }
-            else if (marks>=95)
-            {
-                printf("scholarship of 50k\n");
-            }
-            
+            printf(" u got 1 lac. Scholarship \n");
         }
-        else if(marks>=45)
+        else if (marks>=95)
         {
-            printf("2nd division!\n");  
+            printf("scholarship of 50k\n");
         }
-        else if(marks>=33)
-        {
-            printf("3rd division!\n");
-        }
-        else
-        {
-            printf("chai becho\n");
-        }  
+    }
+    else if(marks>=45)
+    {
+        printf("2nd division!\n");  
+    }
+    else if(marks>=33)
+    {
+        printf("3rd division!\n");
+    }
+    else
+    {
+        printf("chai becho\n");
+    }  
 
     return 0; 
 }
