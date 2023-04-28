@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
     for (int i=3;i<10;i++)
     {
@@ -14,4 +14,5 @@ void main()
     printf("after loop code \n");
     aman:
     printf("after skip code \n");
+    return 0;
 }

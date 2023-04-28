@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
     //switch is faster than else if bcz it works on hashing mechanism
@@ -25,7 +26,8 @@ int main()
         result = a / b;
         break;
     default:printf("invalid operation\n");
-        break;
+        // break;
+        exit(0);
     }
     
     printf("%d %c %d = %d\n", a, operation, b, result);

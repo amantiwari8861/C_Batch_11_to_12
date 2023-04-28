@@ -12,6 +12,7 @@ int main()
             arr[i]+=32;// 65 to 97
         }
     }
-    puts(arr);
+    // puts(arr);
+    printf("%s",arr);
     return 0;
 }
