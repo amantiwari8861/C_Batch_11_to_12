@@ -4,3 +4,4 @@
 4.count all even elements in an matrix.
 5.take 2 matrix from user and subtract them.
 6.count non-zero elements in a matrix.
+7.check whether a matrix is identity matrix or not.

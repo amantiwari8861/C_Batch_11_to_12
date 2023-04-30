@@ -1,27 +1,7 @@
 1. Write a C program to sort a numeric array and a string array.  
 
- 
-
 2. Write a C program to sum values of an array.  
 
- 
-
-3. Write a C program to print the following grid.  
-
-Expected Output :
-
-- - - - - - - - - -                                                                                           
-- - - - - - - - - -                                                                                           
-- - - - - - - - - -                                                                                           
-- - - - - - - - - -                                                                                           
-- - - - - - - - - -                                                                                           
-- - - - - - - - - -                                                                                           
-- - - - - - - - - -                                                                                           
-- - - - - - - - - -                                                                                           
-- - - - - - - - - -                                                                                           
-- - - - - - - - - -  
-
- 
 
 4. Write a C program to calculate the average value of array elements.  
 
