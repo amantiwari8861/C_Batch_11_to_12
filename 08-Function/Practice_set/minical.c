@@ -1,9 +1,10 @@
 #include<stdio.h>
+#include<stdlib.h>
 // int add(int n1,int n2);
 int add(int,int);
 int sub(int,int);
 int mul(int,int);
-int div(int,int);
+int divide(int,int);
 int main()
 {
     char choice;
@@ -21,9 +22,10 @@ int main()
                 break;
         case '*':result=mul(num,num2);
                 break;
-        case '/':result=div(num,num2);
+        case '/':result=divide(num,num2);
                 break;
         default:printf("invalid operation !\n");
+                exit(0);
     }
     printf("the result is %d \n",result);
     return 0;
@@ -36,7 +38,7 @@ int mul(int num,int num2)
 {
         return num*num2;
 }
-int div(int num,int num2)
+int divide(int num,int num2)
 {
      return num/num2;
 }

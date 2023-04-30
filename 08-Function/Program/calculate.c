@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void add(int, int);
+void add(int,int);
 void sub(int,int);
 void multi(int,int);
 void div(int,int);

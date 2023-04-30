@@ -50,9 +50,7 @@ void printMatr(int r,int c,int matr[][100])
 
 int main()
 {
-    int matr1[100][100], matr2[100][100], matr3[100][100];
     int r1,c1,r2,c2;//row and column of matr1 and matr2
-
     printf("enter the row and column of matr1 \n");
     scanf("%d %d",&r1,&c1);
     printf("enter the row and column of matr2 \n");
@@ -60,10 +58,11 @@ int main()
 
     if(c1==r2)
     {
+        int matr1[r1][c1], matr2[r2][c2], matr3[r1][c2];
         inputMatr(r1,c1,matr1);
-        printMatr(r1,c1,matr1);
+        // printMatr(r1,c1,matr1);
         inputMatr(r2,c2,matr2);
-        printMatr(r2,c2,matr2);
+        // printMatr(r2,c2,matr2);
         matrMulti(r1,c1,r2,c2,matr1,matr2,matr3);
         printf("the result of multiplication is \n");
         printMatr(r1,c2,matr3);
