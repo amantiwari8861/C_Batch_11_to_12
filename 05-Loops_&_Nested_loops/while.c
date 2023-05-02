@@ -2,13 +2,13 @@
 int main()
 {
     // // initialization ,condition , inc/dec
-    // int num=1;
+    int num=1;
     // while (1) //infinite while loop
-    // while(num<=10)
-    // {
-    //     printf("%d \n",num);
-    //     num++;
-    // }
+    while(num<=10)
+    {
+        printf("%d \n",num);
+        num++;
+    }
 
     // int num2=100;
     // while(num2>0)
