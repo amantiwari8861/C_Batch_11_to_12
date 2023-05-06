@@ -17,6 +17,7 @@ int main(/*parameters*/)
     // // 90Deg = 90 * pi/180 => 1.5708 Radian
     float result=sin(1.5708);// value given in radian
     float result=sinh(1);
+    float result=abs(-56);
     float result=floor(3.999);//3  downward rounding
     float result=ceil(3.000002);//4 upward rounding
     printf("the result is %0.2f \n",result);
