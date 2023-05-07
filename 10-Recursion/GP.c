@@ -4,14 +4,15 @@
 //     a = First term
 //     r = common ratio
 //     ar^n-1 = nth term
+
 #include<stdio.h>
 #include<math.h>
 void printGP(float i,float a,float r,float n)
 {
-    if (i!=n)
+    if (i!=n)//base condition
     {
-        printf(" %.0f ",a*pow(r,i));
         printGP(i+1,a,r,n);
+        printf(" %.0f ",a*pow(r,i));
     }
 }
 int main()

@@ -20,5 +20,4 @@ int sumOfN(int n)
     {
         return 0;
     }
-       
 }

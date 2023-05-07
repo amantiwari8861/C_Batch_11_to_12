@@ -1,7 +1,7 @@
 #include<stdio.h>
 // void inputMatr(int,int,int[][100]);
 // void matrMulti(int,int,int,int,int[][100],int[][100],int[][100]);
-// // void printMatr(int,int,int[][100]);
+// void printMatr(int,int,int[][100]);
 // void printMatr(int r,int c,int matr[r][c]);
 
 void inputMatr(int r,int c,int matr[r][c])
@@ -26,12 +26,12 @@ void matrMulti(int r1,int c1,int r2,int c2,int matr1[r1][c1],int matr2[r2][c2],i
             matr3[i][j]=0;
             for(k=0;k<c1;k++)
             {
-                matr3[i][j]+=matr1[i][k]*matr2[k][j];
+                matr3[i][j]=matr3[i][j]+matr1[i][k]*matr2[k][j];
             }
         }
     }
 }
-void printMatr(int r,int c,int matr[][100])
+void printMatr(int r,int c,int matr[r][c])
 {
     printf("\n----------------------------------------\n");
     int i,j;
