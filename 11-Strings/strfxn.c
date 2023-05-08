@@ -5,8 +5,10 @@ int main()
     // char arr[30];
     // printf("enter ur name :");
     // scanf("%[^\n]s",&arr);
+
     // int len=strlen(arr);
     // printf("the length of name is %d \n",len);
+
     // printf("the length of name is %d \n",strlen(arr));
 
     // char name[30];
