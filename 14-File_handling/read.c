@@ -10,7 +10,7 @@ int main()
 		exit(1);
 	}
 	char ch;
-	while(1)//INFINITE WHILE LOOP
+	for(;;)//INFINITE for LOOP
 	{
 		ch=fgetc(fptr);
 		if(ch==EOF)//END OF FILE 

@@ -47,6 +47,8 @@ int main()
     }
 
     while (fread(&inp, sizeof(struct Course), 1, inf))
+    {
         printf("Course Name = %s Started = %s\n",inp.cname, inp.sdate);
+    }
     fclose(inf);
 }
