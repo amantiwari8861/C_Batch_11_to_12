@@ -74,7 +74,7 @@ void insert(FILE *fp)
 {
 	fseek(fp,0,2);
 	printf("Enter book name : ");
-	scanf("%s",book.name);
+	scanf("%[^\n]s",book.name);
 	printf("Enter number of copies : ");
 	scanf("%d",&book.ncopies);
 	printf("Enter cost of book : ");
@@ -87,7 +87,7 @@ void del(FILE *fp)
 	FILE *fptmp;
 	char name[20];
 	printf("Enter the name of book to be deleted from database : ");
-	scanf("%s",name);
+	scanf("%[^\n]s",name);
 	if(search(fp,name)==0)
 		return;
 	fptmp = fopen("tempfile","wb");
@@ -109,12 +109,12 @@ void modify(FILE *fp)
 	char name[50];
 	long size = sizeof(book);
 	printf("Enter the name of the book to be modified : ");
-	scanf("%s",name);
+	scanf("%[^\n]s",name);
 	if(search(fp,name) == 1)
 	{
 		printf("Enter new data-->\n\n");
 		printf("Enter book name : ");
-		scanf("%s",book.name);
+		scanf("%[^\n]s",book.name);
 		printf("Enter number of copies : ");
 		scanf("%d",&book.ncopies);
 		printf("Enter cost of book : ");
@@ -130,7 +130,7 @@ void booksold(FILE *fp)
 	char name[50];
 	long size = sizeof(book);
 	printf("Enter the name of the book to be sold : ");
-	scanf("%s", name);
+	scanf("%[^\n]s", name);
 	if(search(fp,name)==1)
 	{
 		if(book.ncopies >0)
@@ -150,7 +150,7 @@ void display(FILE *fp)
 {
 	char name[50];
 	printf("Enter the name of the book : ");
-	scanf("%s",name);
+	scanf("%[^\n]s",name);
 	if(search(fp,name)==1)
 	{
 		printf("\nName\t%s\n",book.name);
