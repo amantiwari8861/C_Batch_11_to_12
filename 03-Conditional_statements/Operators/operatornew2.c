@@ -21,7 +21,7 @@ int main()
 	//c.assignment operators ->    = , += ,-= , *= ,/=,%= etc.
 	// int num=20;
 	// // num+30; // this will works ??
-	// // num=num+30; 
+	// num=num+30; 
 	// // //or
 	// num+=30; //num =50
 	// printf("the num is %d \n",num);
