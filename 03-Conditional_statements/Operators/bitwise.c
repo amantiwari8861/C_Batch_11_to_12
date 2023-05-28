@@ -56,15 +56,15 @@ int main()
     //Left Shift Right Shift
     int num1 = 8;
     // Left shift (<<)
-    //printf("Left shift : %d\n",num1<<1); // 8 << 1 => 8 *2  = 16 ans.
-    //printf("Left shift : %d\n",num1<<2); // 8 << 2 => 8 *2*2 = 32 ans.
-    //printf("Left shift : %d\n",num1<<3); // 8 << 3 => 8 *2*2*2 = 64 ans.
+    printf("Left shift : %d\n",num1<<1); // 8 << 1 => 8 *2  = 16 ans.
+    printf("Left shift : %d\n",num1<<2); // 8 << 2 => 8 *2*2 = 32 ans.
+    printf("Left shift : %d\n",num1<<3); // 8 << 3 => 8 *2*2*2 = 64 ans.
 
     int num2 = 128;
     // Right shift (>>)
-    printf("Right shift : %d\n", num1 >> 1); // 128 >> 1 =128 /2= 64 ans.
-    printf("Right shift : %d\n", num1 >> 2); // 128 >> 2 =128/2/2 = 32 ans.
-    printf("Right shift : %d\n", num1 >> 3); // 128 >> 3 =128/2/2/2 = 16 ans.
+    printf("Right shift : %d\n", num2 >> 1); // 128 >> 1 =128 /2= 64 ans.
+    printf("Right shift : %d\n", num2 >> 2); // 128 >> 2 =128/2/2 = 32 ans.
+    printf("Right shift : %d\n", num2 >> 3); // 128 >> 3 =128/2/2/2 = 16 ans.
 
     return 0;
 }

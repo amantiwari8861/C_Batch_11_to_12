@@ -5,11 +5,12 @@ int main()
 		//c.logical operators :  && (AND) , || (or) , ! (not )
 	//true = 1 and false = 0 
 	
-	// int result;
+	int result;
 	// AND GATE (&&)
 	// result= (10 > 20 ) && (20 < 30 ); // 0 && 1  -> 0
 	// result= (30 > 20 ) && (50 < 30 ); // 1 && 0  -> 0
 	// result= (30 > 20 ) && (50 > 30 ); // 1 && 1  -> 1
+	result= (30 > 20 ) && (50 > 30 ) && (12<80); // 1 && 1  -> 1
 	
 	//OR GATE (||)
 	// result= (30 > 20 ) || (50 < 30 ); // 1 || 0  -> 1
@@ -20,7 +21,7 @@ int main()
 
 	//c.assignment operators ->    = , += ,-= , *= ,/=,%= etc.
 	// int num=20;
-	// // num+30; // this will works ??
+	// num+30; // this will works ??
 	// num=num+30; 
 	// // //or
 	// num+=30; //num =50
