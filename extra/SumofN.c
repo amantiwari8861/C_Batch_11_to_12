@@ -20,9 +20,11 @@ int main()
             i=1
             i<=num   1<=10 true
             sum=sum+i;   => sum=0+1 => sum=1
+
     step 2 : i=2
             2<=10 t
             sum=1+2 =3
+            
     step 3: i=3
             3<=10 t
             sum=3+3 => 6
