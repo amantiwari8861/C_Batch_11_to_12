@@ -14,9 +14,9 @@ int main()
 
     printf(" num= %d \n",num);
 
-    // int num2=50;
-    // num2--;
-    // printf(" num2 = %d \n",num2);
+    int num2=50;
+    num2--;
+    printf(" num2 = %d \n",num2);
 
     return 0;
 }

@@ -13,7 +13,7 @@ int main()
     /* H.W  1. take a number from user and find factorial of that
                let num=5  -> 5*4*3*2*1 = 120
             2. print fibonnaci series let n=10
-                0 1 1 2 3 5 8 13 21 34 v
+                0 1 1 2 3 5 8 13 21 34 
             3. take a number from user and count how many digits are in that number eg.4589 -> 4
             4. take a number from user and count how many odd digits are in that number eg.45897 -> 3
             5. take a number from user and count how many even digits are in that number eg.4589 -> 2

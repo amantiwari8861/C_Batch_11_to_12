@@ -18,7 +18,7 @@ int main()
 
     // for(;;) //infinite for loop
     // {
-    //     printf("hello Aman \n");
+    //     printf("hello Aman Sir! \n");
     // } 
 
     int num,a;
@@ -27,13 +27,13 @@ int main()
 
     // for(a=3;a<=num;a++)
     // {
-    //     printf("%d. my name is aman\n",a);
+    //     printf("%d.Hello aman Sir\n",a);
     // }
 
     // decrement
     for(a=num;a>0;a--)// let num=10  
     {
-        printf("%d. my name is aman\n",a);
+        printf("%d. Hello Aman Sir\n",a);
     }
     return 0;
 }
