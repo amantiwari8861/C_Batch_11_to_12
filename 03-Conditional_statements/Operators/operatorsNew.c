@@ -8,7 +8,7 @@ int main()
 	printf("enter 2 values \n"); 
 	scanf("%d %d",&num1,&num2);
 	
-	result= num1 < num2 ; // eg. 10 < 5  -> false -> (0)
+	// result= num1 < num2 ; // eg. 10 < 5  -> false -> (0)
 	// result= num1 < num2 ; //eg. 67 < 98  -> true -> (1)
 	// result= num1 > num2 ; //eg. 20 > 30  -> false -> (0)
 	//result= num1 < num2 ; //eg. 20 < 30  -> true -> (1)

@@ -1,0 +1,24 @@
+1. take a number from user and find factorial of that
+   let num=5  -> 5*4*3*2*1 = 120
+2. print fibonnaci series let n=10
+    0 1 1 2 3 5 8 13 21 34 
+3. take a number from user and count how many digits are in that number eg.4589 -> 4
+4. take a number from user and count how many odd digits are in that number eg.45897 -> 3
+5. take a number from user and count how many even digits are in that number eg.4589 -> 2
+6. take a number from user and sum of the even digits in that number eg.4589 -> 12
+7. take a number from user and sum of the odd digits in that number eg.4589 -> 14
+8. take a ,n,d from user and print the A.P (arithematic progression)    
+    let a=10  n=6 d=3
+    a  a+d  a+2d a+3d a+4d  a+5d
+    10  13  16 19 22 25 Ans.
+9. take a number from user and check whether it is a prime number or not 
+    
+10.Take a number from user and count it's length and the sum of odd and even numbers present in that number then let these 2 results as first and second term and make fibonnaci series from them
+    till n(the length of that number) term.
+    let num=321578        OddSum=16 evenSum=10  digitLen=6
+    16 10 26 36 62 98 Ans.
+11.check whether a no. is 3 digit armstrong or not i.e
+    153 = 1*1*1 + 5*5*5 + 3*3*3 => 153
+12. reverse a number 1234 -> 4321
+13. check whether a no. is palindrome or not 
+    i.e 12321 -> after reverse -> 12321

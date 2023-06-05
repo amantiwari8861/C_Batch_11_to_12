@@ -2,19 +2,13 @@
 
 int main()
 {
-    int num,times = 10,table;
-
-    printf("Enetr the number = ");
+    int num,i;
+    printf("enter the number :");
     scanf("%d",&num);
-    
 
-    printf("The table of %d is: \n",num);
-    for (int i = 1; i <=times; i++)
+    for (i = 1; i <= 10; i++)
     {
-        table = num * i;
-        printf("\t\t %d*%d= %d \n",num,i,table);
+        printf(" %d X  %d is %d \n",num,i,num*i);
     }
-    
-    
     return 0;
 }

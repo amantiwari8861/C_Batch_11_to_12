@@ -19,8 +19,8 @@ int main()
 // volume of cylinder => pi*r*r*h;
 // volume of cube => r*r*r;
 // area of triangle => 1/2*b*h;
-// convert celsius to fahrenheit => (C × 9/5) + 32
-// convert fahrenheit to celsius => (F − 32) × 5/9;
+// convert celsius to fahrenheit => C × 9/5 + 32
+// convert fahrenheit to celsius => F − 32 × 5/9;
 // convert miles to kilometer => 1.609*miles;
 // simple interest => p*r*t/100;
 // surface area of sphere => 4*pi*r*r;
