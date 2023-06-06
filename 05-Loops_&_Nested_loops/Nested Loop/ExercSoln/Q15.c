@@ -1,23 +1,31 @@
 #include<stdio.h>
 int main()
 {
-    int row;
-    printf("enter row:");
-    scanf("%d",&row);
-    for (int i = 0; i < row; i++)
+    int space=8,star=1;
+    for (int i = 1; i <= 16; i++)
     {
-        for (int j = 0; j < row; j++)
+        if (i>12)
         {
-            if ( i==0 || i==row-1 || j==0  || j==row-1 || i==j || i==row-1-j)
-            {
-                printf("*");
-            }
-            else
-            {
-                printf(" ");
-            }
+            space=5;
+            star=4;
         }
+        for (int sp = space; sp >0; sp--)
+        {
+            printf(" ");
+        }
+        space--;
+        for (int st = 0; st < star; st++)
+        {
+            printf(" *");
+        }   
+        star++;
         printf("\n");
+        if(i%4==0)
+        {
+            space+=2;
+            star-=2;
+        }
+        
     }
    return 0;
 }
