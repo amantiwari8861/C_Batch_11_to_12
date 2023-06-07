@@ -29,14 +29,14 @@ step 1: i=0
                         
                         matr3[i][j]=matr3[i][j]+ matr1[i][k]*matr2[k][j];
                         matr3[0][0]=matr3[0][0]+ matr1[0][1]*matr2[1][0]
-                        matr3[0][0]=  1 + 2 * 3 => 7 
+                        matr3[0][0]=  1 + 2 * 4 => 9
 
                 (iii)   k=2
                         2<3 true
                         
                         matr3[i][j]=matr3[i][j]+ matr1[i][k]*matr2[k][j];
                         matr3[0][0]=matr3[0][0]+ matr1[0][2]*matr2[2][0]
-                        matr3[0][0]=   7 + 3*5 =>22
+                        matr3[0][0]=   9 + 3*7 =>30
 
                 (iv)    k=3
                         3<3 false
