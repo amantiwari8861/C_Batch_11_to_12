@@ -1,4 +1,4 @@
-1.take a matrix from user and print that.
+1.take a matrix in fixed dimension array from user and print that
 2.find the sum of all elements in a matrix.
 3.take a matrix dimension from user and get value in that matrix and print them.
 4.count all even elements in an matrix.
