@@ -45,52 +45,60 @@ int main()
     // printf("enter ur marks :");
     // scanf("%f",&marks);
 
-    // if(marks>=60)
+    // if (marks>=90)
     // {
-    //     printf("first division pass!\n");
+    //     printf("u got admission in DU \n");
     // }
-    // else if(marks>=50)
+    // else if (marks>80)
     // {
-    //     printf("2nd division!\n");
+    //     printf("Got admission in IPU");
     // }
-    // else if(marks>=33)
+    // else if(marks>70)
     // {
-    //     printf("3rd division!\n");
+    //     printf("Got admission in Amity");
+    // }
+    // else if (marks>=33)
+    // {
+    //     printf("IGNOU");
     // }
     // else
     // {
-    //     printf("chai becho \n");
-    // } 
+    //     printf("Chai Becho");
+    // }
 
-    // //Nested If
+    //Nested if
     float marks;
     printf("enter ur marks :");
     scanf("%f",&marks);
 
-    if(marks>=60)
+    if (marks>=90)
     {
-        printf("first division pass!\n");
-        if(marks == 100)
+        printf("u got admission in DU \n");
+        if (marks>95)
         {
-            printf(" u got 1 lac. Scholarship \n");
+            printf("Got scholarship of 50k");
         }
-        else if (marks>=95)
+        else if(marks>92)
         {
-            printf("scholarship of 50k\n");
+            printf("scholarship of 25k");
         }
     }
-    else if(marks>=45)
+    else if (marks>80)
     {
-        printf("2nd division!\n");  
+        printf("Got admission in IPU");
     }
-    else if(marks>=33)
+    else if(marks>70)
     {
-        printf("3rd division!\n");
+        printf("Got admission in Amity");
+    }
+    else if (marks>=33)
+    {
+        printf("IGNOU");
     }
     else
     {
-        printf("chai becho\n");
-    }  
+        printf("Chai Becho");
+    }
 
     return 0; 
 }

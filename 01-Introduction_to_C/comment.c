@@ -2,7 +2,7 @@
 int main()
 {
     // printf("hello aman sir");
-    // printf("hello aman sir");
+    //printf("hello aman sir");
 
     // printf("hello aman sir \n");
     // printf("hello aman sir ");
@@ -17,9 +17,9 @@ int main()
     printf("hello aman sir 3.0\n");
     printf("hello aman sir 3.0\n");
     printf("hello aman sir 3.0\n"); // multiple line comment
-    printf("hello aman sir 3.0\n");
-    printf("hello aman sir 3.0\n");
-    */
-    printf("hello aman sir 3.0\n");
+    printf("hello aman sir 3.0\n");*/
+    // printf("hello aman sir 3.0\n");
+    
+    // printf("hello aman sir 3.0\n");
     return 0;
 }

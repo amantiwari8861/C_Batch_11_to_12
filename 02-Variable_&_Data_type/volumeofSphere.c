@@ -11,10 +11,9 @@ int main()
 	result=4.0/3.0*pi*radius*radius*radius; //65.42
 
 	printf("the volume of sphere is %f \n",result);
-	printf("the volume of sphere is %.2f \n",result);
+	// printf("the volume of sphere is %.2f \n",result);
 	return 0;
 }
-
 // h.w : volume of cone => 1/3*pi*r*r*h;
 // volume of cylinder => pi*r*r*h;
 // volume of cube => r*r*r;

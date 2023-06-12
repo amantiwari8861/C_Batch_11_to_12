@@ -8,12 +8,6 @@ int main()//starting point of a program
     scanf("%d%d",&num,&power);
     int result=powerFxn(num,power);//calling of fxn
     printf("the result is %d \n",result);
-
-    printf(" %d \n",powerFxn(25,3));
-    printf(" %d \n",powerFxn(2,3));
-    printf(" %d \n",powerFxn(8,4));
-    printf(" %d \n",powerFxn(9,3));
-
     printf("after calling in main \n");
     return 0;//ending point of a program
 }

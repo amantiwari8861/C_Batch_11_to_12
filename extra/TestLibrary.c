@@ -1,7 +1,6 @@
-#include<stdio.h>
 #include "mylib.h"
 #include<math.h>
-float powerFxn(float,float); //declaration
+// float powerFxn(float,float); //declaration
 int main()
 {
     // int result=pow(5,3);

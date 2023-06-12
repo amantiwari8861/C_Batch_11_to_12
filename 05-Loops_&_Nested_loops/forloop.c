@@ -25,10 +25,10 @@ int main()
     printf("enter the no. of times u want to print ur name : ");
     scanf("%d",&num);//let  num = 10
 
-    for(a=3;a<=num;a++)
-    {
-        printf("%d.Hello aman Sir\n",a);
-    }
+    // for(a=3;a<=num;a++)
+    // {
+    //     printf("%d.Hello aman Sir\n",a);
+    // }
 
     // decrement
     for(a=num;a>0;a--)// let num=10  
