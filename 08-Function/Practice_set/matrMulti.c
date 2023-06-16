@@ -4,7 +4,7 @@
 // void printMatr(int,int,int[][100]);
 // void printMatr(int r,int c,int matr[r][c]);
 
-void inputMatr(int r,int c,int matr[r][c])
+void inputMatr(int r,int c,int matr[][c])
 {
     int i,j;
     printf("enter the elements of matr \n");

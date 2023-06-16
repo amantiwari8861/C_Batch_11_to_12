@@ -6,16 +6,16 @@ int main()
     // // while (1) //infinite while loop
     // while(num<=10)
     // {
-    //     printf("%d \n",num);
+    //     printf("%d ",num);
     //     num++;
     // }
 
-    // int num2=100;
-    // while(num2>0)
-    // {
-    //     printf("%d\n",num2);
-    //     num2--;
-    // }
+    int num2=100;
+    while(num2>0)
+    {
+        printf("%d\n",num2);
+        num2--;
+    }
 
 
 

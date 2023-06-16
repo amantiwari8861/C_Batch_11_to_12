@@ -6,8 +6,9 @@ int main()
 
         for (i = 1; i <= 10; i++)
         {
-                printf(" %d ", i);
+                // printf(" %d ", i);
                 sum = sum + i;
+                // sum+=i;//shortcut
         }
         printf("\nthe sum till %d is %d \n", 10, sum);
         return 0;
@@ -16,7 +17,7 @@ int main()
 /*
     psuedocode/dryrun ( defines how it is working internally )
 
-    step 1: let num=10,sum=0
+    step 1: let sum=0
             i=1
             i<=num   1<=10 true
             sum=sum+i;   => sum=0+1 => sum=1

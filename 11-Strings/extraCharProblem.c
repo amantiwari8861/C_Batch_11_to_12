@@ -11,6 +11,6 @@ int main()
     printf("enter a character : ");
     scanf("%c",&ch);
 
-    printf("num=%d and ch=%c hai",num,ch);
+    printf("num=%d and ch=%c (ASCII=%d) hai",num,ch,ch);
     return 0;
 }

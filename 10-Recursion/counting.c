@@ -13,10 +13,10 @@ void counting(int a)
     if (a<=10)
     {    
         printf("in add function at %d \n",a);
-        if(a==5)
-        {
-            return;
-        }
+        // if(a==5)
+        // {
+        //     return;
+        // }
         counting(a+1); 
     }
 }

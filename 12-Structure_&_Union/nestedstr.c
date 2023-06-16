@@ -11,7 +11,8 @@ struct employee
     int id;
     char name[MAX];
     float salary;
-    struct address obj;
+    struct address localaddress;
+    struct address permanentaddress;
 };
 int main()
 {
@@ -31,17 +32,17 @@ int main()
         scanf("%f",&employeeObj[i].salary);
         
         printf("enter the employee pincode\n");
-        scanf("%d",&employeeObj[i].obj.pincode);
+        scanf("%d",&employeeObj[i].localaddress.pincode);
         printf("enter the employee city\n");
-        scanf("%[^\n]s",&employeeObj[i].obj.city);
+        scanf("%[^\n]s",&employeeObj[i].localaddress.city);
     }
     for (int i = 0; i < 3; i++)
     {
         printf("employee id is %d \n",employeeObj[i].id);
         printf("employee name is %s \n",employeeObj[i].name);
         printf("employee salary is %.2f \n",employeeObj[i].salary);
-        printf("employee city is %s \n",employeeObj[i].obj.city);
-        printf("employee pincode is %d \n",employeeObj[i].obj.pincode);
+        printf("employee city is %s \n",employeeObj[i].localaddress.city);
+        printf("employee pincode is %d \n",employeeObj[i].localaddress.pincode);
     }
     return 0;
 }

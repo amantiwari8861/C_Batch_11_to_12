@@ -11,6 +11,7 @@ int main()
 	puts(name);
 	puts(name2);
 	fputs(name2,stdout);
-	printf(" the name is %s ",name);
+	puts("hiii");
+	printf(" the name is %s .",name);
 	return 0;
 }

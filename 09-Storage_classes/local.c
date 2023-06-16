@@ -1,5 +1,5 @@
 #include<stdio.h>
-void fxn2(int);
+// void fxn2(int);
 int modi=200; //global variable or external variable
 // extern int modi=200; //global variable or external variable
 void fxn()
@@ -7,6 +7,7 @@ void fxn()
     // int num5;
     // printf("the value of num is %d \n",num); //error
     printf("the value of modi in fxn is %d \n",modi);
+    modi=56;
 }
 int main()
 {
@@ -16,11 +17,12 @@ int main()
     //scope for this variable
     // auto int num=100; //actual code by compiler
     fxn();
-    fxn2(num); // sending copy of variable to fxn2 or pass by value
+    // fxn2(num); // sending copy of variable to fxn2 or pass by value
     printf("the value of modi in main is %d \n",modi);
     return 0;
 }
 void fxn2(int number)// the value of num is copied to number variable
 {
+    number+=5;
     printf(" number in fxn2 %d \n",number);
 }

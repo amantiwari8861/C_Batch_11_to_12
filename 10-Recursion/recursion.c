@@ -1,11 +1,11 @@
 #include<stdio.h>
-int add()
+void add()
 {
     static int count=0;
     printf("in add function at %d \n",++count);
     if (count==5)
     {
-        return 0;
+        return ;
         // break; //error
     }
     add();  

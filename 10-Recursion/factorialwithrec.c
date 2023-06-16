@@ -12,12 +12,10 @@ int main()
 }
 int factorial(int num)
 {
-    if (num > 0) //termination condition (base condition)
-    {
-        return num * factorial(num - 1);
-    }
-    else
+    if(num==0 || num==1)
         return 1;
+    else //termination condition (base condition)
+        return num * factorial(num - 1);
 }
 // Write a program in C to calculate the sum of numbers from 1 to n using recursion.
 // Write a program in C to Print Fibonacci Series using recursion.
