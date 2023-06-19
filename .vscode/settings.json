@@ -5,6 +5,7 @@
         "*.tcc": "cpp",
         "math.h": "c",
         "stdio.h": "c",
-        "conio.h": "c"
+        "conio.h": "c",
+        "unistd.h": "c"
     }
 }
