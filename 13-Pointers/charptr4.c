@@ -3,9 +3,9 @@
 ((a + i) + j) == a[i][j]
 
 
-Array of Pointers
-We can also have array of pointers. Pointers are very helpful
- in handling character array with rows of varying length.
+// Array of Pointers
+// We can also have array of pointers. Pointers are very helpful
+//  in handling character array with rows of varying length.
 
 char *name[3] = { 
     "Adam",

@@ -2,15 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Structure to store
-// course details
 struct Course
 {
     char cname[30];
     char sdate[30];
 };
 
-// Driver code
 int main()
 {
     FILE *of;

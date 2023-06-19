@@ -3,7 +3,7 @@
 int main()
 {
 	FILE *fptr;	//why we need file handling ?
-	fptr=fopen("C:\\Users\\Aman_Tiwari\\Desktop\\first.sql","r");//OPEN FILE IN READING MODE 
+	fptr=fopen("sample.txt","r");//OPEN FILE IN READING MODE 
 	if(fptr==NULL)
 	{
 		printf("Error! unable to open file");
