@@ -8,4 +8,4 @@
 8.Write a C program to test the equality of two arrays.  
 9. Write a C program to find the number of even and odd integers in a given array of integers.  
 10.Write a C program to get the difference between the largest and smallest values in an array of integers.
-11. Write a C program to find the common elements between two arrays of integers.  
+11.Write a C program to find the common elements between two arrays of integers.
