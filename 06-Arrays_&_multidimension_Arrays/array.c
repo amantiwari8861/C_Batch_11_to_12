@@ -20,8 +20,8 @@ int main()
     // printf("the value of marks is %d \n",marks5);
 
     // int marks[5]; //1st way to declare array
-    // int marks[5]={101,201,301,40,16}; //2nd way to declare and initialize an array
-    int marks[]={21,31,41,51,61}; // 3rd way to declare and initialize an array
+    int marks[5]={101,201,301,40,16}; //2nd way to declare and initialize an array
+    // int marks[]={21,31,41,51,61}; // 3rd way to declare and initialize an array
     
     // marks[0]=10;
     // marks[1]=20;

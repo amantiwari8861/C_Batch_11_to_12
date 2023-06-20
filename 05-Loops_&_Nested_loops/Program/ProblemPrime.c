@@ -9,14 +9,15 @@ int main()
    {
         if (num%i==0)
         {
-            printf("%d/%d is not prime \n",num,i);
+            // printf("%d/%d perfectly kat gaya \n",num,i);
+            printf("%d is not prime \n",num);
             break;
         }
-        else
-        {
-            printf("%d/%d is  prime\n",num,i);
-        }
-        
+        // else
+        // {
+        //     // printf("%d/%d perfectly nahi kta \n",num,i);
+        //     printf("%d is prime \n",num);
+        // }
     }
    
     return 0;

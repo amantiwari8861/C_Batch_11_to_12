@@ -12,6 +12,11 @@ int main()
         printf("the value of i is %d after \n",i);
     }
     printf("after loop code \n");
+    printf("after loop code \n");
+    printf("after loop code \n");
+    printf("after loop code \n");
+    printf("after loop code \n");
+    printf("after loop code \n");
     aman:
     printf("after skip code \n");
     return 0;
