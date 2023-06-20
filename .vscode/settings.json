@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "files.associations": {
         "*.java": "java",
@@ -7,4 +8,16 @@
         "stdio.h": "c",
         "conio.h": "c"
     }
+=======
+{
+    "files.associations": {
+        "*.java": "java",
+        "cmath": "cpp",
+        "*.tcc": "cpp",
+        "math.h": "c",
+        "stdio.h": "c",
+        "conio.h": "c",
+        "unistd.h": "c"
+    }
+>>>>>>> eaa42a88730f025ddb6412a578957c2e832dfae6
 }

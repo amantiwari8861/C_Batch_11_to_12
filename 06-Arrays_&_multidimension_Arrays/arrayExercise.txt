@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1.take 10 no. from user and find maximum number.
 2.take 10 no. from user and find minimum number.
 3.take 10 no. from user and take a number to search from array and find the index of that number.(linear search)
@@ -9,3 +10,16 @@
 9. Write a C program to find the number of even and odd integers in a given array of integers.  
 10.Write a C program to get the difference between the largest and smallest values in an array of integers.
 11. Write a C program to find the common elements between two arrays of integers.  
+=======
+1.take 10 no. from user and find maximum number.
+2.take 10 no. from user and find minimum number.
+3.take 10 no. from user and take a number to search from array and find the index of that number.(linear search)
+4.copy one array's elements to another array.
+5.copy one array's elements to another array in reverse order.
+6.Write a C program to find the common elements between two arrays of integers.  
+7.Write a C program to find the second largest element in an array.  
+8.Write a C program to test the equality of two arrays.  
+9. Write a C program to find the number of even and odd integers in a given array of integers.  
+10.Write a C program to get the difference between the largest and smallest values in an array of integers.
+11.Write a C program to find the common elements between two arrays of integers.
+>>>>>>> eaa42a88730f025ddb6412a578957c2e832dfae6
