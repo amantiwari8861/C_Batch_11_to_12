@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+    // int matr[2][3]={ {10,30,40},{23,56,6}}; //pre-defined value in 2d array
     int matr[2][3];
     printf("enter the matrix \n");
 
