@@ -1,16 +1,16 @@
 #include<stdio.h>
 void add();//fxn declaration 
-//user defined fxn
 int main(/* arguments(parameters) */)//starting point of program
 {
     printf("before calling in main \n");
-    add();//calling of fxn   
-    add();//calling of fxn   
-    add();//calling of fxn   
+    add();//calling of fxn
+    add();//calling of fxn
+    add();//calling of fxn
     add();//calling of fxn
     printf("after calling in main \n");
     return 0;//ending point of program
 }
+//user defined fxn
 void add(/*parameter*/)
 {   //body open
     printf("hii i am adding something\n");// code

@@ -13,30 +13,31 @@ int main()
         double marks;
     // };
     // }stu1;
-    }stu1,stu3={203,"Aman",10000,80.0};
-    //2 variables of data type struct Student //1st approach
+    }stu1,stu3={203,"Aman",10000,80.0}; //2 variables of data type struct Student //1st approach
 
     struct Student stu2={201,"Kamal",20000,80};
-    stu1.id=102;//pre-defined
+    printf("Student 2:the id is %d and name is %s and fees is %f marks %lf\n",stu2.id,stu2.name,stu2.fees,stu2.marks);
+    
+    // stu1.id=102;//pre-defined
     // stu1.name="AMan"; //it will give error
     // stu1.name={"AMan"}; //it will give error
     // stu1.name[]={"AMan"}; //it will give error
-    strcpy(stu1.name,"Aman");//pre-defined
-    stu1.fees=5000.50;;
-    stu1.marks=85;
-    // printf("Enter the id:\n");
-    // scanf("%d",&stu1.id);
-    // fflush(stdin);
-    // printf("enter the name : ");
-    // scanf("%[^\n]s",&stu1.name);
-    // printf("enter the fees : ");
-    // scanf("%f",&stu1.fees);
-    // printf("enter the marks : ");
-    // scanf("%lf",&stu1.marks);
-    printf("Student 1: the id is %d and name is %s and fees is %f marks %lf\n",stu1.id,stu1.name,stu1.fees,stu1.marks);
-    printf("Student 2:the id is %d and name is %s and fees is %f marks %lf\n",stu2.id,stu2.name,stu2.fees,stu2.marks);
+    // strcpy(stu1.name,"Aman");//pre-defined
+    // stu1.fees=5000.50;;
+    // stu1.marks=85;
+    printf("Enter the id:\n");
+    scanf("%d",&stu1.id);
+    fflush(stdin);
+    printf("enter the name : ");
+    scanf("%[^\n]s",&stu1.name);
+    printf("enter the fees : ");
+    scanf("%f",&stu1.fees);
+    printf("enter the marks : ");
+    scanf("%lf",&stu1.marks);
 
-    printf("the id is %d and name is %s and fees is %0.2f and marks is %f \n",stu3.id,stu3.name,stu3.fees,stu3.marks);
+    printf("Student 1: the id is %d and name is %s and fees is %f marks %lf\n",stu1.id,stu1.name,stu1.fees,stu1.marks);
+
+    // printf("the id is %d and name is %s and fees is %0.2f and marks is %f \n",stu3.id,stu3.name,stu3.fees,stu3.marks);
     
     // struct Student stu4; //2nd approach
     // stu4.id=103;

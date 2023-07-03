@@ -4,22 +4,9 @@ int main()
 {
     int num,power;
     printf("enter the number and power\n");
-    scanf("%d%d",&num,&power);
-
+    scanf("%d%d",&num,&power);//5 3
     int result=powerFxn(num,power);
-
     printf("the result is %d \n",result);
-
-    int r1=powerFxn(4,5);
-    printf(" res =%d \n",r1);
-    int r2=powerFxn(2,5);
-    printf(" res =%d \n",r2);
-    int r3=powerFxn(5,5);
-    printf(" res =%d \n",r3);
-    int r4=powerFxn(5,3);
-    printf(" res =%d \n",r4);
-
-
     return 0;
 }
 int powerFxn(int num,int power)

@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<math.h>
-int main(/*parameters*/)
+void main(/*parameters*/)
 {
     // A function is a group of statements that together perform a task. ...
     //  A function declaration tells the compiler about a function's name, return type, and parameters. 
@@ -9,6 +9,7 @@ int main(/*parameters*/)
 
     // int num=5;
     // float result=pow(num,4);//625
+    printf(" %f ",pow(5,3));
     // float result=pow(2.5,2);//625
     // float result=sqrt(625);//25
     // float result=log(2);//0.69
@@ -22,9 +23,8 @@ int main(/*parameters*/)
     // float result=ceil(3.000002);//4 upward rounding
     // printf("the result is %0.2f \n",result);
 
-    printf("%lf",M_PI);
+    // printf("%lf",M_PI);
 
-    return 0;
 }
 
 //advantages of fxn

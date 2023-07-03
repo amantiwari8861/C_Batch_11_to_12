@@ -10,30 +10,31 @@ int main()
     // };
     }m1,m3,m4;
     // printf("the size of m1 =%d bytes \n",sizeof(m1));
-    // printf("the size of m2 =%d byte \n",sizeof(m2));
+    // printf("the size of movie2 =%d byte \n",sizeof(m4));
+
     // printf("enter the name of movie: ");
     // scanf("%[^\n]s",&m1.name);
     // printf("enter the year of movie: ");
     // scanf("%d",&m1.year);
     // printf("enter the rating of movie: ");
     // scanf("%f",&m1.rating);
-    // printf("the name of movie is %s \n",m1.name);
+    // printf("the name of movie is \"%s\" \n",m1.name);
     // printf("the year of movie is %d \n",m1.year);
     // printf("the rating of movie is %0.1f \n",m1.rating);
 
-    fflush(stdin);
-    struct Movie m2;
-    // m2.name="wakanda forever"; //error
-    strcpy(m2.name,"wakanda forever");
+    // fflush(stdin);
+    struct Movie movie2;
+    // movie2.name="wakanda forever"; //error
+    strcpy(movie2.name,"wakanda forever");
     // printf("enter the name of movie2: ");
-    // scanf("%[^\n]s",&m2.name);
+    // scanf("%[^\n]s",&movie2.name);
     printf("enter the year of movie2: ");
-    scanf("%d",&m2.year);
+    scanf("%d",&movie2.year);
     printf("enter the rating of movie2: ");
-    scanf("%f",&m2.rating);
-    printf("the name of movie is %s \n",m2.name);
-    printf("the year of movie is %d \n",m2.year);
-    printf("the rating of movie is %0.1f \n",m2.rating);
+    scanf("%f",&movie2.rating);
+    printf("the name of movie is %s \n",movie2.name);
+    printf("the year of movie is %d \n",movie2.year);
+    printf("the rating of movie is %0.1f \n",movie2.rating);
 
 
     return 0;

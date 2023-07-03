@@ -23,6 +23,7 @@ int main()
         printf("enter the salary of %dth student : ",i+1);
         scanf("%f",&stu[i].salary);
     }
+    
     struct Student *stuptr=NULL;
     stuptr=&stu[0];
 
