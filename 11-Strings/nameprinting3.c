@@ -3,7 +3,7 @@ int main()
 {
 	int i;
 	char name[20];
-	
+	printf("enter the name :");
 	for(i=0;i<11;i++)
 	{
 		scanf("%c",&name[i]);

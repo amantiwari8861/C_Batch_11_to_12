@@ -1,10 +1,10 @@
 #include<stdio.h>
-void swap(int num1,int num2) //call by value
+void swap(int num1,int num2) //call by value (10 ,20)
 {
     int c;
-    c=num1;
-    num1=num2;
-    num2=c;
+    c=num1;//c=10
+    num1=num2;//num1=20
+    num2=c;//num2=10
     printf("the value in swap fxn num1=%d and num2=%d \n",num1,num2); //20 10
 }
 int main()

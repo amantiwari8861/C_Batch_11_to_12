@@ -82,6 +82,11 @@ int main()
         {
             printf("scholarship of 25k");
         }
+        else if (marks>90)
+        {
+            printf("20k scholarship");
+        }
+        
     }
     else if (marks>80)
     {

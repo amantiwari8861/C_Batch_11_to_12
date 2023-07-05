@@ -17,7 +17,8 @@ int main()
     case 3 : marks = 150     150 >= 90 || 150 <= 100 => 1 || 0 => 1 ans then if will execute
     */
     /*
-        IF WE USE AND(&&) THEN :
+    IF WE USE AND(&&) THEN :
+    
     case 1 : marks = 12       12 >= 90 && 12 <=  100 => 0 && 1 => 0 ans then if will not execute
     case 2 : marks = 95       95 >= 90 && 95 <=  100 => 1 && 1 => 1 ans then if will execute
     case 3 : marks = 150      150 >= 90 && 150 <= 100 => 1 && 0 => 0 ans then if will not execute
