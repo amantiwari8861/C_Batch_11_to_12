@@ -11,6 +11,7 @@ int main()
     {
         code 
     }
+    declaration : int num;
     initialization : to give variable a value like 
                     num=10
     
