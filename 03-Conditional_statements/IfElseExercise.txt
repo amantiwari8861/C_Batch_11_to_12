@@ -200,8 +200,12 @@ The area is : 78.500000
 
 26. Write a program in C which is a Menu-Driven Program to perform a simple calculation. 
 Test Data :
+1.Add
+2.Subtract
+3.Mutiply 
+enter choice : 3
+enter 2 numbers
 10
 2
-3
 Expected Output :
 The Multiplication of 10 and 2 is: 20
