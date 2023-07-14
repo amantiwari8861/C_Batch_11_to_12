@@ -3,7 +3,7 @@ int main()
 {
     int subjects;
     printf("enter the no. of subjects :");
-    scanf("%d",&subjects);//5
+    scanf("%d",&subjects);//let subjects = 5
 
     float marks[subjects],total=0,percent;
     //let marks[5]={78,89,98,67,54}
@@ -19,6 +19,7 @@ int main()
         total=total+marks[j];
     }
     percent=total/subjects;
+    printf("Total marks are :%f\n",total);
     printf(" your percentage is %0.2f %% \n",percent);
     return 0;
 }

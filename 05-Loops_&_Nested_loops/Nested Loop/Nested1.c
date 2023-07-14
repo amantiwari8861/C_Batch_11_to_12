@@ -1,5 +1,5 @@
 #include<stdio.h>
-// #include<windows.h>
+#include<windows.h>
 int main()
 {
     
@@ -9,7 +9,7 @@ int main()
     //     for (int j = 1; j <= 4; j++)
     //     {
     //         printf("\tPara %d ",j);
-    //         // Sleep(1000);
+    //         Sleep(1000);
     //     }
     //     printf("\n");
     // }

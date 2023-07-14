@@ -1,5 +1,5 @@
 #include<stdio.h>
-// #include<windows.h>
+#include<windows.h>
 int main()
 {	
 	// for(int i=0;i<5;i++)//row
@@ -21,6 +21,7 @@ int main()
 		for (int j = 0; j < col; j++)
 		{
 			printf("*");
+			// Sleep(1000);
 		}
 		printf("\n");		
 	}
