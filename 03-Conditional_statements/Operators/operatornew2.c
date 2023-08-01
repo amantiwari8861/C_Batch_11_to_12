@@ -12,14 +12,14 @@ int main()
 	// result= (30 > 20 ) && (50 > 30 ); // 1 && 1  -> 1
 	// result= (30 > 20 ) && (50 > 30 ) && (120<80); // 1 && 1 && 0  -> 0 
 	
-	//OR GATE (||)
+	// //OR GATE (||)
 	// result= (30 > 20 ) || (50 < 30 ); // 1 || 0  -> 1
 
 	//NOT GATE (!)
-	// result= !( 10 > 20 ); // !(0) -> 1
-	// printf("the result is %d \n",result); 
+	result= !( 10 > 20 ); // !(0) -> 1
+	printf("the result is %d \n",result); 
 
-	//c.assignment operators ->    = , += ,-= , *= ,/=,%= etc.
+	////c.assignment operators ->    = , += ,-= , *= ,/=,%= etc.
 	// int num=20;
 	// // num+30; // this will works ??
 	// // num=num+30; 

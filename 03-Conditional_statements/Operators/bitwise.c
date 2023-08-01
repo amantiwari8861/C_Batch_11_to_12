@@ -14,7 +14,7 @@ int main()
     //  16 -> 00010000
     //  19 -> 00010011
     //  16 | 19 -> 00010011 -> 19 ans.
-    // printf("16 | 19 =%d \n", 16 | 19);
+    printf("16 | 19 =%d \n", 16 | 19);
 
     // Bitwise XOR
     //  16 -> 00010000
@@ -41,13 +41,13 @@ int main()
     // note: 1+1 =0 and carry is 1
     // printf("~17 =%d \n", ~17);
 
-    // Left shift
+    // Left shift (<<)
     //  10 -> 00001010
     //  10<<3 -> 01010000 we removed 3 bits from left side and added 3 0's from right side.
     //  01010000 -> 80 ans.
     // printf("10<<3 %d \n", 10 << 3);
 
-    // Right shift
+    // Right shift(>>)
     //  10 -> 00001010
     //  10>>3 -> 00000001 we removed 3 bits from right side and added 3 0's from left side.
     //  00000001 -> 1 ans.
