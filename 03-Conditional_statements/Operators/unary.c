@@ -8,8 +8,8 @@ int main()
 
     // 1. unary operators : ++ (increment) , --  (decrement)
     // int num=10;
-    // num+1;  // is value of num will increase ?
-    // num=num+1;
+    // // num+1;  // is value of num will increase ?
+    // // num=num+1;
     // num++;
 
     // printf(" num= %d \n",num);
