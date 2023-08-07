@@ -1,0 +1,142 @@
+Sum of two complex numbers
+Swap two numbers without using temp variable
+Multiply and Divide
+Number of digits
+Conditional control structure (if)
+Greatest of three numbers
+Check if alphabet is a vowel
+Multiple of a number
+Loan eligibility
+Validate mobile number
+Voting eligibility
+Conditional control structure (if/else)
+Ceil of a number
+Coin Change
+Odd or Even Number
+Weekend or Weekday
+Uppercase or LowerCase
+Above or below poverty line
+Profit or Loss
+Positive or Negative number
+Conditional control structure (else if)
+Leap Year
+Triangle Type
+Marks grading system
+Bus fare calculation
+Bonus Computation
+Electricity bill
+Check the number
+Loops - Printing a pattern
+Sum of N numbers
+First N natural numbers
+Sum of digits of a number
+Factorial of a number
+Fibonacci series
+Power of a number
+Armstrong number
+Greatest common divisor (GCD)
+Multiplication table
+Highest common factor
+Right-angle triangle
+Floyd's triangle
+Triangle pattern
+Pyramid pattern
+Number triangle
+Number pyramid
+Encryption/Decryption
+Sum of number series
+Reverse a number
+Check prime number
+Even number removal
+Amicable numbers
+Arrays - Sum of array elements
+Linear Search
+Odd number
+Segregate 0 and 1
+Insertion to array
+Maximum path sum
+Matrix multiplication
+Merge two arrays
+Reverse an array
+Contiguous array
+Longest mountain
+Common element
+Sum of alternate elements
+Minimum sum
+Insert element
+Double exists
+Special number
+Remove duplicates
+Compare arrays
+Difference between elements
+Non decreasing array
+Rotating array
+Achievers Section
+Longest consecutive subsequence
+Water tank capacity
+String decoding
+Sine waveform sorting
+Closest pair
+Black and white tiles
+Minimum swap
+Sweets distribution
+Minimum candies required
+Minimum lights required
+String validation I
+Checking transmission
+String weight
+Anagrams
+Amazing number
+Twin Prime
+Vowel count
+Tongue twister
+Bill calculation
+Building sketch
+Minimum skill difference
+Integer division
+ATM money distribution
+Nuclear reactor
+Bots path
+Count unique vowels
+Series formation
+Flip String
+Maximum Sum
+Hit and Missed Events
+Least number of tiles
+Bonus days
+Denomination
+Roots
+Asterisk Pattern
+Valid palindrome
+Detect Capital
+Longest palindrome
+Missing number
+Move zeroes
+Reverse vowels
+Power of three
+Majority element
+Reverse only letters
+First unique character
+Intersection of two arrays
+Convert Number to Hex
+Duplicate number
+Basic Calculator
+Treasure hunter
+Number of islands
+Perfect squares
+Set matrix zeroes
+Spiral matrix I
+Spiral matrix II
+Permutations
+Last stone weight
+Student attendance record
+Name password generation
+Number operations
+String validation II
+Discounted price
+Characters with the range
+Reverse string
+Count even digits
+Number series
+Diamond pattern
+Sequential removal 
