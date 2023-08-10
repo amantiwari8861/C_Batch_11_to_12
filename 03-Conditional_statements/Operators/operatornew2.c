@@ -15,9 +15,12 @@ int main()
 	// //OR GATE (||)
 	// result= (30 > 20 ) || (50 < 30 ); // 1 || 0  -> 1
 
+	// result=(40>80) && (30>15) || 40<90 ;
+	// result=(40>80) && (30>15) || 4>20 ;
+
 	//NOT GATE (!)
-	result= !( 10 > 20 ); // !(0) -> 1
-	printf("the result is %d \n",result); 
+	// result= !( 10 > 20 ); // !(0) -> 1
+	// printf("the result is %d \n",result); 
 
 	////c.assignment operators ->    = , += ,-= , *= ,/=,%= etc.
 	// int num=20;
