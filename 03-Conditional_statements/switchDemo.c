@@ -13,7 +13,7 @@ int main()
     {
         case 1:printf("Starting the Game\n");
         break;
-        case 21:printf("Opening Games Setting\n");
+        case 2:printf("Opening Games Setting\n");
         break;
         case 3:printf("Changeing Controls\n");
         break;

@@ -5,9 +5,10 @@ int main()
   char ch;
   printf("enter the character :");
   scanf("%c", &ch);
+  printf("\a");
 
-  // if (ch >= 'A' && ch <= 'Z')
-  if (ch >= 65 && ch <= 90)
+  if (ch >= 'A' && ch <= 'Z')
+  // if (ch >= 65 && ch <= 90)
   {
     printf("%c is a CAPITAL ALPHABET \n", ch);
   }

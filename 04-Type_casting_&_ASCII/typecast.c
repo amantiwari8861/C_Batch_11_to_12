@@ -6,8 +6,8 @@ int main()
     // float f;
     // f=num;//implicit type casting
     // ////or
-    // // f=(float)num;//compiler implicitly doing this to num
-    // f=f+0.2;
+    // f=(float)num;//compiler implicitly doing this to num
+    // f=f+0.5;
     // printf("the value of f is %f\n",f);
 
     ////2. casting float to int
@@ -19,7 +19,7 @@ int main()
     // printf("the value of num2 is %d\n",num2);
 
     // //// 3.casting int to char
-    // int num3=66;
+    // int num3=90;
     // char ch2;
     // ch2=num3;
     // // ch2=(char)num3;//compiler automatically doing this
@@ -33,7 +33,7 @@ int main()
     // printf("the value of num4 is %d\n",num4);
 
     printf(" %c  \n",68);
-    // printf(" %c  \n",50);
+    printf(" %c  \n",50);
 
     return 0;
 }

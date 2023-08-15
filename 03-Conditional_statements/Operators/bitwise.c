@@ -8,7 +8,7 @@ int main()
     //  16 -> 00010000
     //  19 -> 00010011
     //  16 & 19 -> 00010000 -> 16 ans.
-    // printf("16 & 19 =%d \n", 16 & 19);
+    printf("16 & 19 =%d \n", 16 & 19);
 
     // Bitwise OR
     //  16 -> 00010000
@@ -20,13 +20,13 @@ int main()
     //  16 -> 00010000
     //  19 -> 00010011
     //  16 ^ 19 ->  00000011 -> 3 ans.
-    // printf("16 ^ 19 =%d \n", 16 ^ 19);
+    printf("16 ^ 19 =%d \n", 16 ^ 19);
 
     // Bitwise NOT
     //  case 1:
     //  16 -> 00010000
     //  ~16-> 11101111 -> 1+2+4+8+32+64+128 = 239 ans.
-    // printf("~16 = %d \n", ~16); //  change in output.(-17)
+    printf("~16 = %d \n", ~16); //  change in output.(-17)
 
     // 1's complement  00010000
     // 2's complement        +1
@@ -54,11 +54,11 @@ int main()
     // printf("10>>3 %d \n", 10 >> 3);
 
     //Left Shift Right Shift
-    // int num1 = 8;
-    // // Left shift (<<)
-    // printf("Left shift : %d\n",num1<<1); // 8 << 1 => 8 *2  = 16 ans.
-    // printf("Left shift : %d\n",num1<<2); // 8 << 2 => 8 *2*2 = 32 ans.
-    // printf("Left shift : %d\n",num1<<3); // 8 << 3 => 8 *2*2*2 = 64 ans.
+    int num1 = 8;
+    // Left shift (<<)
+    printf("Left shift : %d\n",num1<<1); // 8 << 1 => 8 *2  = 16 ans.
+    printf("Left shift : %d\n",num1<<2); // 8 << 2 => 8 *2*2 = 32 ans.
+    printf("Left shift : %d\n",num1<<3); // 8 << 3 => 8 *2*2*2 = 64 ans.
 
     int num2 = 128;
     // // Right shift (>>)

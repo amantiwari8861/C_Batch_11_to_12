@@ -108,3 +108,5 @@ ABCDE
      * * * *
      * * * *
      * * * *
+
+https://www.faceprep.in/c/pattern-programs-in-c/

@@ -20,8 +20,8 @@ int main()
     {
         for (int j = 1; j <= 5; j++)
         {
-            // Sleep(1000);
             printf("i=%d j=%d   ",i,j);
+            Sleep(1000);
         }
         printf("\n");   
     }      
