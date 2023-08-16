@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<math.h>
 #include <GL/gl.h>
 #include <GL/glut.h>
 #include <unistd.h>
@@ -52,6 +53,28 @@ void triangle()
 
     glFlush();
 }
+void hollowShape()
+{
+    glClear(GL_COLOR_BUFFER_BIT);
+    glBegin(GL_LINE_LOOP);
+    glVertex2f(-0.5,-0.5);
+    glVertex2f(0.0,0.5);
+    glVertex2f(0.5,-0.5);
+    glColor3f(1,0,1);
+    glEnd();
+
+    glBegin(GL_LINE_LOOP);
+    for (int i = 0; i < 100; i++)
+    {
+        float angle=2*3.14*i/100;
+        float x=0.5*cos(angle);
+        float y=0.5*sin(angle);
+        glVertex2f(x,y);
+        
+    }
+    glEnd();
+    glFlush();
+}
 int main(int argc, char **argv)
 {
     glutInit(&argc, argv);
@@ -59,14 +82,15 @@ int main(int argc, char **argv)
     glutInitWindowSize(800, 600);
     glutInitWindowPosition(100, 100);
     glutCreateWindow("triangle");
-    glutDisplayFunc(triangle);
+    // glutDisplayFunc(triangle);
+    glutDisplayFunc(hollowShape);
     // init
-    glClearColor(1, 1, 1, 0);
-    glColor3f(0, 0, 0);
-    glPointSize(4);
-    glMatrixMode(GL_PROJECTION);
-    glLoadIdentity();
-    gluOrtho2D(0.0, 800, 0, 600);
+    // glClearColor(1, 1, 1, 0);
+    // glColor3f(0, 0, 0);
+    // glPointSize(4);
+    // glMatrixMode(GL_PROJECTION);
+    // glLoadIdentity();
+    // gluOrtho2D(0.0, 800, 0, 600);
     glutMainLoop();
 
     return 0;
