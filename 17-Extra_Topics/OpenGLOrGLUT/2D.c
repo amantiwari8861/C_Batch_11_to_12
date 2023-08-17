@@ -75,6 +75,15 @@ void hollowShape()
     glEnd();
     glFlush();
 }
+void line()
+{
+    glBegin(GL_LINES);
+    glVertex2f(-0.5,-0.5);
+    glVertex2f(0.5,0.5);
+    glEnd();
+    glFlush();
+}
+
 int main(int argc, char **argv)
 {
     glutInit(&argc, argv);
@@ -83,7 +92,8 @@ int main(int argc, char **argv)
     glutInitWindowPosition(100, 100);
     glutCreateWindow("triangle");
     // glutDisplayFunc(triangle);
-    glutDisplayFunc(hollowShape);
+    // glutDisplayFunc(hollowShape);
+    glutDisplayFunc(line);
     // init
     // glClearColor(1, 1, 1, 0);
     // glColor3f(0, 0, 0);
