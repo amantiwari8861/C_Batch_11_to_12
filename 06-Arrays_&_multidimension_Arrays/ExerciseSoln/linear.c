@@ -15,14 +15,17 @@ int main()
     {
         if (arr[i] == find)
         {
-            printf(" found at position %d \n",i+1);
+            printf(" found at index position %d \n",i);
             flag=1;
         }
+        // else
+        // {
+        //     printf("not found at %d \n",i);
+        // }
     }
     if (flag == 0)
     {
         printf("not found in array \n");
-
     }
     
     return 0;

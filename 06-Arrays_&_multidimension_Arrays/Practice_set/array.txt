@@ -1,8 +1,8 @@
-1. Write a C program to sort a numeric array and a string array.
+1. Write a C program to sort a numeric array.
 2. Write a C program to sum values of an array.
 3. Write a C Program to copy one array's elements to another array in reverse order.
 4. Write a C program to calculate the average value of array elements.
-5. Write a C program to test if an array contains a specific value.
+5. Write a C program to test if an array contains a specific value.(linear search)
 6. Write a C program to find the index of an array element.
 7. Write a C program to remove a specific element from an array.
 8. Write a C program to copy an array by iterating the array.
@@ -11,12 +11,13 @@
 11. Write a C program to reverse an array of integer values.
 12. Write a C program to find the duplicate values of an array of integer values.
 13. Write a C program to find the duplicate values of an array of string values.
-14. Write a C program to find the common elements between two arrays (string values).
+X 14. Write a C program to find the common elements between two arrays (string values).
 15. Write a C program to find the common elements between two arrays of integers.
 16. Write a C program to remove duplicate elements from an array.
 17. Write a C program to find the second largest element in an array.
 18. Write a C program to find the second smallest element in an array.
-19. Write a C program to add two matrices of the same size.
+X 19. Write a C program to add two matrices of the same size.
+
 22. Write a C program to find all pairs of elements in an array whose sum is equal to a specified number.
 23. Write a C program to test the equality of two arrays.
 24. Write a C program to find a missing number in an array.

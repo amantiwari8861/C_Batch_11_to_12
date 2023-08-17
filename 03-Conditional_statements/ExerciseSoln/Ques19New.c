@@ -43,6 +43,6 @@ int main()
     }
     
     printf("Net Amount= %.2f \n",amount); 
-    _getch();
+    getch();
     return 0;
 }
