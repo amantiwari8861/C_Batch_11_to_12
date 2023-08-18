@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<windows.h>
 int main()
 {
         // 10 => 1+2+3+......+10 = 55
@@ -6,8 +7,10 @@ int main()
 
         for (i = 1; i <= 10; i++)
         {
-                // printf(" %d ", i);
+                printf("Sum= %d + %d =", sum,i);
                 sum = sum + i;
+                printf(" %d \n",sum);
+                Sleep(1000);
                 // sum+=i;//shortcut
         }
         printf("\nthe sum till %d is %d \n", 10, sum);
