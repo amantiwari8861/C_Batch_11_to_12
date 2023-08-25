@@ -1,15 +1,13 @@
 #include<stdio.h>
-#define num5 10
-
+#define LEN 8
 int main()
 {
-    // const int num=45;
-    // num=67;  //error
-    // printf(" num = %d ",num);
+    // const float pi=3.14;
+    // // pi=56;
 
-    // num5=56;//error
-
-    // printf(" max =%d ",num5);
+    // printf("%f ",pi);
+    // LEN=78;
+    // printf("%d ",LEN);
     
     return 0;
 }

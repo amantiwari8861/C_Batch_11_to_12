@@ -15,7 +15,7 @@ int main()
 	return 0;
 }
 // h.w : 
-//volume of cone => 1/3*pi*r*r*h;
+// volume of cone => 1/3*pi*r*r*h;
 // volume of cylinder => pi*r*r*h;
 // volume of cube => r*r*r;
 // area of triangle => 1/2*b*h;
