@@ -18,8 +18,8 @@ int main()
     {
         total=total+marks[j];
     }
-    percent=total/subjects;
     printf("Total marks are :%f\n",total);
+    percent=total/subjects;
     printf(" your percentage is %0.2f %% \n",percent);
     return 0;
 }
