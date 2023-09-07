@@ -5,6 +5,22 @@ int main()
     printf("enter the day number \n");
     scanf("%d",&choice);
 
+    // if (choice==1)
+    // {
+    //     printf("Monday!!\n");
+    // }
+    // else if (choice==2)
+    // {
+    //     printf("Tuesday\n");
+    // }
+    // // .
+    // // .
+    // else
+    // {
+    //     printf("invalid day!\n");
+    // }
+    
+
     switch(choice)//4
     {
         case 1: printf("MONDAY \n");

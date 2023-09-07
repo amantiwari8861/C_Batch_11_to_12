@@ -34,6 +34,7 @@ int main()
 
     printf(" %c  \n",68);
     printf(" %c  \n",50);
+    printf(" %d  \n",'C');
 
     return 0;
 }

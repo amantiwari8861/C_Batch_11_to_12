@@ -126,8 +126,9 @@ Expected Output :
 You can booked your profit amount : 200
  
 
-19. Write a program in C to calculate and print the Electricity bill of a given customer. The customer id, and unit consumed by the user should be taken from the keyboard and display the total amount to pay to the customer. The charge are as follow : 
-
+19. Write a program in C to calculate and print the Electricity bill of a given customer.
+The customer id, and unit consumed by the user should be taken from the keyboard and display the total amount to pay to the customer.
+The charge are as follow : 
 Unit	Charge/unit
 upto 199	@2.20
 200 and above but less than 400	@4.50

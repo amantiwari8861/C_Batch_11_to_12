@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 	//volume of sphere => 4/3*pi*r*r*r;
@@ -11,7 +12,8 @@ int main()
 	result=4.0/3.0*pi*radius*radius*radius; //65.42
 
 	printf("the volume of sphere is %f \n",result);
-	// printf("the volume of sphere is %.2f \n",result);
+	printf("the volume of sphere is %0.2f \n",result);
+	getch();
 	return 0;
 }
 // h.w : 

@@ -5,7 +5,7 @@ int main()
 		//c.logical operators :  && (AND) , || (or) , ! (not )
 	//true = 1 and false = 0 
 	
-	int result;
+	// int result;
 	// AND GATE (&&)
 	// result= (10 > 20 ) && (20 < 30 ); // 0 && 1  -> 0
 	// result= (30 > 20 ) && (50 < 30 ); // 1 && 0  -> 0
@@ -15,7 +15,7 @@ int main()
 	// //OR GATE (||)
 	// result= (30 > 20 ) || (50 < 30 ); // 1 || 0  -> 1
 
-	// result=(40>80) && (30>15) || 40<90 ;
+	// result=(40>80) && (30>15) || 40<90 ; 
 	// result=(40>80) && (30>15) || 4>20 ;
 
 	//NOT GATE (!)
@@ -26,7 +26,7 @@ int main()
 	// int num=20;
 	// // num+30; // this will works ??
 	// // num=num+30; 
-	// // // ////or
+	// //or
 	// num+=30; //num =50
 	// printf("the num is %d \n",num);
 

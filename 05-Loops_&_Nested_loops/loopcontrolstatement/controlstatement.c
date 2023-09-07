@@ -5,15 +5,12 @@ int main()
     {
         if (i==5)
         {
-            // break;
-            // continue;
-            goto aman;
+            // printf("skipping the 5th step in loop\n");
+            continue;
         }
         printf(" i = %d\n", i);
     }
     printf("ending");
 
-    aman:
-    printf("U jumped at the ending !!");
     return 0;
 }

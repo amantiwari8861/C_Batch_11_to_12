@@ -8,12 +8,19 @@ int main()//starting point of a program
     scanf("%d%d",&num,&power);
     int result=powerFxn(num,power);//calling of fxn
     printf("the result is %d \n",result);
+
+    printf(" The power is %d \n",powerFxn(2,8));
+    printf(" The power is %d \n",powerFxn(2,4));
+    printf(" The power is %d \n",powerFxn(3,4));
+    printf(" The power is %d \n",powerFxn(7,2));
+    printf(" The power is %d \n",powerFxn(4,3));
+
     printf("after calling in main \n");
     return 0;//ending point of a program
 }
 int powerFxn(int num,int power) //body
 {
-    printf("inside powerFxn \n");
+    // printf("inside powerFxn \n");
     int result=1;
     for(int i=0;i<power;i++) //i=0,1,2,3
     {

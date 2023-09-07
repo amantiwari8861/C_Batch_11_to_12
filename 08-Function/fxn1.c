@@ -1,5 +1,6 @@
 #include<stdio.h>
 void add();//fxn declaration 
+
 int main(/* arguments(parameters) */)//starting point of program
 {
     printf("before calling in main \n");
@@ -13,7 +14,7 @@ int main(/* arguments(parameters) */)//starting point of program
 //user defined fxn
 void add(/*parameter*/)
 {   //body open
-    printf("hii i am adding something\n");// code
+    printf("hii i am adding something\n");// code 10000K
     //void is fxn return type
 }   //body close
 
