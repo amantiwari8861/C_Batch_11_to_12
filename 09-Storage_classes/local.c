@@ -16,8 +16,9 @@ int main()
     //curly brackets i.e { } and outside these curly brackets there will be no
     //scope for this variable
     // auto int num=100; //actual code by compiler
-    // fxn();
-    fxn2(num); // sending copy of variable to fxn2 or pass by value
+    printf(" num= %d \n",num);
+    fxn();
+    // fxn2(num); // sending copy of variable to fxn2 or pass by value
     printf("the value of modi in main is %d \n",modi);
     return 0;
 }
