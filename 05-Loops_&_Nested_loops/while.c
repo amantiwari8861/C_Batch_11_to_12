@@ -1,7 +1,29 @@
 #include<stdio.h>
 int main()
 {
-    // // initialization ,condition , inc/dec
+    // initialization ,condition , inc/dec
+
+    // int step=1;
+    // while (step<10)
+    // {
+    //     printf(" %d. Aman Tiwari \n",step);
+    //     step++;
+    // }
+
+    // while (1) //infinite while loop
+    // {
+    //     printf("Hello sir \n");
+    // }
+    
+    int step=10000;
+    while (step>0)
+    {
+        printf("%d Hello Sir\n",step);
+        step--;
+    }
+    
+
+
     // int num=1;
     // // while (1) //infinite while loop
     // while(num<=10)
@@ -10,12 +32,12 @@ int main()
     //     num++;
     // }
 
-    int num2=100;
-    while(num2>0)
-    {
-        printf("%d\n",num2);
-        num2--;
-    }
+    // int num2=100;
+    // while(num2>0)
+    // {
+    //     printf("%d\n",num2);
+    //     num2--;
+    // }
 
 
 

@@ -12,9 +12,9 @@ int main()
 }
 int fact(int num)
 {
-    if(num==0 || num==1)
+    if(num==0 || num==1)//termination condition (base condition)
         return 1;
-    else //termination condition (base condition)
+    else 
         return num * fact(num - 1);
 }
 // Write a program in C to calculate the sum of numbers from 1 to n using recursion.
