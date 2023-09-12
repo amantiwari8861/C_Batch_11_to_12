@@ -12,9 +12,9 @@ int main()
 	fflush(stdin);
 	remove_newline(name);
 	remove_newline(name2);
-	// printf("%s length 1 = %d\n",name,strlen(name));
-	// printf("%s length 2 = %d\n",name2,strlen(name2));
-	// printf("size of name2 array: %d\n",name2,sizeof(name2));
+	printf("%s length 1 = %d\n",name,strlen(name));
+	printf("%s length 2 = %d\n",name2,strlen(name2));
+	printf("size of name2 array: %d\n",name2,sizeof(name2));
 	// strcpy(name,name2);
 	// printf("copied data is  :%s\n",name);
 	// strcat(name,"@");

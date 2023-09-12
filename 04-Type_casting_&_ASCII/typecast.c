@@ -14,12 +14,12 @@ int main()
     // float f2=35.76;
     // int num2;
     // num2=f2;
-    // //// or
-    // // num2=(int)f2; //compiler automatically doing this
+    // // //// or
+    // num2=(int)f2; //compiler automatically doing this
     // printf("the value of num2 is %d\n",num2);
 
     // //// 3.casting int to char
-    // int num3=90;
+    // int num3=100;
     // char ch2;
     // ch2=num3;
     // // ch2=(char)num3;//compiler automatically doing this
