@@ -7,23 +7,28 @@ int main()
 	printf("enter the name1 :");
 	fgets(name,10,stdin);
 	fflush(stdin);
+	remove_newline(name);
+
 	printf("enter the name2 :");
 	fgets(name2,20,stdin);
 	fflush(stdin);
-	remove_newline(name);
 	remove_newline(name2);
-	printf("%s length 1 = %d\n",name,strlen(name));
-	printf("%s length 2 = %d\n",name2,strlen(name2));
-	printf("size of name2 array: %d\n",name2,sizeof(name2));
+
+	// printf("%s length 1 = %d\n",name,strlen(name));
+	// printf("%s length 2 = %d\n",name2,strlen(name2));
+
+	// printf("size of %s is: %d\n",name2,sizeof(name2));
+
 	// strcpy(name,name2);
 	// printf("copied data is  :%s\n",name);
-	// strcat(name,"@");
-	// strcat(name,name2);
+	// strcat(name," Tiwari");
+	// // strcat(name,name2);
 	// printf("concatenate : %s\n",name);
 	// printf("lowercase:%s\n",strlwr(name));
 	// printf("uppercase:%s\n",strupr(name));
 	// printf("reverse:%s\n",strrev(name));
-	// printf("comparing:%d\n",strcmp(name,name2));
+
+	printf("comparing:%d\n",strcmp(name,name2));
 	/* let name=Aman and name2=aman (A=65 ,a=97)
 		strcmp(name,name2);//  65 - 97 => -32 => -1
 		strcmp(name2,name); // 97 - 65 => 32 => 1
