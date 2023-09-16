@@ -3,11 +3,11 @@ int main()
 {
     // initialization ,condition , inc/dec
 
-    // int step=1;
-    // while (step<10)
+    // int step=1; //initialization
+    // while (step<10) //condition
     // {
     //     printf(" %d. Aman Tiwari \n",step);
-    //     step++;
+    //     step++; //incriment
     // }
 
     // while (1) //infinite while loop

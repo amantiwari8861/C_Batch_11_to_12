@@ -11,7 +11,7 @@
 8. take a number from user and sum of the odd digits in that number eg.4589 -> 14
 9. take a ,n,d from user and print the A.P (arithematic progression)    
     let a=10  n=6 d=3
-    a  a+d  a+2d a+3d a+4d  a+5d
+    a  a+d  a+2d a+3d a+4d  a+5d . .
     10  13  16 19 22 25 Ans.
 10. take a number from user and check whether it is a prime number or not.
 11.Take a number from user and count it's length and the sum of odd and even numbers 
