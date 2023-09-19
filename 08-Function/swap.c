@@ -11,7 +11,7 @@ int main()
 {
     int num1,num2;
     printf("enter 2 numbers \n");
-    scanf("%d %d",&num1,&num2);//10 20
+    scanf("%d%d",&num1,&num2);//10 20
     printf("the value before swapping in main num1=%d and num2=%d \n",num1,num2);//10 20
     swap(num1,num2);//call by value
     printf("the value after swapping in main num1=%d and num2=%d \n",num1,num2); //20 10 ?

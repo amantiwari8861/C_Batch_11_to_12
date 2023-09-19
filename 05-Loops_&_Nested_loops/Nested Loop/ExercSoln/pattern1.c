@@ -1,5 +1,5 @@
 #include<stdio.h>
-// #include<windows.h>
+#include<windows.h>
 int main()
 {
     
@@ -7,8 +7,8 @@ int main()
     {
         for (int col = 0; col <8 ; col++)
         {
-            // Sleep(500);
             printf("*");
+            Sleep(500);
         }
         printf("\n");
     }

@@ -12,7 +12,7 @@ int main()
 {
     FILE *of;
     // of = fopen("test.txt", "w");
-    of = fopen("test.bin", "ab");
+    of = fopen("test.dat", "ab");
     if (of == NULL)
     {
         fprintf(stderr,"\nError:unable to open the file\n");
@@ -25,6 +25,7 @@ int main()
     fwrite(&inp1, sizeof(struct Course),1,of);
     fwrite(&inp2, sizeof(struct Course),1,of);
     fwrite(&inp3, sizeof(struct Course),1,of);
+
     if (fwrite != 0)
         printf("Contents to file written successfully !\n");
     else
@@ -35,7 +36,7 @@ int main()
     FILE *inf;
     struct Course inp;
     // inf = fopen("test.txt", "r");
-    inf = fopen("test.bin", "rb");
+    inf = fopen("test.dat", "rb");
 
     if (inf == NULL)
     {

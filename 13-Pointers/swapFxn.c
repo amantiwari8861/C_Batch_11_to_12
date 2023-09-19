@@ -14,8 +14,7 @@ int main()
     printf("enter 2 numbers \n");
     scanf("%d %d",&num1,&num2);//10 20
     printf("the value before swapping in main num1=%d and num2=%d \n",num1,num2);//10 20
-    swap(&num1,&num2);//call by reference
+    // swap(&num1,&num2);//call by reference or pass by reference (reference = address)
     printf("the value after swapping in main num1=%d and num2=%d \n",num1,num2); //20 10
     return 0;
 }
-//reference = address
