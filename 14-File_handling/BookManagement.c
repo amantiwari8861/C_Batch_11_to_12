@@ -2,6 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+
 void insert(FILE *fp);	
 void del(FILE *fp);
 void modify(FILE *fp);
@@ -9,28 +10,32 @@ void booksold(FILE *fp);
 int search(FILE *fp,char *name);
 void display(FILE *fp);
 void list(FILE *fp);
-struct {
-			char name[50];
-			int ncopies;
-			float cost;
-       }book;
-int main(void)
+
+struct 
+{
+	char name[50];
+	int ncopies;
+	float cost;
+}book;
+
+int main()
 {
 	int choice;
 	FILE *fp;
-	fp = fopen("books","rb+");
+	fp = fopen("books.dat","rb+");
 	if(fp==NULL)
 	{
-		fp=fopen("books","wb+");
+		fp=fopen("books.dat","wb+");
 		if(fp==NULL)
 		{
-			puts("Error in opening file\n");
+			printf("Error in opening or creating file\n");
 			exit(1);
 		}
 	}
 	while(1)
 	{
-		printf("1.Insert a new record\n");
+		
+		printf("\n\n1.Insert a new record\n");
 		printf("2.Delete a record\n");
 		printf("3.Display record of a book\n");
 		printf("4.Modify an existing record\n");
@@ -38,7 +43,7 @@ int main(void)
 		printf("6 Book sold\n");
 		printf("7.Exit\n");
 		printf("Enter your choice : ");
-		scanf("%d",&choice);
+		scanf("%d%*c",&choice);
 
 		switch(choice)
 		{
@@ -62,7 +67,7 @@ int main(void)
 				break;
 			case 7:
 				fclose(fp);
-				exit(1);
+				exit(0);
 			default :
 				printf("Wrong choice\n");
 		}/*End of switch */
@@ -72,14 +77,22 @@ int main(void)
 
 void insert(FILE *fp)
 {
-	fseek(fp,0,2);
+	fseek(fp,0,SEEK_END);
 	printf("Enter book name : ");
 	scanf("%[^\n]s",book.name);
 	printf("Enter number of copies : ");
 	scanf("%d",&book.ncopies);
 	printf("Enter cost of book : ");
 	scanf("%f",&book.cost);
-	fwrite(&book,sizeof(book),1,fp);
+	int status=fwrite(&book,sizeof(book),1,fp);
+	if (status>0)
+	{
+		printf("book added succesfully!!!\n");
+	}
+	else
+	{
+		printf("unable to add book!!!\n");
+	}
 }/*End of insert()*/
 
 void del(FILE *fp)
@@ -90,7 +103,7 @@ void del(FILE *fp)
 	scanf("%[^\n]s",name);
 	if(search(fp,name)==0)
 		return;
-	fptmp = fopen("tempfile","wb");
+	fptmp = fopen("tempfile.dat","wb");
 	rewind(fp);
 	while(fread(&book, sizeof(book),1,fp) == 1)
 	{
@@ -99,17 +112,19 @@ void del(FILE *fp)
 	}
 	fclose(fp);
 	fclose(fptmp);
-	remove("books");
-	rename("tempfile","books");
+	remove("books.dat");
+	rename("tempfile.dat","books.dat");
 	printf("\nRecord deleted........\n\n");
-	fp = fopen("books", "rb+");
+	fp = fopen("books.dat", "rb+");
 }/*End of del()*/
+
 void modify(FILE *fp)
 {
 	char name[50];
 	long size = sizeof(book);
 	printf("Enter the name of the book to be modified : ");
 	scanf("%[^\n]s",name);
+	fflush(stdin);
 	if(search(fp,name) == 1)
 	{
 		printf("Enter new data-->\n\n");
@@ -128,7 +143,6 @@ void modify(FILE *fp)
 void booksold(FILE *fp)
 {
 	char name[50];
-	long size = sizeof(book);
 	printf("Enter the name of the book to be sold : ");
 	scanf("%[^\n]s", name);
 	if(search(fp,name)==1)
@@ -136,8 +150,8 @@ void booksold(FILE *fp)
 		if(book.ncopies >0)
 		{
 			book.ncopies--;
-			fseek(fp, -size, 1);
-			fwrite(&book, sizeof(book), 1, fp);
+			fseek(fp,(long)-sizeof(book), 1);
+			fwrite(&book,sizeof(book), 1, fp);
 			printf("One book sold\n");
 			printf("Now number of copies = %d\n", book.ncopies);
 		}
@@ -161,7 +175,7 @@ void display(FILE *fp)
 
 int search(FILE *fp,char *name)
 {
-	unsigned flag=0;
+	int flag=0;
 	rewind(fp);
 	while(fread(&book, sizeof(book),1,fp)==1)
 	{
@@ -179,12 +193,14 @@ int search(FILE *fp,char *name)
 void list(FILE *fp)
 {
 	rewind(fp);
-	printf("\nNAME\tCOPIES\t\tCOST\n\n");
+	printf("\n%-20s %-20s %-20s \n","   NAME","   COPIES","   COST");
+	printf("%-20s %-20s %-20s \n","   ----","   ------","   ------");
+	
 	while(fread(&book, sizeof(book),1,fp)==1)
 	{
-		printf("%s\t",book.name);
-		printf("%d\t\t",book.ncopies);
-		printf("%f\n",book.cost);
+		printf("%-20s",book.name);
+		printf("%-20d",book.ncopies);
+		printf("%-20f",book.cost);
+		printf("\n");
 	}
-	printf("\n");
 }/*End of list()*/
