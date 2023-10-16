@@ -7,9 +7,9 @@ int main()
 {
     int r1,c1,r2,c2;
     printf("enter the row and column of first matrix \n");
-    scanf("%d%d",&r1,&c1);
+    scanf("%d%d",&r1,&c1); //2 3
     printf("enter the row and column of second matrix \n");
-    scanf("%d%d",&r2,&c2);
+    scanf("%d%d",&r2,&c2); //2 3
 
     if(r1==r2 && c1==c2)
     {

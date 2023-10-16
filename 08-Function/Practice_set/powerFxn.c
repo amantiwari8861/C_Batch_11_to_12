@@ -1,8 +1,8 @@
 #include<stdio.h>
+#include<math.h>
 int powerFxn(int,int);//declaration
 int main()//starting point of a program
 {
-    printf("before calling in main \n");
     int num,power;
     printf("enter the number and power\n");
     scanf("%d%d",&num,&power);
@@ -14,8 +14,7 @@ int main()//starting point of a program
     printf(" The power is %d \n",powerFxn(3,4));
     printf(" The power is %d \n",powerFxn(7,2));
     printf(" The power is %d \n",powerFxn(4,3));
-
-    printf("after calling in main \n");
+    // printf(" The power is %f \n",pow(3,5));
     return 0;//ending point of a program
 }
 int powerFxn(int num,int power) //body

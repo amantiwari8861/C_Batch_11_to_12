@@ -10,7 +10,7 @@ int main()
     // int num=10;
     // // num+1;  // is value of num will increase ?
     // // num=num+1;
-    // //or
+    // // //or
     // num++;
     // num++;
     // num++;

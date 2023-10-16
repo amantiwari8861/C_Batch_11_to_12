@@ -19,3 +19,8 @@ int fact(int num)
 }
 // Write a program in C to calculate the sum of numbers from 1 to n using recursion.
 // Write a program in C to Print Fibonacci Series using recursion.
+
+// 5 -> 5*4*3*2*1
+// 10 -> 10*9*8*.....1
+// 0! => 1
+// 1! => 1
