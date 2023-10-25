@@ -1,5 +1,5 @@
 #include<stdio.h>
-void volumeOfSphere(float,float*);
+void volumeOfSphere(float,float*);//fxn defination
 int main()
 {   
     float radius=2.5,result=0;

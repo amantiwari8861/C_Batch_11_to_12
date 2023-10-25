@@ -3,14 +3,14 @@
 int main()
 {
 	FILE *fptr;	//why we need file handling ?
-	fptr=fopen("C:\\Users\\admin\\Desktop\\Data.csv","r");//OPEN FILE IN READING MODE 
+	fptr=fopen("C:\\Users\\admin\\Desktop\\Note.txt","r");//OPEN FILE IN READING MODE 
 	if(fptr==NULL)
 	{
 		printf("Error! unable to open file");
 		exit(1);
 	}
 	char ch;
-	for(;;)//INFINITE for LOOP
+	while(1)//INFINITE while LOOP
 	{
 		ch=fgetc(fptr);
 		if(ch==EOF)//END OF FILE 
