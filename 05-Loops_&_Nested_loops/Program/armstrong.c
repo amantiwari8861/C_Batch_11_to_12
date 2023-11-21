@@ -4,8 +4,10 @@ int main()
     int num,rem,sum=0;
     printf("enter the number : ");
     scanf("%d",&num); //153
+
     int original=num;
-    while (num>0)
+
+    while(num>0)
     {
         rem = num%10 ; 
         sum = sum + rem*rem*rem;
@@ -23,11 +25,12 @@ int main()
     return 0;
 }
 /* 
-    // 153  =>  3*3*3 + 5*5*5 + 1*1*1 => 153
+    // 153  => 1*1*1+5*5*5+3*3*3 => 153
+
 step 1: num = 153
         sum=0;
         153>0 True
-        rem= num%10;  // 3
+        rem= num%10;  //153%10 => 3
         sum=sum+rem*rem*rem; //0+27 => 27
         num=num/10; //15.3 -> 15
 

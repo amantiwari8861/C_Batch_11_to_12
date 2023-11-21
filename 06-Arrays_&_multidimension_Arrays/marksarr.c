@@ -3,10 +3,10 @@ int main()
 {
     int subjects;
     printf("enter the no. of subjects :");
-    scanf("%d",&subjects);//let subjects = 5
+    scanf("%d",&subjects);//let subjects = 7
 
     float marks[subjects],total=0,percent;
-    //let marks[5]={78,89,98,67,54}    
+    //let marks[7]={78,89,98,67,54,55,70}    
     printf(" enter %d subjects marks \n",subjects);
 
     for (int i = 0; i < subjects; i++)

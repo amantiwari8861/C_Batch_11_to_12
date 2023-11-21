@@ -11,12 +11,12 @@
 11. Write a C program to reverse an array of integer values.
 12. Write a C program to find the duplicate values of an array of integer values.
 13. Write a C program to find the duplicate values of an array of string values.
-X 14. Write a C program to find the common elements between two arrays (string values).
+14. Write a C program to find the common elements between two arrays (string values).
 15. Write a C program to find the common elements between two arrays of integers.
 16. Write a C program to remove duplicate elements from an array.
 17. Write a C program to find the second largest element in an array.
 18. Write a C program to find the second smallest element in an array.
-X 19. Write a C program to add two matrices of the same size.
+19. Write a C program to add two matrices of the same size.
 
 22. Write a C program to find all pairs of elements in an array whose sum is equal to a specified number.
 23. Write a C program to test the equality of two arrays.

@@ -7,20 +7,20 @@ int main()
     // while (step<10) //condition
     // {
     //     printf(" %d. Aman Tiwari \n",step);
-    //     step++; //incriment
+    //     step++; //increment
     // }
 
-    // while (1) //infinite while loop
-    // {
-    //     printf("Hello sir \n");
-    // }
-    
-    int step=10000;
-    while (step>0)
+    while (1) //infinite while loop
     {
-        printf("%d Hello Sir\n",step);
-        step--;
+        printf("Hello sir \n");
     }
+    
+    // int step=10000;
+    // while (step>0)
+    // {
+    //     printf("%d Hello Sir\n",step);
+    //     step--;
+    // }
     
 
 

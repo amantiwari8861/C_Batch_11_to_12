@@ -19,15 +19,15 @@ int main()
     // printf("the value of marks is %d \n",marks4);
     // printf("the value of marks is %d \n",marks5);
 
-    // int marks[5]; //1st way to declare array
     // int marks[5]={101,201,301,40,16}; //2nd way to declare and initialize an array
-    int marks[]={21,31,41,51,61}; // 3rd way to declare and initialize an array
+    // int marks[]={21,31,41,51,61}; // 3rd way to declare and initialize an array
+    int marks[5]; //1st way to declare array
     
-    // marks[0]=10;
-    // marks[1]=20;
-    // marks[2]=30;
-    // marks[3]=40;
-    // marks[4]=50;
+    marks[0]=10;
+    marks[1]=20;
+    marks[2]=30;
+    marks[3]=40;
+    marks[4]=50;
 
     printf("the value of marks[0] is %d \n",marks[0]);
     printf("the value of marks[1] is %d \n",marks[1]);
