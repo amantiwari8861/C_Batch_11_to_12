@@ -12,7 +12,7 @@ int main()
 }
 int add(int a,int num2)
 {
-    printf(" in add fxn  \n");
+    printf(" in add fxn a= %d b=%d\n",a,num2);
     return (a+num2);
 }
 //h.w make a calculator using switch and function

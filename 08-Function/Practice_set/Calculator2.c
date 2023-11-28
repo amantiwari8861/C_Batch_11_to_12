@@ -2,15 +2,18 @@
 #include <stdlib.h>
 #include <windows.h>
 #include <conio.h>
-// int add(int n1,int n2);
-int add(int, int);
-int sub(int, int);
-int mul(int, int);
-int divide(int, int);
-int main()
+#include <math.h>
+// float add(float n1,float n2);
+float add(float, float);
+float sub(float, float);
+float mul(float, float);
+float divide(float, float);
+float volumeOfSphere(float r);
+
+float main()
 {
     char choice;
-    int num, num2, result = 0;
+    float num, num2, result = 0,r;
 
     do
     {
@@ -19,16 +22,17 @@ int main()
         printf("\t\tSubtraction (-) \n");
         printf("\t\tMultiplication (*) \n");
         printf("\t\tDivide (/) \n");
+        printf("\t\tVolume of sphere (v)\n");
         printf("\t\tTo Exit enter (0) \n");
 
         fflush(stdin);
         printf("enter the operation :\n");
         scanf("%c", &choice);
 
-        if(choice=='+' || choice=='-' || choice=='*' || choice=='/')
+        if (choice == '+' || choice == '-' || choice == '*' || choice == '/')
         {
             printf("enter 2 input :\n");
-            scanf("%d%d", &num, &num2);
+            scanf("%f%f", &num, &num2);
         }
 
         switch (choice)
@@ -45,6 +49,11 @@ int main()
         case '/':
             result = divide(num, num2);
             break;
+        case 'v':
+            printf("enter the radius:");
+            scanf("%f", &r);
+            result = volumeOfSphere(r);
+            break;
         case '0':
             exit(0);
         default:
@@ -52,7 +61,7 @@ int main()
             getch();
             continue;
         }
-        printf(" \n\t\t \x1b[107m \x1b[31m  the result is %d \x1b[0m \n", result);
+        printf(" \n\t\t \x1b[107m \x1b[31m  the result is %f \x1b[0m \n", result);
         printf("Press any key to continue....");
         getch();
 
@@ -60,19 +69,23 @@ int main()
 
     return 0;
 }
-int add(int n1, int n2)
+float add(float n1, float n2)
 {
     return n1 + n2;
 }
-int mul(int num, int num2)
+float mul(float num, float num2)
 {
     return num * num2;
 }
-int divide(int num, int num2)
+float divide(float num, float num2)
 {
     return num / num2;
 }
-int sub(int num, int num2)
+float sub(float num, float num2)
 {
     return num - num2;
+}
+float volumeOfSphere(float r)
+{
+    return 4.0/3.0*M_PI*r*r*r;
 }

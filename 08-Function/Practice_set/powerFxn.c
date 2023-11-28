@@ -14,7 +14,7 @@ int main()//starting point of a program
     printf(" The power is %d \n",powerFxn(3,4));
     printf(" The power is %d \n",powerFxn(7,2));
     printf(" The power is %d \n",powerFxn(4,3));
-    // printf(" The power is %f \n",pow(3,5));
+    printf(" The power is %f \n",pow(3,5));
     return 0;//ending point of a program
 }
 int powerFxn(int num,int power) //body
