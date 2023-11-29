@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "myheaderfile.h"
+#include "C:\Users\admin\Desktop\myfile.h"
 
 int main()
 {
@@ -7,7 +8,7 @@ int main()
   myfunc();
 
   printf("the result is : %d \n", add(10, 20));
-
+  printf(" %d ",hi);
   return 0;
 }
 /*
