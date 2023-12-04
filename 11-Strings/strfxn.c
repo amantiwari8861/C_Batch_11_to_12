@@ -17,8 +17,8 @@ int main()
 
     // strcat(name," tiwari");
     
-    // // char surname[]=" tiwari 2.0";
-    // // strcat(name,surname);
+    // char surname[]=" tiwari 2.0";
+    // strcat(name,surname);
     // printf("the updated name is %s \n",name);
     // printf("my name in lowercase %s \n",strlwr(name));
     // printf("my name in uppercase %s \n",strupr(name));
