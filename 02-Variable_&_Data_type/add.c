@@ -11,5 +11,7 @@ int main()
     // printf(" \n c ki value %d hai \n ",c);
     printf("the sum of %d and %d is %d ",a,b,c);
 
+    // hello aayush
+
     return 0;
 }
