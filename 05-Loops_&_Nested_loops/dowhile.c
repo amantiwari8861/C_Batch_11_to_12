@@ -16,7 +16,7 @@ int main()
     {
         printf("num= %d \n",num);
         num++;
-    } while (num<20); //condition true  
+    } while (num<=20); //condition true  
 
     return 0;
 }

@@ -5,11 +5,11 @@ int main()
     // eg: &, |, ^, ~, <<, >>
 
     // Bitwise AND
-    //       16 -> 00010000
+    //       97 -> 01100001
     //       19 -> 00010011
     //             --------
-    //  16 & 19 -> 00010000 -> 16 ans.
-    printf("16 & 19 =%d \n", 16 & 19);
+    //  97 & 19 -> 00000001 -> 1 ans.
+    printf("97 & 19 =%d \n", 97 & 19);
 
     // Bitwise OR
     //       16 -> 00010000
@@ -26,8 +26,9 @@ int main()
     // Bitwise NOT
     //  case 1:
     //  16 -> 00010000
-    //  ~16-> 11101111 -> 1+2+4+8+32+64+128 = 239 ans.
+    //  ~16-> 11101111 -> 1+2+4+8+32+64+128 = 239 ans. expected but
     printf("~16 = %d \n", ~16); //  change in output.(-17)
+    printf("~16 = %d \n", ~-16); //  15
 
     // 1's complement  00010000
     // 2's complement        +1
@@ -46,7 +47,7 @@ int main()
     //  10 -> 00001010
     //  10<<3 -> 01010000 we removed 3 bits from left side and added 3 0's from right side.
     //  01010000 -> 80 ans.
-    // printf("10<<3 %d \n", 10 << 3);
+    // printf("10<<3 %d \n", 10 << 11);
 
     // Right shift(>>)
     //  10 -> 00001010

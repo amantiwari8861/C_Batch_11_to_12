@@ -72,42 +72,42 @@ int main()
     printf("enter ur marks :");
     scanf("%f",&marks);
 
-    // if (marks>=90)
-    // {
-    //     printf("u got admission in DU \n");
-    //     if (marks>95)
-    //     {
-    //         printf("Got scholarship of 50k\n");
-    //         if (marks==100)
-    //         {
-    //             printf("no fee will be charged\n");
-    //         }
-    //     }
-    //     else if(marks>92)
-    //     {
-    //         printf("scholarship of 25k");
-    //     }
-    //     else if (marks>90)
-    //     {
-    //         printf("20k scholarship");
-    //     }
-    // }
-    // else if (marks>80)
-    // {
-    //     printf("Got admission in IPU");
-    // }
-    // else if(marks>70)
-    // {
-    //     printf("Got admission in Amity");
-    // }
-    // else if (marks>=33)
-    // {
-    //     printf("IGNOU");
-    // }
-    // else
-    // {
-    //     printf("Chai Becho");
-    // }
+    if (marks>=90)
+    {
+        printf("u got admission in DU \n");
+        if (marks>95)
+        {
+            printf("Got scholarship of 50k\n");
+            if (marks==100)
+            {
+                printf("no fee will be charged\n");
+            }
+        }
+        else if(marks>92)
+        {
+            printf("scholarship of 25k");
+        }
+        else if (marks>90)
+        {
+            printf("20k scholarship");
+        }
+    }
+    else if (marks>80)
+    {
+        printf("Got admission in IPU");
+    }
+    else if(marks>70)
+    {
+        printf("Got admission in Amity");
+    }
+    else if (marks>=33)
+    {
+        printf("IGNOU");
+    }
+    else
+    {
+        printf("Chai Becho");
+    }
 
     return 0; 
 }

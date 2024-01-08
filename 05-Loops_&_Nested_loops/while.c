@@ -4,18 +4,18 @@ int main()
     // initialization ,condition , inc/dec
 
     // int step=1; //initialization
-    // while (step<10) //condition
+    // while (step<=10) //condition
     // {
     //     printf(" %d. Aman Tiwari \n",step);
     //     step++; //increment
     // }
 
-    while (1) //infinite while loop
-    {
-        printf("Hello sir \n");
-    }
+    // while (1) //infinite while loop
+    // {
+    //     printf("Hello sir \n");
+    // }
     
-    // int step=10000;
+    // int step=10;
     // while (step>0)
     // {
     //     printf("%d Hello Sir\n",step);

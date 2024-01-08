@@ -11,6 +11,7 @@ int main()
 
         for (i = 1; i <= 10; i++)
         {
+                printf(" %d ",sum);
                 sum = sum + i;
                 // sum+=i;//shortcut
         }

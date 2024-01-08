@@ -22,3 +22,22 @@ and make fibonnaci series from them till n(the length of that number) term.
 12. reverse a number 1234 -> 4321
 13. check whether a no. is palindrome or not 
     i.e 12321 -> after reverse -> 12321
+14.Write a C program to print all the perfect numbers from 1 to 1000
+15.Write a C program to find the greatest common divisor of two numbers.
+16.Write a C program to find the least common multiple of two numbers.
+
+
+Here's a list of loop-related questions on factors:
+
+for Loop Questions:
+Find and print all the factors of a given number using a for loop.
+Calculate the sum of the factors of a given number using a for loop.
+Implement prime factorization of a number using a for loop. Print prime factors with exponents.
+while Loop Questions:
+Print the factors of a number in reverse order using a while loop.
+Calculate the product of the factors of a given number using a while loop.
+Count and print the number of factors of a given number using a while loop.
+do-while Loop Questions:
+Find the sum of all even factors of a number using a do-while loop.
+Display factors of a number within a specified range using a do-while loop.
+Find the factorial of a number using the product of its factors with a do-while loop.

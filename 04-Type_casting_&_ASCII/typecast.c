@@ -4,8 +4,8 @@ int main()
     //1. casting int to float
     // int num=50;
     // float f;
-    // // f=num;//implicit type casting
-    // ////or
+    // f=num;//implicit type casting
+    // // ////or
     // f=(float)num;//compiler implicitly doing this to num
     // printf("the value of f is %f\n",f);
 
@@ -14,7 +14,7 @@ int main()
     // int num2;
     // num2=f2;
     // // //// or
-    // // num2=(int)f2; //compiler automatically doing this
+    // num2=(int)f2; //compiler automatically doing this
     // printf("the value of num2 is %d\n",num2);
 
     // //// 3.casting int to char
@@ -31,13 +31,13 @@ int main()
     // //num4=(int)ch3;//compiler automatically doing this
     // printf("the value of num4 is %d\n",num4);
 
-    printf(" %c  \n",68);
-    printf(" %c  \n",50);
-    printf(" %d  \n",'C');
+    // printf(" %c  \n",68);
+    // printf(" %c  \n",50);
+    // printf(" %d  \n",'C');
 
-    // char ch='1',ch2='1',ch3;
-    // ch3=ch+ch2;
-    // printf("%c",ch3);
+    char ch='1',ch2='1',ch3;
+    ch3=ch+ch2;
+    printf("%c",ch3);
 
     return 0;
 }

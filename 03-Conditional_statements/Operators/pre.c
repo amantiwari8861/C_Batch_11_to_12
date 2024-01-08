@@ -2,14 +2,15 @@
 #include <stdio.h>
 int main()
 {
-    // int num=10;
-    // int res=++num;// 10+1 => 11
-    // printf(" %d \n",res);// pre-fix or pre-increment
-    // printf("%d \n",res);
-
     int num=10;
-    printf(" %d \n",num++);// post-fix or post-increment 
+    int res=++num;// 10+1 => 11
+    printf(" %d \n",res);// pre-fix or pre-increment
     printf("%d \n",num);
+
+    int number=10;
+    int result=number++;
+    printf(" %d \n",result);// post-fix or post-increment 
+    printf("%d \n",number);
 
     // int a=10;
     // int b=a++;
