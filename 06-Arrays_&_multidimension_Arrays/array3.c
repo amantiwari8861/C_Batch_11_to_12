@@ -2,7 +2,7 @@
 int main()
 {
     int marks[10];
-    // int marks[]={10,34,5,6,87,54,45,32,23,78};
+    int marks[]={10,34,5,6,87,54,45,32,23,78}; 
     printf("enter 10 values \n");
     for (int i = 0; i < 10; i++)
     {

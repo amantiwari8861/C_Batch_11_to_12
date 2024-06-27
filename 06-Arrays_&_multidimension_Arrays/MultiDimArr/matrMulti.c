@@ -22,9 +22,9 @@ int main()
         int matr1[r1][c1],matr2[r2][c2],matr3[r1][c2];
 
         printf("enter the elements in 1st matrix \n");
-        for(int i=0;i<r1;i++)
+        for(int i=0;i<r1;i++) // r1=2
         {
-            for(int j=0;j<c1;j++)
+            for(int j=0;j<c1;j++)// c1=3
             {
                 scanf("%d",&matr1[i][j]);
             }

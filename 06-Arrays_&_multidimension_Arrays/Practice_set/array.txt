@@ -22,6 +22,8 @@
 23. Write a C program to test the equality of two arrays.
 24. Write a C program to find a missing number in an array.
 25. Write a C program to find common elements from three sorted (in non-decreasing order) arrays.
+
+
 26. Write a C program to move all 0's to the end of an array. Maintain the relative order of the other (non-zero) array elements.
 27. Write a C program to find the number of even and odd integers in a given array of integers.
 28. Write a C program to get the difference between the largest and smallest values in an array of integers. The length of the array must be 1 and above.

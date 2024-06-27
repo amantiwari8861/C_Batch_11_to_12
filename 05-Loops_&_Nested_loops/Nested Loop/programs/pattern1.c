@@ -4,10 +4,10 @@ int main()
 {
     for (int i = 0; i < 5; i++)
     {
-        for (int j = 0; j < 8; j++)
+        for (int j = 0; j<=i ; j++)
         {
             printf("*");
-            Sleep(1000);
+            // Sleep(1000);
         }
         printf("\n");
     }

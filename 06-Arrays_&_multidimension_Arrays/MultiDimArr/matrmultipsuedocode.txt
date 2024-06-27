@@ -12,7 +12,7 @@
             }  
         }
 
-step 1: i=0
+step 1: i=0  ,let r1=2,r2=3,c1=3,c2=4
         0<2 true
         (a) j=0
             0<4 true

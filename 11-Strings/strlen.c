@@ -6,15 +6,15 @@ int main()
     scanf("%[^\n]s",name);
     
     int count=0;
-    // for(count=0;name[count] != '\0';count++);
+    for(count=0;name[count] != '\0';count++);
 
-    for (int i = 0; name[i] != '\0'; i++)
-    {
+    // for (int i = 0; name[i] != '\0'; i++)
+    // {
         // if (name[i] != ' ')
         // {
-            count++;
+            // count++;
         // } 
-    }
+    // }
     printf("length of the name is %d\n",count);
     return 0;
 }

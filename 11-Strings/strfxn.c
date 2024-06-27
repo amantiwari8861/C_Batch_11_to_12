@@ -6,16 +6,16 @@ int main()
     // printf("enter ur name :");
     // scanf("%[^\n]s",&arr);
 
-    // int len=strlen(arr);
-    // printf("the length of name is %d \n",len);
+    // // int len=strlen(arr);
+    // // printf("the length of name is %d \n",len);
 
-    // printf("the length of name is %d \n",strlen(arr));
+    // // printf("the length of name is %d \n",strlen(arr));
 
     // char name[30];
     // strcpy(name,arr);
     // printf("the copied value is %s \n",name);
 
-    // strcat(name," tiwari");
+    // // strcat(name," tiwari");
     
     // char surname[]=" tiwari 2.0";
     // strcat(name,surname);

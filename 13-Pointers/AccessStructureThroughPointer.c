@@ -6,9 +6,9 @@ int main()
     {
         int id;
         char name[20];
-        float salary;
+        float fee;
     };
-    printf("enter the no. of employees : ");
+    printf("enter the no. of Students : ");
     scanf("%d",&n);//3
     struct Student stu[n];
     for (int i = 0; i < n; i++)
@@ -20,14 +20,17 @@ int main()
         printf("enter the name of %dth student : ",i+1);
         scanf("%[^\n]s",&stu[i].name);
         fflush(stdin);
-        printf("enter the salary of %dth student : ",i+1);
-        scanf("%f",&stu[i].salary);
+        printf("enter the fee of %dth student : ",i+1);
+        scanf("%f",&stu[i].fee);
     }
     
+    int id;
     struct Student *stuptr=NULL;
-    stuptr=&stu[0];
+    printf("which student's data u wanna see :");
+    scanf("%d",&id);
+    stuptr=&stu[id];
 
     printf("\n ------------------------------------------  \n");
-    printf("the id is %d and name is %s and salary is %0.2f \n",stuptr -> id,stuptr->name,stuptr->salary);
+    printf("the id is %d and name is %s and fee is %0.2f \n",stuptr -> id,stuptr->name,stuptr->fee);
     return 0;
 }
