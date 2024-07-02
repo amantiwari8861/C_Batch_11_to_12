@@ -32,6 +32,14 @@ int main()
         }
     }
     printf("all countries covid cases :\n");
-
+    for (int i = 0; i < 3; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
+            printf("\t%d",covidCases[i][j]);
+        }
+        printf("\n");
+    }
+    
     return 0;
 }
