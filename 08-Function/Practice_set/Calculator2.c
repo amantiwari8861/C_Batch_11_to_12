@@ -10,7 +10,7 @@ float mul(float, float);
 float divide(float, float);
 float volumeOfSphere(float r);
 
-float main()
+int main()
 {
     char choice;
     float num, num2, result = 0,r;
@@ -26,7 +26,7 @@ float main()
         printf("\t\tTo Exit enter (0) \n");
 
         fflush(stdin);
-        printf("enter the operation :\n");
+        printf("enter the operation :");
         scanf("%c", &choice);
 
         if (choice == '+' || choice == '-' || choice == '*' || choice == '/')
@@ -55,6 +55,7 @@ float main()
             result = volumeOfSphere(r);
             break;
         case '0':
+            printf("Thank You visit Again!!\n");
             exit(0);
         default:
             printf("invalid operation ! Press any key to Continue...");
