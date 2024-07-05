@@ -1,3 +1,5 @@
+ #include <stdio.h>
+
  int num2=50;
 // you can use #include "myheaderfile.h"
 // we can also write the function here

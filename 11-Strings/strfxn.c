@@ -15,7 +15,7 @@ int main()
     // strcpy(name,arr);
     // printf("the copied value is %s \n",name);
 
-    // // strcat(name," tiwari");
+    // strcat(name," tiwari");
     
     // char surname[]=" tiwari 2.0";
     // strcat(name,surname);
@@ -33,16 +33,19 @@ int main()
 
     if(strcmp(name1,name2) == -1)
     {
+         // let name1=Aman and name2=aman
         // A = 65 a=97   => 65-97 = -32 =>-1
         printf("first string is less than second string then 1st name comes first\n");
     }
     else if (strcmp(name1,name2) == 1)
     {
+         // let name1=aman and name2=Aman
         // a=97 A = 65   => 97-65 = 32 => +1
         printf("first string is greater than second string first string comes after second \n");
     }
     else
     {
+         // let name1=aman and name2=aman
         // strcmp return 0 on exact match
         // a= 97 a=97    => 97-97 => 0
         printf("both strings are same \n");
