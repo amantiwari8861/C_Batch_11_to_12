@@ -18,7 +18,7 @@ int main()
     *ptr=99;
     printf("the value of num after changing =%d \n",num);
 
-    // printf("the address of ptr pointer is %d \n",&ptr);//6684168
+    printf("the address of ptr pointer is %d \n",&ptr);//6684168
 
     // int *ptr3=NULL; // null pointer
     int **dptr;

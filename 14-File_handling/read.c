@@ -3,7 +3,7 @@
 int main()
 {
 	FILE *fptr;	//why we need file handling ?
-	fptr=fopen("C:\\Users\\admin\\Desktop\\Note.txt","r");//OPEN FILE IN READING MODE 
+	fptr=fopen("C:\\Users\\admin\\Desktop\\Notes.txt","r");//OPEN FILE IN READING MODE 
 	if(fptr==NULL)
 	{
 		printf("Error! unable to open file");

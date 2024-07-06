@@ -10,9 +10,7 @@ int main()
     };
     printf("enter the no. of students : ");
     scanf("%d",&size);//let no. of students =3
-    struct Student stuArr[size]; //structure array e.g stuArr[3] 
-
-    //it will equivalent to 3 student object (like stuArr1,stuArr2,stuArr3)
+    struct Student stuArr[size]; //structure array e.g stuArr[3] it will equivalent to 3 student object (like stuArr1,stuArr2,stuArr3)
     for (int i = 0; i < size; i++)
     {
         printf("\n ------------------------------------------  \n");
