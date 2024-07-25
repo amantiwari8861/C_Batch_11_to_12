@@ -2,29 +2,29 @@
 #include<windows.h>
 int main()
 {	
-	// for(int i=0;i<5;i++)//row
-	// {
-	// 	for(int j=0;j<10;j++)//column
-	// 	{
-	// 		// Sleep(100);
-	// 		printf("*");  
-	// 	}
-	// 	printf("\n");
-	// }
-
-	int row,col;
-	printf("Enter row and columns :");
-	scanf("%d%d",&row,&col);
-
-	for (int i = 0; i < row; i++)
+	for(int i=0;i<5;i++)//row
 	{
-		for (int j = 0; j < col; j++)
+		for(int j=0;j<10;j++)//column
 		{
-			printf("*");
-			// Sleep(1000);
+			Sleep(100);
+			printf("*");  
 		}
-		printf("\n");		
+		printf("\n");
 	}
+
+	// int row,col;
+	// printf("Enter row and columns :");
+	// scanf("%d%d",&row,&col);
+
+	// for (int i = 0; i < row; i++)
+	// {
+	// 	for (int j = 0; j < col; j++)
+	// 	{
+	// 		printf("*");
+	// 		// Sleep(1000);
+	// 	}
+	// 	printf("\n");		
+	// }
 	
 
 	return 0;

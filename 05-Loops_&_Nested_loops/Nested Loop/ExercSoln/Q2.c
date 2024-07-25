@@ -6,7 +6,8 @@ int main()
     {
         for(int col=0;col<=row;col++)
         {
-            printf("*");
+            printf("row=%d col=%d \t",row,col);
+            // printf("*");
         }
         printf("\n");
     }

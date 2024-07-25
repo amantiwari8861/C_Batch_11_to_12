@@ -7,7 +7,7 @@ int main()
     // for (int i = 1; i <= 10; i++)
     // {
     //     printf(" Chapter %d \n",i);
-    //     for (int j = 1; j <= 4; j++)
+    //     for (int j = 1; j <= 40; j++)
     //     {
     //         printf("\tSection %d ",j);
     //     }
@@ -19,9 +19,10 @@ int main()
     //     for (int j = 1; j <= 5; j++)
     //     {
     //         printf("i=%d j=%d   ",i,j);
-    //         // Sleep(1000);
+    //         Sleep(1000);
     //     }
     //     printf("\n");   
+    //     Sleep(5000);
     // }      
       
     for (int i = 0; i < 4; i++)
