@@ -15,7 +15,7 @@ int main()
     // strcpy(name,arr);
     // printf("the copied value is %s \n",name);
 
-    // strcat(name," tiwari");
+    // // strcat(name," tiwari");
     
     // char surname[]=" tiwari 2.0";
     // strcat(name,surname);

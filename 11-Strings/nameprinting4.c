@@ -9,6 +9,6 @@ int main()
 	// scanf("%[^\n]s%*c",name);//to read the string(including space) till enter is pressed 
 
 	printf("the name is %s. \n",name);
-	printf(" %c ",name[3]);
+	// printf(" %c ",name[3]);
 	return 0;
 }

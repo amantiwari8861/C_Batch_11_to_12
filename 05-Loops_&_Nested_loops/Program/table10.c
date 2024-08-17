@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<windows.h>
 int main()
 {
      for (int i = 1; i <= 10; i++)
@@ -13,7 +14,7 @@ int main()
         printf("%2d X%2d=%2d ", 8, i, 8 * i);
         printf("%2d X%2d=%2d ", 9, i, 9 * i);
         printf("%2d X%2d=%2d ", 10, i, 10 * i);
-
+        // Sleep(4000);
         printf("\n");
     } 
 

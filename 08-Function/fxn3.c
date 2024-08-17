@@ -6,7 +6,8 @@ int main()
     printf("before calling in main \n");
     int sum=add();
     printf("the value of sum is %d in main \n",sum);
-    printf("the sum is %d in main \n",add());
+    
+    // printf("the sum is %d in main \n",add());
     return 0;
 }
 int add()
