@@ -7,7 +7,7 @@ void swap(int *num1,int *num2)
     c=*num1; // c= *num1(value at address num1) //c=10
     *num1=*num2; //*num1=20
     *num2=c;//*num2=10
-    printf("after swapping in swap fxn num1=%d and num2=%d \n",*num1,*num2);//20 10 
+    printf("after swapping in swap fxn num1=%d and num2=%d \n",num1,*num2);//20 10 
 }
 int main()
 {

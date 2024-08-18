@@ -8,24 +8,25 @@ int main()
 
     // Pointer: it is a variable whose value is the address of another variable
     // syntax:  datatype *pointername;
-    int *ptr; //pointer stores the address of another variable
-    //this pointer can store the address of int datatype variable
-    // char *ptr2;
+    
+    int *ptr=NULL; //pointer stores the address of another variable
+    // //this pointer can store the address of int datatype variable
+    // // char *ptr2;
     ptr=&num;
-    // * represents the value at address
-    printf("the value in pointer ptr is %d \n",ptr); //6684188
+    // // * represents the value at address
+    // printf("the value in pointer ptr is %d \n",ptr); //6684188
     printf("the value at address in pointer ptr is %d \n",*ptr);//50
     *ptr=99;
     printf("the value of num after changing =%d \n",num);
 
-    printf("the address of ptr pointer is %d \n",&ptr);//6684168
+    // printf("the address of ptr pointer is %d \n",&ptr);//6684168
 
-    // int *ptr3=NULL; // null pointer
-    int **dptr;
-    dptr=&ptr;//6684168
-    printf("the value in double pointer is %d \n",dptr);//6684168
-    printf("the value at address dptr %d \n",*dptr);//6684188
-    printf("the value at address of variable in dptr %d \n",**dptr);//50
+    // // int *ptr3=NULL; // null pointer
+    // int **dptr;
+    // dptr=&ptr;//6684168
+    // printf("the value in double pointer is %d \n",dptr);//6684168
+    // printf("the value at address dptr %d \n",*dptr);//6684188
+    // printf("the value at address of variable in dptr %d \n",**dptr);//50
 
     return 0;
 }
