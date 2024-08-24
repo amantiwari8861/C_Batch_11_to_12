@@ -2,8 +2,8 @@
 #include<stdlib.h>
 int main()
 {
-	FILE *fptr;	//why we need file handling ?
-	fptr=fopen("C:\\Users\\admin\\Desktop\\Notes.txt","r");//OPEN FILE IN READING MODE 
+	FILE *fptr=NULL;	//why we need file handling ?
+	fptr=fopen("C:\\Users\\admin\\Desktop\\att.txt","r");//OPEN FILE IN READING MODE 
 	if(fptr==NULL)
 	{
 		printf("Error! unable to open file");

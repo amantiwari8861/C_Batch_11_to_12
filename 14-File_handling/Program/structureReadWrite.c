@@ -11,14 +11,8 @@ struct Course
 int main()
 {
     FILE *of;
-    // of = fopen("test.txt", "w");
+    // of = fopen("test.bin", "ab");
     of = fopen("test.dat", "ab");
-    if (of == NULL)
-    {
-        fprintf(stderr,"\nError:unable to open the file\n");
-        exit(1);
-    }
-
     struct Course inp1 = {"Algorithms","30 OCT"};
     struct Course inp2 = {"Data Structures and algo","28 SEPT"};
     struct Course inp3 = {"Programming","1 NOV"};
